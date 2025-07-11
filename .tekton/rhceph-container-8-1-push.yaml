@@ -8,13 +8,13 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "release-9.0"
+      == "release-8.1"
   creationTimestamp: null
   labels:
-    appstudio.openshift.io/application: ceph-9-0
-    appstudio.openshift.io/component: rhceph-container-9-0
+    appstudio.openshift.io/application: ceph-8-1
+    appstudio.openshift.io/component: rhceph-container-8-1
     pipelines.appstudio.openshift.io/type: build
-  name: rhceph-container-9-0-on-push
+  name: rhceph-container-8-1-on-push
   namespace: ceph-tenant
 spec:
   params:
