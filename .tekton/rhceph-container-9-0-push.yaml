@@ -33,6 +33,8 @@ spec:
     value: Dockerfile
   - name: hermetic
     value: "true"
+  - name: skip-checks
+    value: "true"
   - name: path-context
     value: .
   - name: prefetch-input
