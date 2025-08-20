@@ -41,7 +41,21 @@ spec:
   - name: path-context
     value: .
   - name: prefetch-input
-    value: '{"type": "rpm", "path": "."}'
+    value: |
+      {
+        "type": "rpm",
+        "path": ".",
+        "options": {
+          "dnf": {
+            "odcs-4389901": {
+               "gpgcheck": "0"
+            },
+            "odcs-4389901-source": {
+               "gpgcheck": "0"
+            }
+          }
+        }
+      }
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
