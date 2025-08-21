@@ -93,7 +93,7 @@ ceph-mgr-rook\
         procps-ng \
         hostname \
         ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls gmonitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls ganesha_monitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
          \
          \
          \
@@ -140,7 +140,7 @@ ceph-mgr-rook\
         procps-ng \
         hostname \
         ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls gmonitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls ganesha_monitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
          \
          \
          \
@@ -203,7 +203,7 @@ ceph-mgr-rook\
         procps-ng \
         hostname \
         ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls gmonitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls ganesha_monitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
          \
          \
          \
