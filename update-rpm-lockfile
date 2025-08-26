@@ -6,8 +6,9 @@
 # be used, presumably.
 CONTAINER_PULL=registry.access.redhat.com/ubi9:latest
 
+#podman run --volume $(pwd):/tmp:Z \
 # relabel=shared lets us update the file on the host.
-podman run --volume $(pwd):/tmp:Z \
+podman run --mount type=bind,src=.,target=/tmp,relabel=shared \
 	-it --rm $CONTAINER_PULL sh -c \
 	"cd /tmp && \
 	 dnf -y install python3-pip git && \
