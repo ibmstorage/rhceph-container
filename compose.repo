@@ -1,6 +1,6 @@
 [odcs-auto-rpms]
-name=ODCS repository for compose odcs-4447097
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4447097/compose/Temporary/$basearch/os
+name=ODCS repository for compose odcs-4447759
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4447759/compose/Temporary/$basearch/os
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -9,8 +9,8 @@ enabled=1
 enabled_metadata=1
 
 [odcs-auto-debuginfo-rpms]
-name=ODCS repository for compose odcs-4447097-debuginfo
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4447097/compose/Temporary/$basearch/debug/tree
+name=ODCS repository for compose odcs-4447759-debuginfo
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4447759/compose/Temporary/$basearch/debug/tree
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -19,8 +19,8 @@ enabled=0
 enabled_metadata=1
 
 [odcs-auto-source-rpms]
-name=ODCS repository for compose odcs-4447097-source
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4447097/compose/Temporary/source/tree
+name=ODCS repository for compose odcs-4447759-source
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4447759/compose/Temporary/source/tree
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
