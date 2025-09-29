@@ -41,6 +41,10 @@ ENV CEPH_DEVEL false
 ENV CEPH_REF tentacle
 ENV OSD_FLAVOR default
 
+# add license information
+RUN mkdir /licenses
+COPY ./licenses /licenses
+
 
 #======================================================
 # Install ceph and dependencies, and clean up
