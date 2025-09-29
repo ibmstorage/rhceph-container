@@ -29,6 +29,12 @@ LABEL GIT_CLEAN="True"
 # What CEPH_POINT_RELEASE has been used ?
 LABEL CEPH_POINT_RELEASE=""
 
+# The CPE (Common Platform Enumeration) identifier for Ceph.
+LABEL cpe=cpe:/a:redhat:ceph_storage:9::el10
+
+# Add Creation date label
+LABEL org.opencontainers.image.created="${BUILD_DATE}"
+
 ENV CEPH_VERSION tentacle
 ENV CEPH_POINT_RELEASE ""
 ENV CEPH_DEVEL false
@@ -57,6 +63,7 @@ LABEL description="Red Hat Ceph Storage 9"
 LABEL summary="Provides the latest Red Hat Ceph Storage 9 on RHEL 9 in a fully featured and supported base image."
 LABEL io.k8s.display-name="Red Hat Ceph Storage 9 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
+LABEL io.k8s.description="Red Hat Ceph Storage 9"
 
 # Escape char after immediately after RUN allows comment in first line
 RUN \
