@@ -44,10 +44,10 @@ spec:
         "path": ".",
         "options": {
           "dnf": {
-            "odcs-auto-rpms": {
+            "rhceph-9-tools-for-rhel-9-$basearch-rpms": {
                "gpgcheck": "0"
             },
-            "odcs-auto-source-rpms": {
+            "rhceph-9-tools-for-rhel-9-$basearch-source-rpms": {
                "gpgcheck": "0"
             }
           }
