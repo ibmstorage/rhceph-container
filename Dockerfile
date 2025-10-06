@@ -76,7 +76,7 @@ RUN \
     #   download and install packages from web, cleaning any files as you go.
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
-    microdnf install --enablerepo rhceph-9-tools-for-rhel-10-rpms python-cryptography && \
+    microdnf install --enablerepo rhceph-9-tools-for-rhel-10-x86_64-rpms python-cryptography && \
 microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-saml python3-setuptools udev device-mapper \
         ca-certificates \
         e2fsprogs \
