@@ -76,7 +76,7 @@ RUN \
     #   download and install packages from web, cleaning any files as you go.
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
-    microdnf --showduplicates list python-cryptography && \
+    microdnf install python-cryptography-40.0.2-5.el10cp && \
 microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-saml python3-setuptools udev device-mapper \
         ca-certificates \
         e2fsprogs \
