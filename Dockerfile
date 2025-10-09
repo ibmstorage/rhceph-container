@@ -69,6 +69,8 @@ LABEL io.k8s.display-name="Red Hat Ceph Storage 9 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
 LABEL io.k8s.description="Red Hat Ceph Storage 9"
 
+COPY packages.txt .
+
 # Escape char after immediately after RUN allows comment in first line
 RUN \
     # Install all components for the image, whether from packages or web downloads.
@@ -77,43 +79,7 @@ RUN \
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
 microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-saml python3-setuptools udev device-mapper \
-        tar \
-        ca-certificates \
-        e2fsprogs \
-        ceph-common  \
-        ceph-mon  \
-        ceph-osd \
-        ceph-mds \
-cephfs-mirror \
-cephfs-top \
-        rbd-mirror  \
-        ceph-mgr \
-ceph-mgr-cephadm \
-ceph-mgr-dashboard \
-ceph-mgr-diskprediction-local \
-ceph-mgr-k8sevents \
-ceph-mgr-rook\
-        ceph-grafana-dashboards \
-        kmod \
-        lvm2 \
-        gdisk \
-        smartmontools \
-        nvme-cli \
-        libstoragemgmt \
-        systemd-udev \
-        sg3_utils \
-        procps-ng \
-        hostname \
-        ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls ganesha_monitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
-         \
-         \
-         \
-        ceph-immutable-object-cache \
-         \
-        ceph-volume \
-        ceph-exporter \
-        ceph-node-proxy \
+        $(cat packages.txt) \
          && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
     echo '@root - memlock 204800' >> /etc/security/limits.conf && \
@@ -125,42 +91,7 @@ ceph-mgr-rook\
     echo 'Postinstall cleanup' && \
  ( microdnf clean all && \
    rpm -q \
-        ca-certificates \
-        e2fsprogs \
-        ceph-common  \
-        ceph-mon  \
-        ceph-osd \
-        ceph-mds \
-cephfs-mirror \
-cephfs-top \
-        rbd-mirror  \
-        ceph-mgr \
-ceph-mgr-cephadm \
-ceph-mgr-dashboard \
-ceph-mgr-diskprediction-local \
-ceph-mgr-k8sevents \
-ceph-mgr-rook\
-        ceph-grafana-dashboards \
-        kmod \
-        lvm2 \
-        gdisk \
-        smartmontools \
-        nvme-cli \
-        libstoragemgmt \
-        systemd-udev \
-        sg3_utils \
-        procps-ng \
-        hostname \
-        ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls ganesha_monitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
-         \
-         \
-         \
-        ceph-immutable-object-cache \
-         \
-        ceph-volume \
-        ceph-exporter \
-        ceph-node-proxy \
+        $(cat packages.txt) \
          && \
    rm -f /etc/profile.d/lang.sh ) && \
     # Tweak some configuration files on the container system
@@ -188,41 +119,6 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     #
     # Verify that the packages installed haven't been accidentally cleaned
     rpm -q \
-        ca-certificates \
-        e2fsprogs \
-        ceph-common  \
-        ceph-mon  \
-        ceph-osd \
-        ceph-mds \
-cephfs-mirror \
-cephfs-top \
-        rbd-mirror  \
-        ceph-mgr \
-ceph-mgr-cephadm \
-ceph-mgr-dashboard \
-ceph-mgr-diskprediction-local \
-ceph-mgr-k8sevents \
-ceph-mgr-rook\
-        ceph-grafana-dashboards \
-        kmod \
-        lvm2 \
-        gdisk \
-        smartmontools \
-        nvme-cli \
-        libstoragemgmt \
-        systemd-udev \
-        sg3_utils \
-        procps-ng \
-        hostname \
-        ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls ganesha_monitoring nfs-ganesha-utils sssd-client dbus-daemon rpcbind \
-         \
-         \
-         \
-        ceph-immutable-object-cache \
-         \
-        ceph-volume \
-        ceph-exporter \
-        ceph-node-proxy \
+        $(cat packages.txt) \
          && echo 'Packages verified successfully'
 
