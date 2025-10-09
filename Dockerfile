@@ -77,6 +77,7 @@ RUN \
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
 microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-saml python3-setuptools udev device-mapper \
+        tar \
         ca-certificates \
         e2fsprogs \
         ceph-common  \
