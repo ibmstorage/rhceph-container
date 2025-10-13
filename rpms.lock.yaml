@@ -1740,6 +1740,13 @@ arches:
     name: jansson
     evr: 2.14-1.el9
     sourcerpm: jansson-2.14-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/j/jq-1.6-17.el9_6.2.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 191681
+    checksum: sha256:d3c6d74db82f6c55533f2d9798d2d4e44988d212880b5b2afd855a43fe2b17d9
+    name: jq
+    evr: 1.6-17.el9_6.2
+    sourcerpm: jq-1.6-17.el9_6.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/j/json-c-0.14-11.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 46136
@@ -2489,6 +2496,13 @@ arches:
     name: nvme-cli
     evr: 2.11-6.el9_6
     sourcerpm: nvme-cli-2.11-6.el9_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/oniguruma-6.9.6-1.el9.6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 226451
+    checksum: sha256:a532fc644b41ead28ac07fb4217e2ceb9cdd5fdaadc13e9a02b7be3ee703bf85
+    name: oniguruma
+    evr: 6.9.6-1.el9.6
+    sourcerpm: oniguruma-6.9.6-1.el9.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/openldap-2.6.8-4.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 296805
@@ -3797,6 +3811,12 @@ arches:
     checksum: sha256:f15174491e4b92ca0c70b85b57cc8eac4373c424fc1c78e6bf492f99f28cb77b
     name: jansson
     evr: 2.14-1.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/j/jq-1.6-17.el9_6.2.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 1505374
+    checksum: sha256:88870e90abd12a46ac6da90154b82e5f4f3f5fbf5fb9116160e85875436aa8fa
+    name: jq
+    evr: 1.6-17.el9_6.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/j/json-c-0.14-11.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 341227
@@ -4199,6 +4219,12 @@ arches:
     checksum: sha256:7d93a765ca25d4d54ffe73be5dcbd779295a3bd941a97150c958e36942c79743
     name: nvme-cli
     evr: 2.11-6.el9_6
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/o/oniguruma-6.9.6-1.el9.6.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 935874
+    checksum: sha256:9c864465c92115ad613c822f457af3f1f9d6e545321746cceb8b4c0f461a2fc4
+    name: oniguruma
+    evr: 6.9.6-1.el9.6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/o/openldap-2.6.8-4.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 6548889
