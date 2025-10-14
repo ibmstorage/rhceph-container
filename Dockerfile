@@ -57,6 +57,7 @@ LABEL description="Red Hat Ceph Storage 8"
 LABEL summary="Provides the latest Red Hat Ceph Storage 8 on RHEL 9 in a fully featured and supported base image."
 LABEL io.k8s.display-name="Red Hat Ceph Storage 8 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
+LABEL io.k8s.description="Red Hat Ceph Storage 8"
 
 # Escape char after immediately after RUN allows comment in first line
 RUN \
