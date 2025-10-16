@@ -77,38 +77,7 @@ ln -s /usr/share/ceph/mgr/dashboard/frontend/dist-redhat /usr/share/ceph/mgr/das
     echo 'Postinstall cleanup' && \
  ( microdnf clean all && \
    rpm -q \
-        ca-certificates \
-        e2fsprogs \
-        ceph-common  \
-        ceph-mon  \
-        ceph-osd \
-        ceph-mds \
-cephfs-mirror \
-        rbd-mirror  \
-        ceph-mgr \
-ceph-mgr-cephadm \
-ceph-mgr-dashboard \
-ceph-mgr-diskprediction-local \
-ceph-mgr-k8sevents \
-ceph-mgr-rook\
-        ceph-grafana-dashboards \
-        kmod \
-        lvm2 \
-        gdisk \
-        smartmontools \
-        nvme-cli \
-        libstoragemgmt \
-        systemd-udev \
-        sg3_utils \
-         \
-        ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client \
-        tcmu-runner ceph-iscsi \
-         \
-         \
-        ceph-immutable-object-cache \
-         \
-         \
+         $(cat packages.txt) \
          && \
    rm -f /etc/profile.d/lang.sh ) && \
     # Tweak some configuration files on the container system
@@ -132,38 +101,7 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     #
     # Verify that the packages installed haven't been accidentally cleaned
     rpm -q \
-        ca-certificates \
-        e2fsprogs \
-        ceph-common  \
-        ceph-mon  \
-        ceph-osd \
-        ceph-mds \
-cephfs-mirror \
-        rbd-mirror  \
-        ceph-mgr \
-ceph-mgr-cephadm \
-ceph-mgr-dashboard \
-ceph-mgr-diskprediction-local \
-ceph-mgr-k8sevents \
-ceph-mgr-rook\
-        ceph-grafana-dashboards \
-        kmod \
-        lvm2 \
-        gdisk \
-        smartmontools \
-        nvme-cli \
-        libstoragemgmt \
-        systemd-udev \
-        sg3_utils \
-         \
-        ceph-radosgw libradosstriper1 \
-        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client \
-        tcmu-runner ceph-iscsi \
-         \
-         \
-        ceph-immutable-object-cache \
-         \
-         \
+         $(cat packages.txt) \
          && echo 'Packages verified successfully'
 #======================================================
 # Add ceph-container files
