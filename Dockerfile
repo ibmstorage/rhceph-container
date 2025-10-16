@@ -62,7 +62,7 @@ LABEL io.k8s.display-name="Red Hat Ceph Storage 8 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
 LABEL io.k8s.description="Red Hat Ceph Storage 8"
 
-COPY packages.txt .
+COPY packages-*.txt .
 
 # Escape char after immediately after RUN allows comment in first line
 RUN \
@@ -84,7 +84,7 @@ microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-sam
     echo 'Postinstall cleanup' && \
  ( microdnf clean all && \
    rpm -q \
-        $(cat packages.txt) \ 
+        $(cat packages-*.txt) \
 	&& \
    rm -f /etc/profile.d/lang.sh ) && \
     # Tweak some configuration files on the container system
@@ -112,6 +112,6 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     #
     # Verify that the packages installed haven't been accidentally cleaned
     rpm -q \
-        $(cat packages.txt) \ 
+        $(cat packages-*.txt) \
 	&& echo 'Packages verified successfully'
 
