@@ -4,665 +4,679 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/a/abseil-cpp-20240722.1-1.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/a/abseil-cpp-20240722.1-1.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 717892
     checksum: sha256:668984e3ff7208a6ae5581570a3192c77e2a64affdad0d850ee907011939d4ed
     name: abseil-cpp
     evr: 20240722.1-1.el10cp
     sourcerpm: abseil-cpp-20240722.1-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-base-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-base-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 6385301
-    checksum: sha256:82b86353fe5500fe2a6fafc10f3648b0eb2059e60cc42aa69a0e668984ca6b32
+    size: 6385673
+    checksum: sha256:3e85cf9ee04e2e33216798c672f9c0335f9fcb3ead15ab3397ea6a3da3863080
     name: ceph-base
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-common-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-common-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 25696269
-    checksum: sha256:7cf827e6875555a8de3dbfaf635ab677cd8ed146753546ce6996cba1d2d70e78
+    size: 25699201
+    checksum: sha256:168c382880cf86147dd15a06ca8a510e83eb176df02822e7233de330b568f8cc
     name: ceph-common
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-exporter-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-exporter-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 590237
-    checksum: sha256:c4d13de573fc096005cecaeba72bdcb0b36fe6b56eb9ce79d09892ad3480ff6f
+    size: 590569
+    checksum: sha256:f6bbee68fb70df9fd1e2498a1b397414f0710a1cfce5a0a5e03aadf3414362d5
     name: ceph-exporter
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-grafana-dashboards-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-grafana-dashboards-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 128165
-    checksum: sha256:4bdffd2c55d2d8f9fc8ea22ac8dab38de3a04079085011f794591c5cb30a7185
+    size: 128365
+    checksum: sha256:679e10061ae46d0a0f0f2e6cddcb9ba08a321a795d573024430bc2b12910e399
     name: ceph-grafana-dashboards
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-immutable-object-cache-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-immutable-object-cache-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 243221
-    checksum: sha256:fe5136efd88cf1a5ef0031d7027b3b0445c56c3f662f6a76047a736276a2f7ec
+    size: 243873
+    checksum: sha256:dfe2504856e5a5632467cef1f80d86ac686683d90a265c436812582f7b324ded
     name: ceph-immutable-object-cache
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mds-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mds-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 2593957
-    checksum: sha256:26a2f2c50d6bb167825a769b5a6c7a86ab580d20e684db02d3649b26419d5761
+    size: 2594197
+    checksum: sha256:2b5f52666c39eea74ee3c4a22af679849dfe1cb4a7f50a40202e03fbae0f3f0d
     name: ceph-mds
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 1095333
-    checksum: sha256:4ce1d71d28b24654c03c89b97df4217dd23c7788768e0ac97051cea52a22740b
+    size: 1095561
+    checksum: sha256:b6549ca411effecac5b92cccad2b89ce563dacd888f69619dc11321bc0f9ee5b
     name: ceph-mgr
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-cephadm-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-cephadm-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 280521
-    checksum: sha256:47948c2daddf42aa4305eb5d7ef9ce34df2cc0ded8ab5263f69159d090a9e861
+    size: 280777
+    checksum: sha256:6d2bac59c1f5368c1a5e6e250ee783397f494b43c40d4489003cb3a106c912bb
     name: ceph-mgr-cephadm
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-dashboard-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-dashboard-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 19102613
-    checksum: sha256:740bfbec3a56d119492581dd0839500ab451ac1fa95195296c3fa861075d78d4
+    size: 19103085
+    checksum: sha256:00457cb6337e1806ad2658e4b44bb44ef4518d9be604917b42bcc32226918fee
     name: ceph-mgr-dashboard
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-diskprediction-local-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-diskprediction-local-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 7831937
-    checksum: sha256:97a68413b23933ac58674ea902292ecd76a2e5c1ecc2a57e6a9a2abfbb492313
+    size: 7829273
+    checksum: sha256:617ffec6925f3f3b051dd48efc544d09b2196b6407667a9fd5bd77f6c836385a
     name: ceph-mgr-diskprediction-local
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-k8sevents-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-k8sevents-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 106645
-    checksum: sha256:36ef54435da17cebcacbf0ecdc949fb93508e0dd4f6f4da7c11734205dada079
+    size: 106849
+    checksum: sha256:4879855267223b3d7631c4a9ad3184876e01d83de443fcf2cff55aabfe76bb3a
     name: ceph-mgr-k8sevents
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-modules-core-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-modules-core-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 394309
-    checksum: sha256:dcfabf17c719f3c5cc1a1d2731802ce26a58529ac98180db169de7d8dc383fe9
+    size: 394517
+    checksum: sha256:a254a99fd345716d05cea3e3c118be4bf21e33e6f3f48f81452b9a4c3021f081
     name: ceph-mgr-modules-core
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-rook-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-rook-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 135317
-    checksum: sha256:14f8c51f569a7c54b2726aafb535c1b2879ff4b5a4ad5571ffce93cddc33a673
+    size: 135537
+    checksum: sha256:fd16cb04fd3a2d2e5cf60f9c68c33ee041dfc667e3a1b968ad81891d7c671340
     name: ceph-mgr-rook
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-mon-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-mon-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 5465641
-    checksum: sha256:b72cc41fdcb791cd6c5bd48f06bad22cb6aff1cba7de624e4a368bf6ce6fb4ef
+    size: 5464949
+    checksum: sha256:3e231e86f68e207f98203c21d39b22266aab4fdf485236d69b79b70ddac09197
     name: ceph-mon
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-node-proxy-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-node-proxy-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 138913
-    checksum: sha256:f1cfed23d15f5c715278a3f5ecd09a924a4d54d420ddeb8577af4e1e7acb0a9b
+    size: 139117
+    checksum: sha256:5453c4230ca650ab3d1e99b903f37e0420d75b96226db1bf6f07c4c57ed1ae7e
     name: ceph-node-proxy
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-osd-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-osd-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 18273049
-    checksum: sha256:939d67e45356bec435695729046c8b398f4cc10666e64e772e5dfdea9f8acc5e
+    size: 18268185
+    checksum: sha256:00185c12c8492a0bb96da1fe2dee3ee725dae16b0dcb907f73269a3da3afc13b
     name: ceph-osd
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-prometheus-alerts-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-prometheus-alerts-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 101745
-    checksum: sha256:1d6111194102d35d0abf2fbc55270ad94f71caf48e94b110b8684ca0c510d5dc
+    size: 101953
+    checksum: sha256:9f45ad751703ac4770e58caff75f41c5d96d9867213782fa82fe0aa1d9efd40c
     name: ceph-prometheus-alerts
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-radosgw-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-radosgw-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 25693809
-    checksum: sha256:467e4ab4e762837ea8fcc635d99d2742493d8032f5fb8f05cdbde137ff334244
+    size: 25695197
+    checksum: sha256:373607b5d6d43674bd651486094a9885b30ca139b5d6dffb72caa781f31474f5
     name: ceph-radosgw
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-selinux-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-selinux-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 109609
-    checksum: sha256:3e037f9b79fbc548933b0f97b2245c529b44b71ff1661d2841f2663383ae4934
+    size: 109809
+    checksum: sha256:9f6ea2b47c592c926b13b73564b249128a1fd91d6479bc008037dfe80f1f64f8
     name: ceph-selinux
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/ceph-volume-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/ceph-volume-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 463233
-    checksum: sha256:4eaf21f8b7a12b1b901d9aa5525664b051a08b0db317e765606ecd76f3b70270
+    size: 463493
+    checksum: sha256:bc56817112d987e6b2e0a529651cd6876f6e2715c963edbc0c1ca442797340de
     name: ceph-volume
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/cephadm-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/cephadm-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 1521261
-    checksum: sha256:66a3bb7e0f2b313f3a0a99d1cd2991770b34d0f9bfdfb3ab8e6141fb8b3852f5
+    size: 1521313
+    checksum: sha256:2f47754fb9d5033f585c059bc782bd3097bf298a1486f0febb89b652d1a06ad8
     name: cephadm
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/cephfs-mirror-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/cephfs-mirror-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 344729
-    checksum: sha256:a3d3cab279c9557ebb41e811c194a29ce98bbc7bc0e19fbca6465730e7de38d5
+    size: 345529
+    checksum: sha256:c55211c5ec6096298d1dc0c9123c9be7d6efc3d6a8e841f67b8b6218e8aa4589
     name: cephfs-mirror
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/c/cephfs-top-20.1.0-59.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/c/cephfs-top-20.1.0-61.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 102737
-    checksum: sha256:0b549ee8bf2ebdf4aed6c59db19f5561679ad41b4188df5a8ff470591f75e369
+    size: 102957
+    checksum: sha256:379d1434c32d79eedca8de7c847e711644fcdbd758e56ffc3e1d91bd740747e5
     name: cephfs-top
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/g/ganesha_monitoring-7.0-0.6.3.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/g/ganesha_monitoring-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 66308
     checksum: sha256:cda6b5fc311f576740aa59a9beb12a2de2c5013bec0e11af25797543dca3ab29
     name: ganesha_monitoring
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/g/gdisk-1.0.9-10.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/g/gdisk-1.0.9-10.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 265645
     checksum: sha256:2c7af287b3732eaa2aefb061ae5306974b48b6ec13733f461dd0c9961ad63e42
     name: gdisk
     evr: 1.0.9-10.el10cp
     sourcerpm: gdisk-1.0.9-10.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/g/gperftools-libs-2.9.1-5.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/g/gperftools-libs-2.9.1-5.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 319313
     checksum: sha256:b7bcc8facc379b2743a325646282a0e87e4cd60c6f84303c8c435e67fdde3acf
     name: gperftools-libs
     evr: 2.9.1-5.el10cp
     sourcerpm: gperftools-2.9.1-5.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/g/grpc-data-1.48.4-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/g/grpc-data-1.48.4-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 16348
     checksum: sha256:72d98eb7020da0f32b902caa160b0beff4e8a8a354d79827d13f2bca68c275a0
     name: grpc-data
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libarrow-15.0.2-3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libarrow-15.0.2-3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 5773202
     checksum: sha256:f99bec96b2be07caf11ef577fe693955c79d00d0ff9f7d7e27763c8772f3e415
     name: libarrow
     evr: 15.0.2-3.el10cp
     sourcerpm: libarrow-15.0.2-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libarrow-doc-15.0.2-3.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libarrow-doc-15.0.2-3.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 29166
     checksum: sha256:bd4b8e3fdd52f66214e1a7bb903da6ef3bff53729597b4996a54ceae4d0396b3
     name: libarrow-doc
     evr: 15.0.2-3.el10cp
     sourcerpm: libarrow-15.0.2-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libcephfs-daemon-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libcephfs-daemon-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 121805
-    checksum: sha256:9fb6ea19b9de7bf7f88b2032b990a5d25d369aaae920245ac2becaddc02ea756
+    size: 121785
+    checksum: sha256:fe29f80c70f066009b791f401572fd65214a6d5169da55dfeabda30bd9789f1d
     name: libcephfs-daemon
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libcephfs-proxy2-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libcephfs-proxy2-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 109397
-    checksum: sha256:dbbfc30008e1228c01268714e588079af00da11d14c52042d982f3046df72a66
+    size: 109597
+    checksum: sha256:388a96e9052adf4291d7999fd0ed7386f1b5357436c2fbfc3444db47540b3a64
     name: libcephfs-proxy2
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libcephfs2-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libcephfs2-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 1053645
-    checksum: sha256:4418e6994ee3963a1536994711b18d5e99b697a1d9c3df710cc57a2fc22d26d1
+    size: 1053657
+    checksum: sha256:971871b51bb900a6624ecb21b4be6e1e9aa4fbb02782af1d9be8665d56060066
     name: libcephfs2
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libcephsqlite-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libcephsqlite-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 260757
-    checksum: sha256:ea1ba5863a7d508f25a6c740cffbc33b23cd00e0811ba22e9f88ca0b9757d6ef
+    size: 260541
+    checksum: sha256:4c928836a816bdb1e0ba57eba778f42bd99c3c98ef9e32703bac2c28b9304d0e
     name: libcephsqlite
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libntirpc-7.0-3.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libntirpc-7.0-3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 169818
     checksum: sha256:52e27f86ca792f9c8ff23d5ad99d2f7b50f34dab30acf3bb8d359cfaa30e46cb
     name: libntirpc
     evr: 7.0-3.el10cp
     sourcerpm: libntirpc-7.0-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/liboath-2.6.12-1.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/liboath-2.6.12-1.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 49512
     checksum: sha256:beb0e58fb4e56df8e1c30067db031e6a9ee9a8639b996e0cc337b6d023636480
     name: liboath
     evr: 2.6.12-1.el10cp
     sourcerpm: oath-toolkit-2.6.12-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/liborc2-2.0.3-2.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/liborc2-2.0.3-2.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 528131
     checksum: sha256:7bf7f5707c4cbf91a875b1f15c3b102bd6a942eccdcc37cc16316601178ec4b3
     name: liborc2
     evr: 2.0.3-2.el10cp
     sourcerpm: liborc-2.0.3-2.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libpmem-2.1.0-3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libpmem-2.1.0-3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 113733
     checksum: sha256:969ca8b55adf16bcc0ab7f98b13fdfd9485e90d819f17e93a5b643bb091e56b1
     name: libpmem
     evr: 2.1.0-3.el10cp
     sourcerpm: nvml-2.1.0-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libpmemobj-2.1.0-3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libpmemobj-2.1.0-3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 163873
     checksum: sha256:c1108f4ec9eac2cc8e4adc107a2edc8685c3e03fac51e9a8d7328a4f95127f2f
     name: libpmemobj
     evr: 2.1.0-3.el10cp
     sourcerpm: nvml-2.1.0-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/librados2-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/librados2-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 3858865
-    checksum: sha256:b0aca8634cb29d6603e3c0e44b21b298d6199d62c846194262a9b8fc552ce4da
+    size: 3859805
+    checksum: sha256:5d3ef503214fafa93460b34e1a73a559b7f5135550fb9dfe4c7ae35b3463766b
     name: librados2
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libradosstriper1-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libradosstriper1-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 344861
-    checksum: sha256:536ed02654df1e5ae1711f98099dfd136eb7eff97ee561d7aed21c2e34995876
+    size: 345201
+    checksum: sha256:609525f18be3f04bf1bfd7ed7c6bfdf7e60faf9aeb1456f3506966bac8641871
     name: libradosstriper1
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/librbd1-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/librbd1-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 3268869
-    checksum: sha256:dba1d3626c64b944b6b360440cb1fb955492dc86c2f5db91c1572431b4939816
+    size: 3267697
+    checksum: sha256:5f9ed239256204d21e750e398c175e5980c9a3c50fbd9a9179743d47c128634d
     name: librbd1
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/librgw2-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/librgw2-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 6984493
-    checksum: sha256:5ff9d93c95c29631d3de6c17cd2d5029bac2b01ac901bef51f775fa1094ea4c6
+    size: 6986501
+    checksum: sha256:4273a7fcfb55e59c7ce19d27d24d2dd56a5d820faa5b969aeed247261d2b40d6
     name: librgw2
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/libunwind-1.8.0-4.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/libunwind-1.8.0-4.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 74482
     checksum: sha256:7de1526177d5048a5c2c64fa0b8cee531cc0e8558730748895722d7baee5ffb6
     name: libunwind
     evr: 1.8.0-4.el10cp
     sourcerpm: libunwind-1.8.0-4.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/l/lttng-ust-2.13.7-5.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/l/lttng-ust-2.13.7-5.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 330420
     checksum: sha256:a000f45d9006431fd1a2705babf319819029a0da46413bca3f6c6a9a243b7b08
     name: lttng-ust
     evr: 2.13.7-5.el10cp
     sourcerpm: lttng-ust-2.13.7-5.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-7.0-0.6.3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 855631
     checksum: sha256:8e0bdf8e0149ccb6c1d3749dedba5db7c57c23daa0dcbc5fce0d74e8473e3731
     name: nfs-ganesha
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-ceph-7.0-0.6.3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-ceph-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 57127
     checksum: sha256:cc6d2451f0c90c9d0c947d45efd6d62a7dbf606e631953d0b99e2649555f21d9
     name: nfs-ganesha-ceph
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-rados-grace-7.0-0.6.3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-rados-grace-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 49419
     checksum: sha256:3a242298f74085a591715714e330989b54aa1d5674b7135698e1427579fa41f8
     name: nfs-ganesha-rados-grace
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-rados-urls-7.0-0.6.3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-rados-urls-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 25536
     checksum: sha256:9350a265a161eb85b4f7dc93d346e3416e72712bb308b72eb715059dee453001
     name: nfs-ganesha-rados-urls
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-rgw-7.0-0.6.3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-rgw-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 38046
     checksum: sha256:8c50082a276fb9f4d0a73b3a1d4294c80afbac5f94f9d7df76a69f943d152cef
     name: nfs-ganesha-rgw
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-selinux-7.0-0.6.3.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-selinux-7.0-0.6.3.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 33906
     checksum: sha256:07ab2def737defc6b6c6a1d97f0b0810cf11c7edba14ac7bd0880888ecdd9ef7
     name: nfs-ganesha-selinux
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-utils-7.0-0.6.3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/n/nfs-ganesha-utils-7.0-0.6.3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 33211
     checksum: sha256:de3d7c518ecf306d70c2fdb387d09e6296c1abd690bf5ddb31f05fbe124e7d6c
     name: nfs-ganesha-utils
     evr: 7.0-0.6.3.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/parquet-libs-15.0.2-3.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/parquet-libs-15.0.2-3.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 1046976
     checksum: sha256:438c97df77d69a5d271296294314fd7ee1331d6c79164cd26041a10e4d33cb65
     name: parquet-libs
     evr: 15.0.2-3.el10cp
     sourcerpm: libarrow-15.0.2-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/protobuf-3.19.6-12.el10.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/protobuf-3.19.6-12.el10.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 1062553
     checksum: sha256:f8164ceb064562acf016ae5f8102761835a68ff2677abe6a683b72684e0da3a0
     name: protobuf
     evr: 3.19.6-12.el10
     sourcerpm: protobuf-3.19.6-12.el10.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/protobuf-compiler-3.19.6-12.el10.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/protobuf-compiler-3.19.6-12.el10.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 800461
     checksum: sha256:293faa56a3eb170333ff41b1d069e43f4113de6ab25f194a43922f15ea6fe9f9
     name: protobuf-compiler
     evr: 3.19.6-12.el10
     sourcerpm: protobuf-3.19.6-12.el10.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-asyncssh-2.17.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-asyncssh-2.17.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 774230
     checksum: sha256:8527251f593dcc6f11d9a067cf31734814e6b88437fde0979904714bec4c78db
     name: python3-asyncssh
     evr: 2.17.0-1.el10cp
     sourcerpm: python-asyncssh-2.17.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-autocommand-2.2.2-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-autocommand-2.2.2-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 31503
     checksum: sha256:1d5bb34d781a6377a5bfe92071eaa91aff716f18da1661520329a8c87dc86f92
     name: python3-autocommand
     evr: 2.2.2-1.el10cp
     sourcerpm: python-autocommand-2.2.2-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-bcrypt-4.3.0-2.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-bcrypt-4.3.0-2.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 241870
     checksum: sha256:42a9bd771fa3d42bd4438c376822db8bd09b9e539e6a64845b1ee1862914031e
     name: python3-bcrypt
     evr: 4.3.0-2.el10cp
     sourcerpm: python-bcrypt-4.3.0-2.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-cachetools-5.4.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-cachetools-5.4.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 37655
     checksum: sha256:de7666d4d8b50d4736c721cc65a62a3919042718f1398e9915926a6f0ba73e2c
     name: python3-cachetools
     evr: 5.4.0-1.el10cp
     sourcerpm: python-cachetools-5.4.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-ceph-argparse-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-ceph-argparse-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 142301
-    checksum: sha256:f4a41706e70f684003fedb0afd08caad3a272cdd5824f52847cfec62fb25ab3c
+    size: 142521
+    checksum: sha256:70dbe555d84763008bd82323da1e95f81eb9c5384cbc874e8e31c43261afd9a8
     name: python3-ceph-argparse
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-ceph-common-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-ceph-common-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 333689
-    checksum: sha256:27db59b8f8b64e839b06cb681e816c2af4b5adb75cedb8855035056257cfeb39
+    size: 333889
+    checksum: sha256:15b6f6654a4ed533fd8a89303900e98e9a1d2dc5a229542e934d0bff3a70cabd
     name: python3-ceph-common
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-cephfs-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-cephfs-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 295629
-    checksum: sha256:2a26b83ae6aa0ccf5ce02f9a026cfd53d20a3c57a0692c3642d5b69de45d9f6f
+    size: 296041
+    checksum: sha256:e1260f4a9712fd21d6e7613f3a85194ce8b6e96e08c991644ca12f4c4ce9640a
     name: python3-cephfs
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-certifi-2023.05.07-2.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-certifi-2023.05.07-2.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 14689
     checksum: sha256:3a8650906f923ecbfdee111e83294cc3457740c714ab691b529629039cb30037
     name: python3-certifi
     evr: 2023.05.07-2.el10cp
     sourcerpm: python-certifi-2023.05.07-2.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-cheroot-10.0.1-4.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-cheroot-10.0.1-4.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 220311
     checksum: sha256:83a22730930fc75fec48e1efe48145e7d7100bc132e22d8fe48ea8fee963033d
     name: python3-cheroot
     evr: 10.0.1-4.el10cp
     sourcerpm: python-cheroot-10.0.1-4.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-cherrypy-18.10.0-4.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-cherrypy-18.10.0-4.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 367392
     checksum: sha256:461d16c697886bec1d2bf9b184b1673b9618415b46e2e5be6da67ab098ac6058
     name: python3-cherrypy
     evr: 18.10.0-4.el10cp
     sourcerpm: python-cherrypy-18.10.0-4.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-durationpy-0.9-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-durationpy-0.9-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 14950
     checksum: sha256:8e3839aaac3364e2b6acbef6375d9aa8cbd6589f6fcd733596ce425b90db638a
     name: python3-durationpy
     evr: 0.9-1.el10cp
     sourcerpm: python-durationpy-0.9-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-google-auth-2.40.3-2.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-google-auth-2.40.3-2.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 291756
     checksum: sha256:9cb8d6d5e14f4532e7008703721dfd64dfdc3aef9b190309fdef68703513d660
     name: python3-google-auth
     evr: 1:2.40.3-2.el10cp
     sourcerpm: python-google-auth-2.40.3-2.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-grpcio-1.48.4-1.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-grpcio-1.48.4-1.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 2412728
     checksum: sha256:7a5d5335bc2b5e3515b8fc5e80f2eae530298ed197a7ca389d33246b6bdc8d27
     name: python3-grpcio
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-grpcio-tools-1.48.4-1.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-grpcio-tools-1.48.4-1.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 155306
     checksum: sha256:3126127caa79ee0dd7133002150168eb63a48a4b7b2b9c8520701ba919819549
     name: python3-grpcio-tools
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-isodate-0.6.1-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-isodate-0.6.1-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 67040
     checksum: sha256:683363f22153f439e82c4a724d675e7b68b7c64e6b0f401dc5e3b07cba43349c
     name: python3-isodate
     evr: 0.6.1-1.el10cp
     sourcerpm: python-isodate-0.6.1-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-collections-5.1.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-collections-5.1.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 29640
     checksum: sha256:84df0c3c88aaf421f60754470de8e10750be3979f15c2b9ecf9ee4a925a70c27
     name: python3-jaraco-collections
     evr: 5.1.0-1.el10cp
     sourcerpm: python-jaraco-collections-5.1.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-context-6.0.1-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-context-6.0.1-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 20811
     checksum: sha256:93c4564ae0b4107fea7827d27bce65937bbec5cd3c4169cca32dfcab3b752eb6
     name: python3-jaraco-context
     evr: 6.0.1-1.el10cp
     sourcerpm: python-jaraco-context-6.0.1-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-functools-4.0.2-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-functools-4.0.2-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 23092
     checksum: sha256:354ee64427d2674fa58bd1c40f3de23858068b326ce0f27d54c45c881253fbe9
     name: python3-jaraco-functools
     evr: 4.0.2-1.el10cp
     sourcerpm: python-jaraco-functools-4.0.2-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-text-4.0.0-3.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-jaraco-text-4.0.0-3.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 29640
     checksum: sha256:dbbcc8630fbcd8177e91f18be1f65bd5ece6fcb5776532b8767c5966fc746424
     name: python3-jaraco-text
     evr: 4.0.0-3.el10cp
     sourcerpm: python-jaraco-text-4.0.0-3.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-kubernetes-32.0.1-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-jwt+crypto-2.8.0-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 8997
+    checksum: sha256:cf93252a15a1a1a34a6a841a0341c343040b9686daa532f799f5d5bebd7e10c6
+    name: python3-jwt+crypto
+    evr: 2.8.0-2.el10cp
+    sourcerpm: python-jwt-2.8.0-2.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-jwt-2.8.0-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 60236
+    checksum: sha256:d351241edee8ad443408948e0aaaa05429eb2a62126355b93fa5ecc686ee711f
+    name: python3-jwt
+    evr: 2.8.0-2.el10cp
+    sourcerpm: python-jwt-2.8.0-2.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-kubernetes-32.0.1-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 1399949
     checksum: sha256:bce98b98b10c97a2cd184b232847cb90382c87421086f7519283905dcd91d083
     name: python3-kubernetes
     evr: 1:32.0.1-1.el10cp
     sourcerpm: python-kubernetes-32.0.1-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-more-itertools-10.1.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-more-itertools-10.1.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 102597
     checksum: sha256:d3aaf85983e81781e9bdbf93a2805e209c0811472483a2b6f5c65ac0bbc16863
     name: python3-more-itertools
     evr: 10.1.0-1.el10cp
     sourcerpm: python-more-itertools-10.1.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-natsort-8.4.0-2.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-natsort-8.4.0-2.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 73457
     checksum: sha256:7725a3814f269e5a347c582769e862f2cdee2b5008c391ff440610e9d263f172
     name: python3-natsort
     evr: 8.4.0-2.el10cp
     sourcerpm: python-natsort-8.4.0-2.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-portend-3.2.0-6.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-portend-3.2.0-6.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 18128
     checksum: sha256:1b4c36549ea3812d662167baebe4a6bb0ab31685d0af65936396cd7ebc2f7226
     name: python3-portend
     evr: 3.2.0-6.el10cp
     sourcerpm: python-portend-3.2.0-6.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-protobuf-3.19.6-12.el10.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-protobuf-3.19.6-12.el10.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 394952
     checksum: sha256:25c111d4c92ae2d25f3c73d18cc407a1530498f73d0034634f85bacc0dbc4f38
     name: python3-protobuf
     evr: 3.19.6-12.el10
     sourcerpm: protobuf-3.19.6-12.el10.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-pyOpenSSL-25.1.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-pyOpenSSL-25.1.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 115366
     checksum: sha256:c440e5bb2700da2e437ce20b1872581a4c67856aafd4fcea5e2c1df9c8ef4898
     name: python3-pyOpenSSL
     evr: 25.1.0-1.el10cp
     sourcerpm: pyOpenSSL-25.1.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-rados-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-rados-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 433929
-    checksum: sha256:b3ae29a07160eb37e93d8e1c93dd52fad56e1a6cd48ee5aad7b4d26c3ccc0333
+    size: 434485
+    checksum: sha256:65927b278de2d3d611b89983d5ec49b0f6a8abcdf9247f9076cf8a8b8908b450
     name: python3-rados
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-rbd-20.1.0-59.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-rbd-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 477149
-    checksum: sha256:9eef3eee9b5e85bc34986842aa733790cfe877fbae5184878a57714207ebbe45
+    size: 478169
+    checksum: sha256:fec068aa798e1fd316e0b2f8684a3c7ef7edd6b68fc3ac5f375f0b3e2302ba92
     name: python3-rbd
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-repoze-lru-0.7-23.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-repoze-lru-0.7-23.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 36728
     checksum: sha256:77ce5cdba2a89282f2a9c7feaa45cc814e6157c463de7a6176103af081426ca0
     name: python3-repoze-lru
     evr: 0.7-23.el10cp
     sourcerpm: python-repoze-lru-0.7-23.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-rgw-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-rgw-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 216909
-    checksum: sha256:f9b4494eb73f9b25bdcefdb18cae2c56bec6be76c787fdecec8e53a3536d6e71
+    size: 216881
+    checksum: sha256:f26af0b6bd788b958ec1a18b321154c78438bb1853e5a5c01d0d7a2d8ba5daba
     name: python3-rgw
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-routes-2.5.1-11.el10cp.noarch.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-routes-2.5.1-11.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 206132
     checksum: sha256:47ff20f21702ac36e035ff2046e7a15f3cc6d40b3a1b496ac53ecd2f4aede463
     name: python3-routes
     evr: 2.5.1-11.el10cp
     sourcerpm: python-routes-2.5.1-11.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-rsa-4.9-5.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-rsa-4.9-5.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 71258
     checksum: sha256:b3d1ca5fbd181d329bc3451368c2a49111fa138103624a915379cb74c3d8ea0f
     name: python3-rsa
     evr: 4.9-5.el10cp
     sourcerpm: python-rsa-4.9-5.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-saml-1.16.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-saml-1.16.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 153432
     checksum: sha256:0760c9c7d7459245b1b6e086c051d641eff4809e15c26eb86f0bf8b6d5e159b0
     name: python3-saml
     evr: 1.16.0-1.el10cp
     sourcerpm: python3-saml-1.16.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-tempora-5.7.0-1.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-tempora-5.7.0-1.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 37037
     checksum: sha256:760a33660405d8f9d7f3fa6072b1145c452b64ca914ce67cac83578fe8044288
     name: python3-tempora
     evr: 5.7.0-1.el10cp
     sourcerpm: python-tempora-5.7.0-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-websocket-client-1.8.0-2.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-websocket-client-1.8.0-2.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 127423
     checksum: sha256:c3a4cc4a2a7d5fc3dc9e1d0033e94284c3040e755c6cfc18aca8e652ecf5db76
     name: python3-websocket-client
     evr: 1.8.0-2.el10cp
     sourcerpm: python-websocket-client-1.8.0-2.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-xmlsec-1.3.16-1.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-xmlsec-1.3.16-1.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 49126
     checksum: sha256:252220281a6f320f59373f0fc6c5f7b93bb860799b56c08c6034ce24a0cba4de
     name: python3-xmlsec
     evr: 1.3.16-1.el10cp
     sourcerpm: python-xmlsec-1.3.16-1.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-xmltodict-0.13.0-5.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-xmltodict-0.13.0-5.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 26504
     checksum: sha256:4db8f41518461bdcb563798a9d8aee6b4d226eb63024ad4e12d039b9bc0061be
     name: python3-xmltodict
     evr: 0.13.0-5.el10cp
     sourcerpm: python-xmltodict-0.13.0-5.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/p/python3-zc-lockfile-3.0.post1-11.el10cp.noarch.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/p/python3-zc-lockfile-3.0.post1-11.el10cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 23270
     checksum: sha256:7dc7c3d3263508b6bb3b46332a7a94399dd2e687c4f217e7c9bc2e6dc55a12bd
     name: python3-zc-lockfile
     evr: 3.0.post1-11.el10cp
     sourcerpm: python-zc-lockfile-3.0.post1-11.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/r/rbd-mirror-20.1.0-59.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/r/rbd-mirror-20.1.0-61.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
-    size: 3475349
-    checksum: sha256:1afb45986a33dc517d18a5fd284b6a0296b3e635c98c3f4420e0fa3456591b97
+    size: 3475405
+    checksum: sha256:41395e915446bb1a114e2b2dbd1afcfb49532498f25090a55e739b9b4a501429
     name: rbd-mirror
-    evr: 2:20.1.0-59.el10cp
-    sourcerpm: ceph-20.1.0-59.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/r/re2-20211101-4.el10cp.x86_64.rpm
+    evr: 2:20.1.0-61.el10cp
+    sourcerpm: ceph-20.1.0-61.el10cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/r/re2-20211101-4.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 206441
     checksum: sha256:66a25c6016f7d3ad6561d12f7b65d211b00292618868799512a2702bc164c543
     name: re2
     evr: 1:20211101-4.el10cp
     sourcerpm: re2-20211101-4.el10cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4470294/compose/Temporary/x86_64/os/Packages/t/thrift-0.20.0-4.el10cp.x86_64.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4472243/compose/Temporary/x86_64/os/Packages/t/thrift-0.20.0-4.el10cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 1756224
     checksum: sha256:df994b3632c44fa096ad3169df5d2ac712a677c5e938329990978d1ca0979a52
