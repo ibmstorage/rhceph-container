@@ -71,8 +71,8 @@ RUN \
     #   download and install packages from web, cleaning any files as you go.
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
-microdnf install -y --setopt=install_weak_deps=0 --nodocs python3-saml \
-     $(cat packages-*.txt) \
+microdnf install -y --setopt=install_weak_deps=0 --nodocs \
+	 $(cat packages-*.txt) \
          && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
     echo '@root - memlock 204800' >> /etc/security/limits.conf && \
