@@ -69,7 +69,7 @@ LABEL io.k8s.display-name="Red Hat Ceph Storage 9 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
 LABEL io.k8s.description="Red Hat Ceph Storage 9"
 
-COPY packages.txt .
+COPY packages-*.txt .
 
 # Escape char after immediately after RUN allows comment in first line
 RUN \
