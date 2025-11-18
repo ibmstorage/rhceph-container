@@ -78,8 +78,8 @@ RUN \
     #   download and install packages from web, cleaning any files as you go.
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
-microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-saml python3-setuptools udev device-mapper \
-        $(cat packages.txt) \
+microdnf install -y --setopt=install_weak_deps=0 --nodocs \
+        $(cat packages-*.txt) \
          && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
     echo '@root - memlock 204800' >> /etc/security/limits.conf && \
@@ -91,7 +91,7 @@ microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-sam
     echo 'Postinstall cleanup' && \
  ( microdnf clean all && \
    rpm -q \
-        $(cat packages.txt) \
+        $(cat packages-ceph.txt) \
          && \
    rm -f /etc/profile.d/lang.sh ) && \
     # Tweak some configuration files on the container system
@@ -119,6 +119,6 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     #
     # Verify that the packages installed haven't been accidentally cleaned
     rpm -q \
-        $(cat packages.txt) \
+        $(cat packages-ceph.txt) \
          && echo 'Packages verified successfully'
 
