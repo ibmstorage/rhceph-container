@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-dev/rhceph:{{revision}}
+    value: quay.io/rhceph-ci/rhceph:{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
