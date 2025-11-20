@@ -1,0 +1,62 @@
+contentOrigin:
+  repofiles:
+    - ./rpms.repo
+    - ./compose.repo
+context:
+  bare: true
+
+arches:
+  - x86_64
+  - ppc64le
+  - s390x
+
+# taken from install package list in Dockerfile
+packages:
+  - util-linux
+  - python3-saml
+  - python3-setuptools
+  - udev
+  - device-mapper
+  - ca-certificates
+  - e2fsprogs
+  - ceph-common
+  - ceph-mon
+  - ceph-osd
+  - ceph-mds
+  - cephfs-mirror
+  - cephfs-top
+  - rbd-mirror
+  - ceph-mgr
+  - ceph-mgr-cephadm
+  - ceph-mgr-dashboard
+  - ceph-mgr-diskprediction-local
+  - ceph-mgr-k8sevents
+  - ceph-mgr-rook
+  - ceph-grafana-dashboards
+  - kmod
+  - lvm2
+  - gdisk
+  - smartmontools
+  - nvme-cli
+  - libstoragemgmt
+  - systemd-udev
+  - sg3_utils
+  - procps-ng
+  - hostname
+  - ceph-radosgw
+  - libradosstriper1
+  - nfs-ganesha
+  - nfs-ganesha-ceph
+  - nfs-ganesha-rgw
+  - nfs-ganesha-rados-grace
+  - nfs-ganesha-rados-urls
+  - gmonitoring
+  - nfs-ganesha-utils
+  - sssd-client
+  - dbus-daemon
+  - rpcbind
+  - ceph-immutable-object-cache
+  - ceph-volume
+  - ceph-exporter
+  - ceph-node-proxy
+  - jq
