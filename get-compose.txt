@@ -1,0 +1,36 @@
+podman run -it quay.io/redhat-appstudio/tools@sha256:89258fa69543312e80180a2308bcb84ef86bb0bcab8f8caa704327fc7d4dd9c9 \
+    odcs \
+    --redhat \
+    --quiet \
+    create-tag \
+    --sigkey "none" \
+    --arch "x86_64 s390x ppc64le aarch64" \
+    ceph-8.1-rhel-9-pending \
+    python3-saml \
+    ceph-common \
+    ceph-mon \
+    ceph-osd \
+    ceph-mds \
+    cephfs-mirror \
+    cephfs-top \
+    rbd-mirror \
+    ceph-mgr \
+    ceph-mgr-cephadm \
+    ceph-mgr-dashboard \
+    ceph-mgr-diskprediction-local \
+    ceph-mgr-k8sevents \
+    ceph-mgr-rook \
+    ceph-grafana-dashboards \
+    ceph-radosgw \
+    libradosstriper1 \
+    nfs-ganesha \
+    nfs-ganesha-ceph \
+    nfs-ganesha-rgw \
+    nfs-ganesha-rados-grace \
+    nfs-ganesha-rados-urls \
+    ganesha_monitoring \
+    nfs-ganesha-utils \
+    ceph-immutable-object-cache \
+    ceph-volume \
+    ceph-exporter \
+    ceph-node-proxy \
