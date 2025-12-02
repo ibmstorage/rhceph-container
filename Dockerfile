@@ -3,7 +3,6 @@
 FROM registry.redhat.io/ubi9/ubi-minimal:latest
 
 ENV I_AM_IN_A_CONTAINER 1
-ENV DOWNSTREAM_VERSION="6.1.0"
 
 # Who is the maintainer ?
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
@@ -60,9 +59,6 @@ LABEL description="Red Hat Ceph Storage 6"
 LABEL summary="Provides the latest Red Hat Ceph Storage 6 on RHEL 9 in a fully featured and supported base image."
 LABEL io.k8s.display-name="Red Hat Ceph Storage 6 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
-LABEL io.k8s.description="Red Hat Ceph Storage 6"
-
-COPY packages-*.txt .
 
 # Escape char after immediately after RUN allows comment in first line
 RUN \
@@ -71,11 +67,42 @@ RUN \
     #   download and install packages from web, cleaning any files as you go.
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
-microdnf install -y --setopt=install_weak_deps=0 --nodocs \
-	 $(cat packages-*.txt) \
-         && \
-    echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
-    echo '@root - memlock 204800' >> /etc/security/limits.conf && \
+microdnf install -y --setopt=install_weak_deps=0 --nodocs util-linux python3-saml python3-setuptools udev device-mapper \
+        ca-certificates \
+        e2fsprogs \
+        ceph-common  \
+        ceph-mon  \
+        ceph-osd \
+        cephfs-top \
+        ceph-mds \
+cephfs-mirror \
+        rbd-mirror  \
+        ceph-mgr \
+ceph-mgr-cephadm \
+ceph-mgr-dashboard \
+ceph-mgr-diskprediction-local \
+ceph-mgr-k8sevents \
+ceph-mgr-rook\
+        ceph-grafana-dashboards \
+        kmod \
+        lvm2 \
+        gdisk \
+        smartmontools \
+        nvme-cli \
+        libstoragemgmt \
+        systemd-udev \
+        sg3_utils \
+        procps-ng \
+        hostname \
+        ceph-radosgw libradosstriper1 \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client dbus-daemon \
+         \
+         \
+         \
+        ceph-immutable-object-cache \
+         \
+        ceph-volume \
+        ceph-exporter && \
     # Clean container, starting with record of current size (strip / from end)
     INITIAL_SIZE="$(bash -c 'sz="$(du -sm --exclude=/proc /)" ; echo "${sz%*/}"')" && \
     #
@@ -84,19 +111,49 @@ microdnf install -y --setopt=install_weak_deps=0 --nodocs \
     echo 'Postinstall cleanup' && \
  ( microdnf clean all && \
    rpm -q \
-        $(cat packages-ceph.txt) \
-	&& \
+        ca-certificates \
+        e2fsprogs \
+        ceph-common  \
+        ceph-mon  \
+        ceph-osd \
+        cephfs-top \
+        ceph-mds \
+cephfs-mirror \
+        rbd-mirror  \
+        ceph-mgr \
+ceph-mgr-cephadm \
+ceph-mgr-dashboard \
+ceph-mgr-diskprediction-local \
+ceph-mgr-k8sevents \
+ceph-mgr-rook\
+        ceph-grafana-dashboards \
+        kmod \
+        lvm2 \
+        gdisk \
+        smartmontools \
+        nvme-cli \
+        libstoragemgmt \
+        systemd-udev \
+        sg3_utils \
+        procps-ng \
+        hostname \
+        ceph-radosgw libradosstriper1 \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client dbus-daemon \
+         \
+         \
+         \
+        ceph-immutable-object-cache \
+         \
+        ceph-volume \
+        ceph-exporter && \
    rm -f /etc/profile.d/lang.sh ) && \
     # Tweak some configuration files on the container system
     # disable sync with udev since the container can not contact udev
-echo "About to edit lvm.conf" && \
-sed -i -e 's/^\([[:space:]#]*udev_rules =\) 1$/\1 0/' -e 's/^\([[:space:]#]*udev_sync =\) 1$/\1 0/' -e 's/^\([[:space:]#]*obtain_device_list_from_udev =\) 1$/\1 0/' /etc/lvm/lvm.conf && \
-echo "About to validate lvm.conf edits" && \
+sed -i -e 's/udev_rules = 1/udev_rules = 0/' -e 's/udev_sync = 1/udev_sync = 0/' -e 's/obtain_device_list_from_udev = 1/obtain_device_list_from_udev = 0/' /etc/lvm/lvm.conf && \
 # validate the sed command worked as expected
 grep -sqo "udev_sync = 0" /etc/lvm/lvm.conf && \
 grep -sqo "udev_rules = 0" /etc/lvm/lvm.conf && \
 grep -sqo "obtain_device_list_from_udev = 0" /etc/lvm/lvm.conf && \
-echo "Edits validated OK" && \
 mkdir -p /var/run/ganesha && \
     ln -s /usr/share/ceph/mgr/dashboard/frontend/dist-redhat /usr/share/ceph/mgr/dashboard/frontend/dist && \
     # Clean common files like /tmp, /var/lib, etc.
@@ -112,5 +169,38 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     #
     # Verify that the packages installed haven't been accidentally cleaned
     rpm -q \
-        $(cat packages-ceph.txt) \
-	&& echo 'Packages verified successfully'
+        ca-certificates \
+        e2fsprogs \
+        ceph-common  \
+        ceph-mon  \
+        ceph-osd \
+        cephfs-top \
+        ceph-mds \
+cephfs-mirror \
+        rbd-mirror  \
+        ceph-mgr \
+ceph-mgr-cephadm \
+ceph-mgr-dashboard \
+ceph-mgr-diskprediction-local \
+ceph-mgr-k8sevents \
+ceph-mgr-rook\
+        ceph-grafana-dashboards \
+        kmod \
+        lvm2 \
+        gdisk \
+        smartmontools \
+        nvme-cli \
+        libstoragemgmt \
+        systemd-udev \
+        sg3_utils \
+        procps-ng \
+        hostname \
+        ceph-radosgw libradosstriper1 \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client dbus-daemon \
+         \
+         \
+         \
+        ceph-immutable-object-cache \
+         \
+        ceph-volume \
+        ceph-exporter && echo 'Packages verified successfully'
