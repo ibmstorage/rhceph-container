@@ -22,9 +22,9 @@ packages:
   - ceph-common
   - ceph-mon
   - ceph-osd
+  - cephfs-top
   - ceph-mds
   - cephfs-mirror
-  - cephfs-top
   - rbd-mirror
   - ceph-mgr
   - ceph-mgr-cephadm
@@ -50,8 +50,6 @@ packages:
   - nfs-ganesha-rgw
   - nfs-ganesha-rados-grace
   - nfs-ganesha-rados-urls
-  - gmonitoring
-  - nfs-ganesha-utils
   - sssd-client
   - dbus-daemon
   - ceph-immutable-object-cache
