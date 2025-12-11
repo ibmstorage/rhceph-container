@@ -31,7 +31,7 @@ spec:
     - linux/x86_64
     - linux/s390x
     - linux/ppc64le
-#    - linux/arm64
+    - linux/arm64
   - name: dockerfile
     value: Dockerfile
   - name: hermetic
@@ -63,6 +63,12 @@ spec:
                "gpgcheck": "0"
             },
             "rhceph-9-tools-for-rhel-9-ppc64le-source-rpms": {
+               "gpgcheck": "0"
+            },
+            "rhceph-9-tools-for-rhel-9-aarch64-rpms": {
+               "gpgcheck": "0"
+            },
+            "rhceph-9-tools-for-rhel-9-aarch64-source-rpms": {
                "gpgcheck": "0"
             }
           }
