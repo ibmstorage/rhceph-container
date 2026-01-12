@@ -16,6 +16,9 @@ metadata:
   name: rhceph-container-9-0-on-push
   namespace: ceph-tenant
 spec:
+  timeouts:
+    pipeline: 4h
+    tasks: 3h
   params:
   - name: git-url
     value: '{{source_url}}'
