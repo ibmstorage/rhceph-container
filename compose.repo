@@ -15,7 +15,7 @@ type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
 repo_gpgcheck=0
-enabled=0
+enabled=1
 enabled_metadata=1
 
 [rhceph-9-tools-for-rhel-9-$basearch-source-rpms]
@@ -25,5 +25,5 @@ type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
 repo_gpgcheck=0
-enabled=0
+enabled=1
 enabled_metadata=1
