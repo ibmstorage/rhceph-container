@@ -7,6 +7,7 @@ gpgcheck=0
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
+priority=2
 
 [rhceph-9-tools-for-rhel-9-$basearch-debug-rpms]
 name=rhceph-9-tools-for-rhel-9-debug-rpms
@@ -17,6 +18,7 @@ gpgcheck=0
 repo_gpgcheck=0
 enabled=0
 enabled_metadata=1
+priority=2
 
 [rhceph-9-tools-for-rhel-9-$basearch-source-rpms]
 name=rhceph-9-tools-for-rhel-9-srpms
@@ -27,3 +29,15 @@ gpgcheck=0
 repo_gpgcheck=0
 enabled=0
 enabled_metadata=1
+priority=2
+
+[rhceph-test-build-rpms]
+name=rhceph-test-build-rpms
+baseurl=https://brew-task-repos.engineering.redhat.com/repos/scratch/ceph-build/ceph/20.1.0/144.0.TEST.ceph_20.1.0_144_chasan.el9cp/ppc64le/
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+priority=1
