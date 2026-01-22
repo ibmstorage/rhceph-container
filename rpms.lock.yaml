@@ -109,13 +109,6 @@ arches:
     name: ceph-mon
     evr: 2:20.1.0-144.el9cp
     sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/c/ceph-node-proxy-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
-    size: 141869
-    checksum: sha256:f85268eca0b6364b2907f7924bbaf62661012185b6d3bb7dec387bdc99063266
-    name: ceph-node-proxy
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/c/ceph-osd-20.1.0-144.el9cp.aarch64.rpm
     repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
     size: 14183105
@@ -163,13 +156,6 @@ arches:
     size: 315681
     checksum: sha256:9d14302c651ccf576900d1d2dd8521906e2ecaef9baaea86d1db45dc67e08095
     name: cephfs-mirror
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/c/cephfs-top-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
-    size: 117185
-    checksum: sha256:c11585f476a86af7326896b6da6eb4085e9af462f12cc2b27a84734c97896c9a
-    name: cephfs-top
     evr: 2:20.1.0-144.el9cp
     sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/g/ganesha_monitoring-7.0-0.6.13.el9cp.aarch64.rpm
@@ -340,6 +326,20 @@ arches:
     name: parquet-libs
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/p/protobuf-3.14.0-14.el9.aarch64.rpm
+    repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
+    size: 962144
+    checksum: sha256:493fead4ba2f96a528a1ab6204278cf64d22e9a7376b0501a33b548911b4cfa3
+    name: protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/p/protobuf-compiler-3.14.0-14.el9.aarch64.rpm
+    repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
+    size: 792543
+    checksum: sha256:091c88d0cd54d3984d9a8a2fd83399f924b550a6223639ca2de8da6bf7f52bf6
+    name: protobuf-compiler
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/p/python3-asyncssh-2.13.2-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
     size: 562206
@@ -501,6 +501,13 @@ arches:
     name: python3-portend
     evr: 3.1.0-2.el9cp
     sourcerpm: python-portend-3.1.0-2.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/p/python3-protobuf-3.14.0-14.el9.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
+    size: 278081
+    checksum: sha256:d57b6f29deda527851d8847f2a260f87ac56bccd2e0a3ea89206b1cd0036887b
+    name: python3-protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/aarch64/os/Packages/p/python3-pyOpenSSL-21.0.0-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-aarch64-rpms
     size: 93024
@@ -620,6 +627,20 @@ arches:
     name: thrift
     evr: 0.15.0-3.el9cp
     sourcerpm: thrift-0.15.0-3.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-node-proxy-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 145177
+    checksum: sha256:8e56ce33158ecab6343c885290f98f930981de98d2f985537b69b57eb1ec35f4
+    name: ceph-node-proxy
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/cephfs-top-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 120485
+    checksum: sha256:e8806de1e7c79d3897033c0019880c992d3958517d6cbd233df161fa7f06e843
+    name: cephfs-top
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/a/aardvark-dns-1.16.0-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 847553
@@ -921,13 +942,13 @@ arches:
     name: pixman
     evr: 0.40.0-6.el9_3
     sourcerpm: pixman-0.40.0-6.el9_3.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/podman-5.6.0-11.el9_7.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/podman-5.6.0-12.el9_7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 15080261
-    checksum: sha256:552bf4c8fd2ebbea9ff347b49a95d4b5ec2bec90f6a1870b11c48d6c59cfddaf
+    size: 15084058
+    checksum: sha256:610febf5114419bba19b31a33bf88e3de33ad2f7bc75f87e539419f9fe0586cb
     name: podman
-    evr: 6:5.6.0-11.el9_7
-    sourcerpm: podman-5.6.0-11.el9_7.src.rpm
+    evr: 6:5.6.0-12.el9_7
+    sourcerpm: podman-5.6.0-12.el9_7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/policycoreutils-python-utils-3.6-3.el9.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 77697
@@ -935,13 +956,6 @@ arches:
     name: policycoreutils-python-utils
     evr: 3.6-3.el9
     sourcerpm: policycoreutils-3.6-3.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/protobuf-3.14.0-16.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 960397
-    checksum: sha256:ddbd84ae82a2c25adeb4d4b13de30976de56e4245a0f6bf2e6a8bb55159d1bd5
-    name: protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/python-unversioned-command-3.9.25-2.el9_7.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 9351
@@ -1103,13 +1117,6 @@ arches:
     name: python3-prettytable
     evr: 0.7.2-27.el9
     sourcerpm: python-prettytable-0.7.2-27.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/python3-protobuf-3.14.0-16.el9.noarch.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 278230
-    checksum: sha256:56e3846506d8c0e80ecc87b02b5074ddd3855ae64189a1c1c83e97cf62e3af6c
-    name: python3-protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/python3-pyasn1-0.4.8-6.el9.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 166660
@@ -3007,14 +3014,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-16.el9.aarch64.rpm
-    repoid: codeready-builder-for-rhel-9-aarch64-rpms
-    size: 792260
-    checksum: sha256:86ba0e45140b4e68bb3303b9c57af315937a6dcd78c608546021fc509c2de5b5
-    name: protobuf-compiler
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   source:
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+    repoid: rhceph-test-build-rpms
+    size: 330580777
+    checksum: sha256:2bf0e9ade9fcc3a5086e1e40c2a26030743c892b9bac61cd3cd8007c6dfe94f0
+    name: ceph
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-1.el9.src.rpm
     repoid: rhel-9-for-aarch64-appstream-source-rpms
     size: 10098049
@@ -3219,18 +3225,12 @@ arches:
     checksum: sha256:0bd62940984b88bfd5914463d948999e29665450e6850ad5c9c4fbc129f3c3d0
     name: pixman
     evr: 0.40.0-6.el9_3
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/p/podman-5.6.0-11.el9_7.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/p/podman-5.6.0-12.el9_7.src.rpm
     repoid: rhel-9-for-aarch64-appstream-source-rpms
-    size: 23013197
-    checksum: sha256:d0b1c777f5a703c072d5d973d858955a8cdb259946250e5cf2ffd2dc15470335
+    size: 23047652
+    checksum: sha256:e2f5d4e1bfc5772ee0e5e32a8c55ab9ef6b1b24874b776bc9d14e5985777a0a7
     name: podman
-    evr: 6:5.6.0-11.el9_7
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-16.el9.src.rpm
-    repoid: rhel-9-for-aarch64-appstream-source-rpms
-    size: 6493925
-    checksum: sha256:92744f56dedc08b7fd696b2d3f42576b777ae3ddcfb60fbb1f29086cf57eaf49
-    name: protobuf
-    evr: 3.14.0-16.el9
+    evr: 6:5.6.0-12.el9_7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/p/pycairo-1.20.1-1.el9.src.rpm
     repoid: rhel-9-for-aarch64-appstream-source-rpms
     size: 356653
@@ -4569,13 +4569,6 @@ arches:
     name: ceph-mon
     evr: 2:20.1.0-144.el9cp
     sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/c/ceph-node-proxy-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 141869
-    checksum: sha256:f85268eca0b6364b2907f7924bbaf62661012185b6d3bb7dec387bdc99063266
-    name: ceph-node-proxy
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/c/ceph-osd-20.1.0-144.el9cp.ppc64le.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 16795165
@@ -4623,13 +4616,6 @@ arches:
     size: 334849
     checksum: sha256:a9d2263a35073e6ffdb162f0b5adc1b48aa9b042db2a56542f4d39c4724ef2db
     name: cephfs-mirror
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/c/cephfs-top-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 117185
-    checksum: sha256:c11585f476a86af7326896b6da6eb4085e9af462f12cc2b27a84734c97896c9a
-    name: cephfs-top
     evr: 2:20.1.0-144.el9cp
     sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/g/ganesha_monitoring-7.0-0.6.13.el9cp.ppc64le.rpm
@@ -4793,6 +4779,20 @@ arches:
     name: parquet-libs
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/p/protobuf-3.14.0-14.el9.ppc64le.rpm
+    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
+    size: 1058210
+    checksum: sha256:abbd37a362a6c20db16bf348490e64ee923d543de269d7cd081259224f727536
+    name: protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/p/protobuf-compiler-3.14.0-14.el9.ppc64le.rpm
+    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
+    size: 865757
+    checksum: sha256:c5db2fe3ece13bd2f147dbb5d4e0aad8c18d6a27ba850094716f3e21b6fb4d92
+    name: protobuf-compiler
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/p/python3-asyncssh-2.13.2-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 562206
@@ -4954,6 +4954,13 @@ arches:
     name: python3-portend
     evr: 3.1.0-2.el9cp
     sourcerpm: python-portend-3.1.0-2.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/p/python3-protobuf-3.14.0-14.el9.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
+    size: 278081
+    checksum: sha256:d57b6f29deda527851d8847f2a260f87ac56bccd2e0a3ea89206b1cd0036887b
+    name: python3-protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/ppc64le/os/Packages/p/python3-pyOpenSSL-21.0.0-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 93024
@@ -5073,6 +5080,20 @@ arches:
     name: thrift
     evr: 0.15.0-3.el9cp
     sourcerpm: thrift-0.15.0-3.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-node-proxy-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 145177
+    checksum: sha256:8e56ce33158ecab6343c885290f98f930981de98d2f985537b69b57eb1ec35f4
+    name: ceph-node-proxy
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/cephfs-top-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 120485
+    checksum: sha256:e8806de1e7c79d3897033c0019880c992d3958517d6cbd233df161fa7f06e843
+    name: cephfs-top
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/a/aardvark-dns-1.16.0-1.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 1041344
@@ -5374,13 +5395,13 @@ arches:
     name: pixman
     evr: 0.40.0-6.el9_3
     sourcerpm: pixman-0.40.0-6.el9_3.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/podman-5.6.0-11.el9_7.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/podman-5.6.0-12.el9_7.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 15026676
-    checksum: sha256:6d3bb6803025d293f9de91c6e62503dc8872a6f914a4bd1060354c0b9132dac4
+    size: 15036407
+    checksum: sha256:bf4138192dd40a01751078f38c3c4e89df03446fa4c28cb39163466752508dba
     name: podman
-    evr: 6:5.6.0-11.el9_7
-    sourcerpm: podman-5.6.0-11.el9_7.src.rpm
+    evr: 6:5.6.0-12.el9_7
+    sourcerpm: podman-5.6.0-12.el9_7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/policycoreutils-python-utils-3.6-3.el9.noarch.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 77697
@@ -5388,13 +5409,6 @@ arches:
     name: policycoreutils-python-utils
     evr: 3.6-3.el9
     sourcerpm: policycoreutils-3.6-3.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/protobuf-3.14.0-16.el9.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 1058375
-    checksum: sha256:e814cda469c39b6068d3d254ba92ebb1e8b4c6e0dd0e8e81109e286055e8f412
-    name: protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/python-unversioned-command-3.9.25-2.el9_7.noarch.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 9351
@@ -5556,13 +5570,6 @@ arches:
     name: python3-prettytable
     evr: 0.7.2-27.el9
     sourcerpm: python-prettytable-0.7.2-27.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/python3-protobuf-3.14.0-16.el9.noarch.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 278230
-    checksum: sha256:56e3846506d8c0e80ecc87b02b5074ddd3855ae64189a1c1c83e97cf62e3af6c
-    name: python3-protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/python3-pyasn1-0.4.8-6.el9.noarch.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 166660
@@ -7474,14 +7481,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-16.el9.ppc64le.rpm
-    repoid: codeready-builder-for-rhel-9-ppc64le-rpms
-    size: 865593
-    checksum: sha256:3d5db8cdcb355c9c14dbd49d8c998a231bdace848823f0069a12c09e765d1bf6
-    name: protobuf-compiler
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   source:
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+    repoid: rhceph-test-build-rpms
+    size: 330580777
+    checksum: sha256:2bf0e9ade9fcc3a5086e1e40c2a26030743c892b9bac61cd3cd8007c6dfe94f0
+    name: ceph
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-1.el9.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
     size: 10098049
@@ -7686,18 +7692,12 @@ arches:
     checksum: sha256:0bd62940984b88bfd5914463d948999e29665450e6850ad5c9c4fbc129f3c3d0
     name: pixman
     evr: 0.40.0-6.el9_3
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/p/podman-5.6.0-11.el9_7.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/p/podman-5.6.0-12.el9_7.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
-    size: 23013197
-    checksum: sha256:d0b1c777f5a703c072d5d973d858955a8cdb259946250e5cf2ffd2dc15470335
+    size: 23047652
+    checksum: sha256:e2f5d4e1bfc5772ee0e5e32a8c55ab9ef6b1b24874b776bc9d14e5985777a0a7
     name: podman
-    evr: 6:5.6.0-11.el9_7
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-16.el9.src.rpm
-    repoid: rhel-9-for-ppc64le-appstream-source-rpms
-    size: 6493925
-    checksum: sha256:92744f56dedc08b7fd696b2d3f42576b777ae3ddcfb60fbb1f29086cf57eaf49
-    name: protobuf
-    evr: 3.14.0-16.el9
+    evr: 6:5.6.0-12.el9_7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/p/pycairo-1.20.1-1.el9.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
     size: 356653
@@ -9042,13 +9042,6 @@ arches:
     name: ceph-mon
     evr: 2:20.1.0-144.el9cp
     sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/c/ceph-node-proxy-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
-    size: 141869
-    checksum: sha256:f85268eca0b6364b2907f7924bbaf62661012185b6d3bb7dec387bdc99063266
-    name: ceph-node-proxy
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/c/ceph-osd-20.1.0-144.el9cp.s390x.rpm
     repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
     size: 17096473
@@ -9096,13 +9089,6 @@ arches:
     size: 336257
     checksum: sha256:b1a8df3c55cd8d958be92842ccc5735cafb264fe5e4423ea697de3c0f0826abf
     name: cephfs-mirror
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/c/cephfs-top-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
-    size: 117185
-    checksum: sha256:c11585f476a86af7326896b6da6eb4085e9af462f12cc2b27a84734c97896c9a
-    name: cephfs-top
     evr: 2:20.1.0-144.el9cp
     sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/g/ganesha_monitoring-7.0-0.6.13.el9cp.s390x.rpm
@@ -9273,6 +9259,20 @@ arches:
     name: parquet-libs
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/p/protobuf-3.14.0-14.el9.s390x.rpm
+    repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
+    size: 988334
+    checksum: sha256:7e58da5319c875f0393d41a6c59f90a878abd15aa2cacd341009842af587792c
+    name: protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/p/protobuf-compiler-3.14.0-14.el9.s390x.rpm
+    repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
+    size: 842874
+    checksum: sha256:0f0f4030eb520bb3eed356c637b69581fe49c4425e6a7c998653403479742077
+    name: protobuf-compiler
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/p/python3-asyncssh-2.13.2-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
     size: 562206
@@ -9434,6 +9434,13 @@ arches:
     name: python3-portend
     evr: 3.1.0-2.el9cp
     sourcerpm: python-portend-3.1.0-2.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/p/python3-protobuf-3.14.0-14.el9.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
+    size: 278081
+    checksum: sha256:d57b6f29deda527851d8847f2a260f87ac56bccd2e0a3ea89206b1cd0036887b
+    name: python3-protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/s390x/os/Packages/p/python3-pyOpenSSL-21.0.0-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-s390x-rpms
     size: 93024
@@ -9553,6 +9560,20 @@ arches:
     name: thrift
     evr: 0.15.0-3.el9cp
     sourcerpm: thrift-0.15.0-3.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-node-proxy-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 145177
+    checksum: sha256:8e56ce33158ecab6343c885290f98f930981de98d2f985537b69b57eb1ec35f4
+    name: ceph-node-proxy
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/cephfs-top-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 120485
+    checksum: sha256:e8806de1e7c79d3897033c0019880c992d3958517d6cbd233df161fa7f06e843
+    name: cephfs-top
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/a/aardvark-dns-1.16.0-1.el9.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 934589
@@ -9889,13 +9910,13 @@ arches:
     name: pixman
     evr: 0.40.0-6.el9_3
     sourcerpm: pixman-0.40.0-6.el9_3.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/podman-5.6.0-11.el9_7.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/podman-5.6.0-12.el9_7.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
-    size: 15601414
-    checksum: sha256:60a7d53db99f7968c612af1b767f539ab1744aa822b2c1a77d39a6d2dac82fb2
+    size: 15681615
+    checksum: sha256:efa14967c341f33bf201fba158396b1e5bd7bd0800d70f8ad1d5cea620256522
     name: podman
-    evr: 6:5.6.0-11.el9_7
-    sourcerpm: podman-5.6.0-11.el9_7.src.rpm
+    evr: 6:5.6.0-12.el9_7
+    sourcerpm: podman-5.6.0-12.el9_7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/policycoreutils-python-utils-3.6-3.el9.noarch.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 77697
@@ -9903,13 +9924,6 @@ arches:
     name: policycoreutils-python-utils
     evr: 3.6-3.el9
     sourcerpm: policycoreutils-3.6-3.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/protobuf-3.14.0-16.el9.s390x.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 988184
-    checksum: sha256:d0a40007e676d188faa8c3f51efece90c57273453979156422e3327e38b45cb9
-    name: protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/python-unversioned-command-3.9.25-2.el9_7.noarch.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 9351
@@ -10071,13 +10085,6 @@ arches:
     name: python3-prettytable
     evr: 0.7.2-27.el9
     sourcerpm: python-prettytable-0.7.2-27.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/python3-protobuf-3.14.0-16.el9.noarch.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 278230
-    checksum: sha256:56e3846506d8c0e80ecc87b02b5074ddd3855ae64189a1c1c83e97cf62e3af6c
-    name: python3-protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/python3-pyasn1-0.4.8-6.el9.noarch.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 166660
@@ -11940,14 +11947,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-16.el9.s390x.rpm
-    repoid: codeready-builder-for-rhel-9-s390x-rpms
-    size: 842471
-    checksum: sha256:e4b7a8b602a99992a82f4b3617120ca1b965dc38c7ec865f99552f685b257f82
-    name: protobuf-compiler
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   source:
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+    repoid: rhceph-test-build-rpms
+    size: 330580777
+    checksum: sha256:2bf0e9ade9fcc3a5086e1e40c2a26030743c892b9bac61cd3cd8007c6dfe94f0
+    name: ceph
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-1.el9.src.rpm
     repoid: rhel-9-for-s390x-appstream-source-rpms
     size: 10098049
@@ -12152,18 +12158,12 @@ arches:
     checksum: sha256:0bd62940984b88bfd5914463d948999e29665450e6850ad5c9c4fbc129f3c3d0
     name: pixman
     evr: 0.40.0-6.el9_3
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/p/podman-5.6.0-11.el9_7.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/p/podman-5.6.0-12.el9_7.src.rpm
     repoid: rhel-9-for-s390x-appstream-source-rpms
-    size: 23013197
-    checksum: sha256:d0b1c777f5a703c072d5d973d858955a8cdb259946250e5cf2ffd2dc15470335
+    size: 23047652
+    checksum: sha256:e2f5d4e1bfc5772ee0e5e32a8c55ab9ef6b1b24874b776bc9d14e5985777a0a7
     name: podman
-    evr: 6:5.6.0-11.el9_7
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-16.el9.src.rpm
-    repoid: rhel-9-for-s390x-appstream-source-rpms
-    size: 6493925
-    checksum: sha256:92744f56dedc08b7fd696b2d3f42576b777ae3ddcfb60fbb1f29086cf57eaf49
-    name: protobuf
-    evr: 3.14.0-16.el9
+    evr: 6:5.6.0-12.el9_7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/p/pycairo-1.20.1-1.el9.src.rpm
     repoid: rhel-9-for-s390x-appstream-source-rpms
     size: 356653
@@ -13380,167 +13380,6 @@ arches:
     name: abseil-cpp
     evr: 20211102.0-4.el9cp
     sourcerpm: abseil-cpp-20211102.0-4.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-base-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 6286861
-    checksum: sha256:39e5234ce8adbf566429f8afc5acb649a97359e38bb4a7699212e9fa4f3afa4d
-    name: ceph-base
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-common-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 25307425
-    checksum: sha256:3ea25fbb449f19e93d3264eb2171d7bc1cb736bfaa4c8fe1753dadab0a9ae481
-    name: ceph-common
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-exporter-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 585737
-    checksum: sha256:c7f693df7dfe98f5d9f70a00f173e6112963a5888e8df21210e6e051928eec92
-    name: ceph-exporter
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-grafana-dashboards-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 142605
-    checksum: sha256:6a5effdeb8c2128fb2e00a86ddab57153ecc83f8082b057ce0812e8a959418ee
-    name: ceph-grafana-dashboards
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-immutable-object-cache-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 256409
-    checksum: sha256:fe3692d6119e284762d446251185978ba24e1b958a80e4e469de632dfe221e1a
-    name: ceph-immutable-object-cache
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mds-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 2568937
-    checksum: sha256:33ec6a004303ab15ccf86277b9bf3789a0e8cd822a429967939369141d36eb5f
-    name: ceph-mds
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 1083545
-    checksum: sha256:7542124d86ccebfc43afa39a14f49966402faf70acc069f636530aa2bc6dd420
-    name: ceph-mgr
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-cephadm-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 297129
-    checksum: sha256:8b5b169b1473a197da2db4123ca6d63497647d1415ef14f3e2c00c1eefd1757c
-    name: ceph-mgr-cephadm
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-dashboard-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 19118341
-    checksum: sha256:2cbc8a7b7489c0ba625cd19c135be2f4b1b028f6639d270290c336ba708fde0b
-    name: ceph-mgr-dashboard
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-diskprediction-local-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 7856841
-    checksum: sha256:0cfa3116edf7d45c980ba17cc14d8991cd6527fcdea2fa41af509359cde8cd1b
-    name: ceph-mgr-diskprediction-local
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-k8sevents-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 121057
-    checksum: sha256:fbac8bc0c1cbb304eee5bdb8d9462ea5bcd0e1be86b6bc9598b60c5239f43224
-    name: ceph-mgr-k8sevents
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-modules-core-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 409645
-    checksum: sha256:ee66339309f0701edd8f68f0f8ea1efd5021ac7ebd855333136272cf3427bf5f
-    name: ceph-mgr-modules-core
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-rook-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 149753
-    checksum: sha256:f535bd3fe584bd346e966d3ab4290ff5e4829355fbf209d99f5175fcb2058086
-    name: ceph-mgr-rook
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-mon-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 5369341
-    checksum: sha256:8bb429286bc31dec788dbe37f359617527556bcacadf2a64d56b1396b12f558f
-    name: ceph-mon
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-node-proxy-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 141869
-    checksum: sha256:f85268eca0b6364b2907f7924bbaf62661012185b6d3bb7dec387bdc99063266
-    name: ceph-node-proxy
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-osd-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 17898297
-    checksum: sha256:c9575c72f7bbf70fbede3db9f68834906215454368cae441779a44a56a27a02f
-    name: ceph-osd
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-prometheus-alerts-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 116153
-    checksum: sha256:a0944ce03b0a6ad5d680fb8e4ab203fab66c98de8b263434c720e78ee7f2db12
-    name: ceph-prometheus-alerts
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-radosgw-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 25147505
-    checksum: sha256:277bf8eaa8cb30c5b1f8bee72ce32fd8ad1b69b4a2d8f6cbee55349105b63d23
-    name: ceph-radosgw
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-selinux-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 124101
-    checksum: sha256:9df3b813856e81b3165e35c64179a3c66746eb9a041c69b0354e2ece31036fe1
-    name: ceph-selinux
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/ceph-volume-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 402417
-    checksum: sha256:70e8481845cace698f3cd9076cf40d79a19a8d8fbc089f14278cc284deb9f34d
-    name: ceph-volume
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/cephadm-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 1177501
-    checksum: sha256:cc2d7058d9f40363a3f38bbc7aeb248f1314a57a0e9a3f553b2f66b4db9c9397
-    name: cephadm
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/cephfs-mirror-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 353965
-    checksum: sha256:5ec0192a87f3c2490e0503d241318fb00441a117534b6fbb88eeb87c82c3cc28
-    name: cephfs-mirror
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/c/cephfs-top-20.1.0-144.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 117185
-    checksum: sha256:c11585f476a86af7326896b6da6eb4085e9af462f12cc2b27a84734c97896c9a
-    name: cephfs-top
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/g/ganesha_monitoring-7.0-0.6.13.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 63668
@@ -13590,20 +13429,6 @@ arches:
     name: libarrow-doc
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/libcephfs2-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 1037681
-    checksum: sha256:5c1d96b751044508b08ae3feab62b0d2ef106f458644aa360dfd6c2f76758818
-    name: libcephfs2
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/libcephsqlite-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 266737
-    checksum: sha256:dc42c0ba64c4ac8ac03783d9cfe64566d805a17b5df6c79c95844c4e8ca04c7b
-    name: libcephsqlite
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/libntirpc-7.0-3.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 164940
@@ -13618,34 +13443,6 @@ arches:
     name: liboath
     evr: 2.6.12-1.el9cp
     sourcerpm: oath-toolkit-2.6.12-1.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/librados2-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 3799269
-    checksum: sha256:32ae022ff7842a0151f36b9f78f62352710a765fdd877de7e81a35fdb99dd55f
-    name: librados2
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/libradosstriper1-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 354401
-    checksum: sha256:b9dc4e1ea5af984132f5c8c24ea68f0a0208e1df91b68741f1c474f651e87a26
-    name: libradosstriper1
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/librbd1-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 3245209
-    checksum: sha256:074264c61db3596ff83a6f731e303f0523fdb47f8883e75c96838e174fec3a92
-    name: librbd1
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/librgw2-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 6839201
-    checksum: sha256:6e19c432bf0c3b00681bac2e6103e9ea888a9cbea2c5cc771ec0285ad4501c33
-    name: librgw2
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/l/libunwind-1.6.2-2.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 69201
@@ -13709,6 +13506,20 @@ arches:
     name: parquet-libs
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/protobuf-3.14.0-14.el9.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
+    size: 1057912
+    checksum: sha256:9c3982c5ea139fdd54fdbe542ae2d253e780002f63f0799cb3573d5ea7a58862
+    name: protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/protobuf-compiler-3.14.0-14.el9.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
+    size: 885932
+    checksum: sha256:8b0e309515e66349c2e8377c2dde0e9a82a4e9541d94cd4566d67dd08e06f5b0
+    name: protobuf-compiler
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-asyncssh-2.13.2-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 562206
@@ -13730,27 +13541,6 @@ arches:
     name: python3-cachetools
     evr: 4.2.4-1.el9cp
     sourcerpm: python-cachetools-4.2.4-1.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-ceph-argparse-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 144565
-    checksum: sha256:9bd4c6b2280d73c4b9f2794b3987a636ab8c21b94f5686934d6c8a33e9815a5e
-    name: python3-ceph-argparse
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-ceph-common-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 291157
-    checksum: sha256:312764a989a3662d3c86d8e70fef1699fb26fa21f9b0a866f0534d3db6840a42
-    name: python3-ceph-common
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-cephfs-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 266417
-    checksum: sha256:dc43710833d7f8ee28d64e78beb9e8e8c69128a572ab7e0ca75bc5f5b5262e11
-    name: python3-cephfs
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-certifi-2023.05.07-4.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 15555
@@ -13870,6 +13660,13 @@ arches:
     name: python3-portend
     evr: 3.1.0-2.el9cp
     sourcerpm: python-portend-3.1.0-2.el9cp.src.rpm
+  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-protobuf-3.14.0-14.el9.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
+    size: 278081
+    checksum: sha256:d57b6f29deda527851d8847f2a260f87ac56bccd2e0a3ea89206b1cd0036887b
+    name: python3-protobuf
+    evr: 3.14.0-14.el9
+    sourcerpm: protobuf-3.14.0-14.el9.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-pyOpenSSL-21.0.0-5.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 93024
@@ -13877,20 +13674,6 @@ arches:
     name: python3-pyOpenSSL
     evr: 21.0.0-5.el9cp
     sourcerpm: pyOpenSSL-21.0.0-5.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-rados-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 423121
-    checksum: sha256:1b0ca9cb82fe968ceacb715e5c2625a397f93c5c3568888be406328334cc9920
-    name: python3-rados
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-rbd-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 425837
-    checksum: sha256:3931e49f05b0e1be6921fb645be9952a8b3d8c2252c671991867817cc361a7a4
-    name: python3-rbd
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-repoze-lru-0.7-12.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 32826
@@ -13898,13 +13681,6 @@ arches:
     name: python3-repoze-lru
     evr: 0.7-12.el9cp
     sourcerpm: python-repoze-lru-0.7-12.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-rgw-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 199653
-    checksum: sha256:55de6d4e46f5c17d9e657375511ff8769dda98db3777461641a6ee3c4f47ac9e
-    name: python3-rgw
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/p/python3-routes-2.5.1-1.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 193614
@@ -13968,13 +13744,6 @@ arches:
     name: python3-zc-lockfile
     evr: 2.0-8.el9cp
     sourcerpm: python-zc-lockfile-2.0-8.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/r/rbd-mirror-20.1.0-144.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 3454517
-    checksum: sha256:58376d208ffad73968d15dc552829a6efbc3d244ec71e024fc1e9ac3ab28ec2c
-    name: rbd-mirror
-    evr: 2:20.1.0-144.el9cp
-    sourcerpm: ceph-20.1.0-144.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4565073/compose/Temporary/x86_64/os/Packages/r/re2-20211101-4.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 196476
@@ -13989,6 +13758,272 @@ arches:
     name: thrift
     evr: 0.15.0-3.el9cp
     sourcerpm: thrift-0.15.0-3.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-base-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 6293489
+    checksum: sha256:94cac401100f63d58be7214d033ec2ed4052679b7f4e78397b5b82d9b74f2bba
+    name: ceph-base
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-common-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 25313921
+    checksum: sha256:80332336a6d7a571bdf921c4e5f6ddd9578b9cef6d08f0d7e9d07a299ed2743f
+    name: ceph-common
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-exporter-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 589441
+    checksum: sha256:f1c4c713821a7c1a5af89b8ca16b93cf27cee8e978aeea345a5a6fcc4e98ec67
+    name: ceph-exporter
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-grafana-dashboards-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 146009
+    checksum: sha256:fa3837f6dc54df9463441ae3a0304c6e7186a37dad56428019973247ad551b20
+    name: ceph-grafana-dashboards
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-immutable-object-cache-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 259389
+    checksum: sha256:ee059520c2e6b2eb271f5bd3e9cdfd876a2b80436a1f6542bb2292f22267545c
+    name: ceph-immutable-object-cache
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mds-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 2572137
+    checksum: sha256:7f8c11e757cd6866da3b40bd7b24b1188f7abd4008b2441e27613f832e404dbf
+    name: ceph-mds
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 1087593
+    checksum: sha256:17d2b7f6af075f501ab880186bae30c4945e5a4f211205c829cb45d06cf5580c
+    name: ceph-mgr
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-cephadm-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 300893
+    checksum: sha256:0f6f2774be8a32304df710d1421dc4aa3b321dfa3aab94502388f2060ba8c337
+    name: ceph-mgr-cephadm
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-dashboard-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 19122809
+    checksum: sha256:7a853f30968b9696418602641ce6674dd8646ed50f8d5f937414c3976a46d648
+    name: ceph-mgr-dashboard
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-diskprediction-local-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 7845325
+    checksum: sha256:3dd1175bcf24056b7c9ae4700f973790f3d8e58a968921f10ccb14e1465889b6
+    name: ceph-mgr-diskprediction-local
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-k8sevents-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 124393
+    checksum: sha256:38439ff1309eb0bc0cda97f9d41ec0f82d79766449563694ee72c0baa01ebbdb
+    name: ceph-mgr-k8sevents
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-modules-core-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 413845
+    checksum: sha256:7ab0bf92734ab443a52a905b05a3b36d9e90be738687c399fa2f4ce3c367e9d8
+    name: ceph-mgr-modules-core
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mgr-rook-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 153069
+    checksum: sha256:4da12c1d43c663f5b1696d75bcc68f3c51e320253db34486ea4cf7f7600f5d91
+    name: ceph-mgr-rook
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-mon-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 5369861
+    checksum: sha256:c5966c72f8501932a784e4d2bd2c880fb1fd0fb78f8141f2932e3d3cb955aa58
+    name: ceph-mon
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-node-proxy-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 145177
+    checksum: sha256:8e56ce33158ecab6343c885290f98f930981de98d2f985537b69b57eb1ec35f4
+    name: ceph-node-proxy
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-osd-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 17899849
+    checksum: sha256:a267488cff1dc824333d9ad94f479aae990719a16440256dcac8236440bcb215
+    name: ceph-osd
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-prometheus-alerts-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 119533
+    checksum: sha256:66bc0ba2741b62cf9c8927a62e08dc877c13cf4c6da9c39817d420bc28ff169e
+    name: ceph-prometheus-alerts
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-radosgw-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 25150389
+    checksum: sha256:71cf4e854a3d335239e9cb91e22f42f88b89c255ad6b42756fed7d3d6f8be960
+    name: ceph-radosgw
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-selinux-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 127513
+    checksum: sha256:bc0290e8856d6f1b84955738e70858fecaf9438a50545189c767bbd2d33f03fb
+    name: ceph-selinux
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-volume-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 405801
+    checksum: sha256:999c1faab9c47a1af1f83e3b911f879cb6aa5ca3d58a8217156e784ff94a43c3
+    name: ceph-volume
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/cephadm-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 1185105
+    checksum: sha256:4868ff4a4e7946806b79ca53b4a34d34c7da4dd3752089902773eca6af0d9ca6
+    name: cephadm
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/cephfs-mirror-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 357309
+    checksum: sha256:b8650d54f5270348091c20f20ef187b45ec7efe25cce51ace10813c9f6c6f1e5
+    name: cephfs-mirror
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/cephfs-top-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 120485
+    checksum: sha256:e8806de1e7c79d3897033c0019880c992d3958517d6cbd233df161fa7f06e843
+    name: cephfs-top
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/libcephfs-daemon-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 139113
+    checksum: sha256:f2f3d351c51f334e3236090c5f2b2106052a3dd0d9496b3b4b990c5b12d62d2b
+    name: libcephfs-daemon
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/libcephfs-proxy2-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 126969
+    checksum: sha256:18499872508a60195b8a0dfb1561f8caeb449a00ceac129cf14013335baa99d7
+    name: libcephfs-proxy2
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/libcephfs2-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 1041277
+    checksum: sha256:d53a1b00254fa858be6c7a8e39eeddbb1fffc4934e8b91d0e154fbb0eed9aba1
+    name: libcephfs2
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/libcephsqlite-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 269801
+    checksum: sha256:78b71863f6266b23de396e9d58c41fdd82d7551d2bb05c161a1c97ce8587d10b
+    name: libcephsqlite
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/librados2-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 3800717
+    checksum: sha256:4b67896f1e2d12db0120071ed96d1c1a08cb882fd6a361624e1745fdb80b57a9
+    name: librados2
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/libradosstriper1-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 357877
+    checksum: sha256:3d3c1ad414c574a9f0cca1bc6dbcf0f7946ec79a243d84d0fd8462ac1d7d15a3
+    name: libradosstriper1
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/librbd1-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 3247821
+    checksum: sha256:13093d82d72570c559b861629ece86c6fc86014050a526340b985a413669bb04
+    name: librbd1
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/librgw2-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 6843173
+    checksum: sha256:26af571edb89087e97c59085784eca956dac7442cefe634ef34a678166a0e056
+    name: librgw2
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/python3-ceph-argparse-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 148085
+    checksum: sha256:088e6bf0671b1542f5fa1fd39241dca096be7e28b227e08d4cadc6dfabdec179
+    name: python3-ceph-argparse
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/python3-ceph-common-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 294745
+    checksum: sha256:fbf310beecf10a82e93cd31cd66f747fb7b5f67e0e556fdfbd968666baa7c250
+    name: python3-ceph-common
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/python3-cephfs-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 270033
+    checksum: sha256:afb94d150dab57b8fb80e58df62d57ddcba6ddfc45370871c82ef50187e845ef
+    name: python3-cephfs
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/python3-rados-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 425953
+    checksum: sha256:8be1f9ed02a50e4c0ee37457f071c5c69422125d7ad833d63f05f904f16d04eb
+    name: python3-rados
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/python3-rbd-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 429637
+    checksum: sha256:92b9db718c8d42e9c43b467d326c8d033afd2b83aeb4010733364aa852e33467
+    name: python3-rbd
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/python3-rgw-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 203449
+    checksum: sha256:14a971f3449e9d50c86ccc50ea818ae9cc6e0b26b399c1f0002c5626b9c50c98
+    name: python3-rgw
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/rbd-mirror-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 3458073
+    checksum: sha256:4c6771830076f2e0997144f2d1c9d26f8081c936fc50886a02a8b98a44a6b017
+    name: rbd-mirror
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
+    sourcerpm: ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/a/aardvark-dns-1.16.0-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 894557
@@ -14311,13 +14346,13 @@ arches:
     name: pixman
     evr: 0.40.0-6.el9_3
     sourcerpm: pixman-0.40.0-6.el9_3.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/podman-5.6.0-11.el9_7.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/podman-5.6.0-12.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 16795730
-    checksum: sha256:a709f26a5fba7c21feef808c5a5688fdd4f88efdd941f5af1822d79d73ff856a
+    size: 16806008
+    checksum: sha256:f3b70e252c62dd0269672a0dc73e75b4d3a6c492042ccb61ffaf0cf011bc9eb9
     name: podman
-    evr: 6:5.6.0-11.el9_7
-    sourcerpm: podman-5.6.0-11.el9_7.src.rpm
+    evr: 6:5.6.0-12.el9_7
+    sourcerpm: podman-5.6.0-12.el9_7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/policycoreutils-python-utils-3.6-3.el9.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 77697
@@ -14325,13 +14360,6 @@ arches:
     name: policycoreutils-python-utils
     evr: 3.6-3.el9
     sourcerpm: policycoreutils-3.6-3.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/protobuf-3.14.0-16.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 1057844
-    checksum: sha256:b1708ff32307536de8c9edcf530f7a057533566f3013297cf2239534b24a5ef6
-    name: protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.25-2.el9_7.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 9351
@@ -14493,13 +14521,6 @@ arches:
     name: python3-prettytable
     evr: 0.7.2-27.el9
     sourcerpm: python-prettytable-0.7.2-27.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python3-protobuf-3.14.0-16.el9.noarch.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 278230
-    checksum: sha256:56e3846506d8c0e80ecc87b02b5074ddd3855ae64189a1c1c83e97cf62e3af6c
-    name: python3-protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python3-pyasn1-0.4.8-6.el9.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 166660
@@ -16446,14 +16467,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-16.el9.x86_64.rpm
-    repoid: codeready-builder-for-rhel-9-x86_64-rpms
-    size: 887388
-    checksum: sha256:8aa92a0fd3e1ca535fc29fd0ebd67ae08f45b6b05ec77c9bd90919fe21bd8337
-    name: protobuf-compiler
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
   source:
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/7649/69887649/ceph-20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp.src.rpm
+    repoid: rhceph-test-build-rpms
+    size: 330580777
+    checksum: sha256:2bf0e9ade9fcc3a5086e1e40c2a26030743c892b9bac61cd3cd8007c6dfe94f0
+    name: ceph
+    evr: 2:20.1.0-144.0.TEST.ceph_9.0_rhel_patches_z1_STAGING.el9cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-1.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 10098049
@@ -16664,18 +16684,12 @@ arches:
     checksum: sha256:0bd62940984b88bfd5914463d948999e29665450e6850ad5c9c4fbc129f3c3d0
     name: pixman
     evr: 0.40.0-6.el9_3
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/p/podman-5.6.0-11.el9_7.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/p/podman-5.6.0-12.el9_7.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 23013197
-    checksum: sha256:d0b1c777f5a703c072d5d973d858955a8cdb259946250e5cf2ffd2dc15470335
+    size: 23047652
+    checksum: sha256:e2f5d4e1bfc5772ee0e5e32a8c55ab9ef6b1b24874b776bc9d14e5985777a0a7
     name: podman
-    evr: 6:5.6.0-11.el9_7
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-16.el9.src.rpm
-    repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 6493925
-    checksum: sha256:92744f56dedc08b7fd696b2d3f42576b777ae3ddcfb60fbb1f29086cf57eaf49
-    name: protobuf
-    evr: 3.14.0-16.el9
+    evr: 6:5.6.0-12.el9_7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/p/pycairo-1.20.1-1.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 356653
