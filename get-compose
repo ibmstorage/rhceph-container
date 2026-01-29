@@ -1,9 +1,1 @@
-podman run -it quay.io/redhat-appstudio/tools@sha256:89258fa69543312e80180a2308bcb84ef86bb0bcab8f8caa704327fc7d4dd9c9 \
-    odcs \
-    --redhat \
-    --quiet \
-    create-tag \
-    --sigkey "none" \
-    --arch "x86_64 s390x ppc64le aarch64" \
-    ceph-9.0-rhel-9-candidate \
-    $(cat packages-ceph.txt)
+podman run -it quay.io/redhat-appstudio/tools@sha256:89258fa69543312e80180a2308bcb84ef86bb0bcab8f8caa704327fc7d4dd9c9 odcs --redhat create-build --arch "x86_64 ppc64le" --sigkey FD431D51 --sigkey F21541EB ceph-20.1.0-144.1.TEST.chasanODF.el9cp abseil-cpp-20211102.0-4.el9cp gperftools-2.9.1-5.el9cp grpc-1.46.7-2.el9cp libarrow-9.0.0-10.el9cp libntirpc-7.0-3.el9cp libunwind-1.6.2-2.el9cp nfs-ganesha-7.0-0.6.13.el9cp oath-toolkit-2.6.12-1.el9cp python-asyncssh-2.13.2-5.el9cp python-bcrypt-3.2.2-1.el9cp python-cachetools-4.2.4-1.el9cp python-certifi-2023.05.07-4.el9cp python-cheroot-10.0.1-4.el9cp python-cherrypy-18.6.1-1.el9cp python-google-auth-2.29.0-1.el9cp python-isodate-0.6.1-1 python-jaraco-packaging-8.2.1-3.el9cp python-jaraco-classes-3.2.1-4.el9cp python-jaraco-collections-3.0.0-7.el9cp python-jaraco-functools-3.5.0-2.el9cp python-jaraco-text-3.2.0-5.el9cp python-jwt-2.4.0-1.el9cp python-kubernetes-26.1.0-2.el9cp python-logutils-0.3.5-17.el9cp python-more-itertools-8.12.0-2.el9cp python-natsort-7.1.1-6.el9cp python-pecan-1.4.2-1.el9cp python-portend-3.1.0-2.el9cp pyOpenSSL-21.0.0-5.el9cp python-repoze-lru-0.7-12.el9cp python-routes-2.5.1-1.el9cp python-rsa-4.9-2.el9cp python3-saml-1.16.0-1.el9cp python-tempora-5.0.0-2.el9cp python-typing-extensions-4.4.0-2.el9cp python-webob-1.8.8-2.el9cp python-websocket-client-1.2.3-2.el9cp python-werkzeug-2.0.1-7.el9cp python-xmlsec-1.3.13-2.el9cp python-xmltodict-0.12.0-13.el9cp python-zc-lockfile-2.0-8.el9cp re2-20211101-4.el9cp thrift-0.15.0-3.el9cp
