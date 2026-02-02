@@ -10,6 +10,7 @@ CONTAINER_PULL=registry.access.redhat.com/ubi9:latest
 podman run --volume $(pwd):/tmp:Z \
 	-it --rm $CONTAINER_PULL sh -c \
 	"cd /tmp && \
+     echo 'insecure' > ~/.curlrc \
 	 dnf -y install python3-pip git && \
 	 pip3 install git+https://github.com/konflux-ci/rpm-lockfile-prototype && \
 	 rpm-lockfile-prototype rpms.in.yaml"
