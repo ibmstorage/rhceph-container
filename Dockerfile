@@ -30,10 +30,7 @@ LABEL GIT_CLEAN="True"
 LABEL CEPH_POINT_RELEASE=""
 
 # The CPE (Common Platform Enumeration) identifier for Ceph.
-LABEL cpe=cpe:/a:redhat:ceph_storage:9::el10
-
-# Add Creation date label
-LABEL org.opencontainers.image.created="${BUILD_DATE}"
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.0::el9
 
 ENV CEPH_VERSION tentacle
 ENV CEPH_POINT_RELEASE ""
@@ -62,7 +59,7 @@ LABEL version="9"
 
 # Build specific labels
 LABEL com.redhat.component="rhceph-container"
-LABEL name="rhceph"
+LABEL name=rhceph/rhceph-9-rhel9
 LABEL description="Red Hat Ceph Storage 9"
 LABEL summary="Provides the latest Red Hat Ceph Storage 9 on RHEL 9 in a fully featured and supported base image."
 LABEL io.k8s.display-name="Red Hat Ceph Storage 9 on RHEL 9"
