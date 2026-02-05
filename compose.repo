@@ -1,6 +1,6 @@
 [rhceph-9-tools-for-rhel-9-$basearch-rpms]
 name=rhceph-9-tools-for-rhel-9-rpms
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4579354/compose/Temporary/$basearch/os
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/$basearch/os
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -11,7 +11,7 @@ priority=2
 
 [rhceph-9-tools-for-rhel-9-$basearch-debug-rpms]
 name=rhceph-9-tools-for-rhel-9-debug-rpms
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4579354/compose/Temporary/$basearch/debug/tree
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/$basearch/debug/tree
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -22,7 +22,7 @@ priority=2
 
 [rhceph-9-tools-for-rhel-9-$basearch-source-rpms]
 name=rhceph-9-tools-for-rhel-9-srpms
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4579354/compose/Temporary/source/tree
+baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/source/tree
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -30,3 +30,11 @@ repo_gpgcheck=0
 enabled=0
 enabled_metadata=1
 priority=2
+
+[brew-task-repo-ceph-20.1.0-149.el9cp-scratch]
+name=Repo for Brew scratch build of ceph-20.1.0-149.el9cp
+enabled=1
+gpgcheck=0
+baseurl=https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/$basearch/
+module_hotfixes=1
+priority=3
