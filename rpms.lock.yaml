@@ -11,167 +11,6 @@ arches:
     name: abseil-cpp
     evr: 20211102.0-4.el9cp
     sourcerpm: abseil-cpp-20211102.0-4.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-base-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 5637333
-    checksum: sha256:3dc55e7abe7f9c97c0b7d3ad667fc05c6932a9edb30ad57860e8380656e65a31
-    name: ceph-base
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-common-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 22800141
-    checksum: sha256:74f649f495ab326988976af99e299cd5affa1aedd4b98ef629ea9a7b865967aa
-    name: ceph-common
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-exporter-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 582101
-    checksum: sha256:312c51a04182d84d5bab9db6082b3df8c9fdd9da317812628a37c62dbdf1bde8
-    name: ceph-exporter
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-grafana-dashboards-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 148125
-    checksum: sha256:31e99aec937c4201a083e410b0a3acadeaa5759ffb7092af7bd4205c1c3baf00
-    name: ceph-grafana-dashboards
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-immutable-object-cache-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 256745
-    checksum: sha256:7d6ad8a407798cccd47e5b160f7b10fab155d2ab76792fe88310c9315f5455ff
-    name: ceph-immutable-object-cache
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mds-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 2362101
-    checksum: sha256:9bfbbe8a6075dd40095c775b7242afd6f8c722571fd7f18dd492321e90baf2af
-    name: ceph-mds
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 1033737
-    checksum: sha256:e269cf3ae0efa5aaded55ddeb7126ce51120a7e748412e9572b8ac06f33978c2
-    name: ceph-mgr
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-cephadm-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 302913
-    checksum: sha256:06fb7f4533f9df197786b3cf8bcfb7dbbba9c0464892951c1d97dfdcbbfe7698
-    name: ceph-mgr-cephadm
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-dashboard-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 19124493
-    checksum: sha256:c7ae9e1cd30ebf781741ecb26006b15a1b9bb72118296db55bcae2799fdee789
-    name: ceph-mgr-dashboard
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-diskprediction-local-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 7872341
-    checksum: sha256:4c3939240fc0d127710b1a9f110c157c9366514ed293638a770476cceae8ef9e
-    name: ceph-mgr-diskprediction-local
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-k8sevents-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 126549
-    checksum: sha256:503eb106337c4681ac6621e559bb88b2d9df1a33b134e0e0982a78bcd7bca46f
-    name: ceph-mgr-k8sevents
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-modules-core-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 415833
-    checksum: sha256:d4f689c1ca3997a584521440d915ed4741c8416bd90abbe187d66aa41ac42ec7
-    name: ceph-mgr-modules-core
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mgr-rook-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 155261
-    checksum: sha256:7abdab1db188b3b413fb5cc2869fe2843862575a1c218ed1a81e89a06e3e196a
-    name: ceph-mgr-rook
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-mon-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 4822577
-    checksum: sha256:a33f19e2f94a51594eb017f92305b576a1b42b4dd5a3d6667dfd3fcf063b975d
-    name: ceph-mon
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-node-proxy-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 147377
-    checksum: sha256:a15dc748214fdb335342ea16e3d31ab406b820d15e8fab9803a856e7a8f0a791
-    name: ceph-node-proxy
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-osd-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 16795205
-    checksum: sha256:90bf41e1a31fc8435e15425526469b873e5249f1c8b92e1519877ab4cc9cbca7
-    name: ceph-osd
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-prometheus-alerts-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 121653
-    checksum: sha256:111134f5b91d5d455e5441c4b12bf4180be6bbacc07d5e5dc1048e66d4e61d67
-    name: ceph-prometheus-alerts
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-radosgw-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 22555341
-    checksum: sha256:e44820d785d2d42685c98f268e5065c1c712fd36cc2b20321e267aca97ecd861
-    name: ceph-radosgw
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-selinux-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 129569
-    checksum: sha256:de8cd90025e66419e34bec54aebc987401ff434f660381e5a15f8f4d78011a43
-    name: ceph-selinux
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/ceph-volume-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 407873
-    checksum: sha256:4b513a1ee242aa3313fe7b1e558643d164d380c9929655e38e1ae2ea1a2e01b2
-    name: ceph-volume
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/cephadm-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 1187177
-    checksum: sha256:e0f71ee9f0f3a3411d3f5995c9feb247f9278a189c6f1c83b52cb73dd2012f7c
-    name: cephadm
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/cephfs-mirror-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 340249
-    checksum: sha256:11b3574498223d2cc46617b0592abec9aa3d6aeade091d41a1522c0c3ed11bca
-    name: cephfs-mirror
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/c/cephfs-top-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 122677
-    checksum: sha256:9701462ffc82f80e348949f78b1946b4c082579e19bb82e502df16399611ffa0
-    name: cephfs-top
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/g/ganesha_monitoring-7.0-0.6.15.el9cp.ppc64le.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 64193
@@ -221,20 +60,6 @@ arches:
     name: libarrow-doc
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/libcephfs2-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 994541
-    checksum: sha256:934de78ad58f37caacc635a1b4dc9443ca6198d592bdcd0c411e387078006721
-    name: libcephfs2
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/libcephsqlite-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 265385
-    checksum: sha256:19ded73d2ac6b589f3b9b4cba5c166ac10f2e073abbd003e7e40f5017cd236a2
-    name: libcephsqlite
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/libntirpc-7.0-4.el9cp.ppc64le.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 178599
@@ -249,34 +74,6 @@ arches:
     name: liboath
     evr: 2.6.12-1.el9cp
     sourcerpm: oath-toolkit-2.6.12-1.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/librados2-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 3541745
-    checksum: sha256:a013a769d850e061da857872efb6e81141afeaba37af70905fc9ee09d5e9792a
-    name: librados2
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/libradosstriper1-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 347697
-    checksum: sha256:0687d34da51f0702d26621d9203dbe9d8d424a0ca7823938e94c829a3d5cb349
-    name: libradosstriper1
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/librbd1-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 2901629
-    checksum: sha256:56227df11bc1586248fb1a4975d8728050b520f93b0acedb2fcfee13b5e89de2
-    name: librbd1
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/l/librgw2-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 6155041
-    checksum: sha256:986bcbc809a7062061b5cf1f5bdbd403c084552e0e09a9e1107c8098576108dd
-    name: librgw2
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/n/nfs-ganesha-7.0-0.6.15.el9cp.ppc64le.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 933447
@@ -368,27 +165,6 @@ arches:
     name: python3-cachetools
     evr: 4.2.4-1.el9cp
     sourcerpm: python-cachetools-4.2.4-1.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-ceph-argparse-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 150069
-    checksum: sha256:13cd19c0ab7d4f18e8a085b68538abb431847a1f7dd6cf1198b7cb25a9ab8a42
-    name: python3-ceph-argparse
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-ceph-common-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 296685
-    checksum: sha256:1a32ea7b7d001a9c17776084fbb71a3e0d37cdc6c84c6ce5b6844ca236100984
-    name: python3-ceph-common
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-cephfs-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 264889
-    checksum: sha256:3bdbcc01981dc1f52a129ef0762df7dbbb13911e16c4ba915414c81caacfaaaa
-    name: python3-cephfs
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-certifi-2023.05.07-4.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 14435
@@ -522,20 +298,6 @@ arches:
     name: python3-pyOpenSSL
     evr: 21.0.0-5.el9cp
     sourcerpm: pyOpenSSL-21.0.0-5.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-rados-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 407809
-    checksum: sha256:3dd52ae8d9965e106af2e3deb30c2ac4a6f32472495e3b44337f7190b9014be7
-    name: python3-rados
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-rbd-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 412337
-    checksum: sha256:7d254c157539e05afcd31dab0ac59b754732f6b5be14c959533d6c0af67970ea
-    name: python3-rbd
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-repoze-lru-0.7-12.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 31722
@@ -543,13 +305,6 @@ arches:
     name: python3-repoze-lru
     evr: 0.7-12.el9cp
     sourcerpm: python-repoze-lru-0.7-12.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-rgw-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 204341
-    checksum: sha256:c00d9a78dadc951ac67f4f65324819f78e4c2b03abe71d445f8717a1c5e9e349
-    name: python3-rgw
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/p/python3-routes-2.5.1-1.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 192510
@@ -613,13 +368,6 @@ arches:
     name: python3-zc-lockfile
     evr: 2.0-8.el9cp
     sourcerpm: python-zc-lockfile-2.0-8.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/r/rbd-mirror-20.1.0-151.el9cp.ppc64le.rpm
-    repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
-    size: 3070713
-    checksum: sha256:0ea0063ac77d0aa336322dae982bb56950da9c8302cd0a39c0e3487d5da0ad16
-    name: rbd-mirror
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/ppc64le/os/Packages/r/re2-20211101-4.el9cp.ppc64le.rpm
     repoid: rhceph-9-tools-for-rhel-9-ppc64le-rpms
     size: 208241
@@ -634,6 +382,272 @@ arches:
     name: thrift
     evr: 0.15.0-3.el9cp
     sourcerpm: thrift-0.15.0-3.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-base-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 5436625
+    checksum: sha256:6d62b5694ecc6f3664a03289bb0f04d0c03e8fd969db332ea749ba135dd31bb0
+    name: ceph-base
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-common-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 22041129
+    checksum: sha256:487c477ce7581f2b97464bf15d74c4b8782f70d7d7e75659c5fe45cdb46c7c40
+    name: ceph-common
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-exporter-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 580813
+    checksum: sha256:b9c930d135bab283eda0da4e7f8b559166bb5d2426aee82f04ae0b042acde5ac
+    name: ceph-exporter
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-grafana-dashboards-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 147569
+    checksum: sha256:47815802ce2271b82e3ae6aa6e912853716fd9df7d97526c14f5dc5f44f84b4d
+    name: ceph-grafana-dashboards
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-immutable-object-cache-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 251921
+    checksum: sha256:71fb77c25473a39626d79715332737a5e4496e4ab6a7adf2d0cbfff591ef58c3
+    name: ceph-immutable-object-cache
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mds-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 2272765
+    checksum: sha256:c9a50606fdcd35cb91fd21497bad7da15d9d397890b1ae3e1b03d86f78216fa2
+    name: ceph-mds
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 998661
+    checksum: sha256:85047b6818961220dc81a5a89baa300a512840f0e980b5c92c50ca8893e4d2bb
+    name: ceph-mgr
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-cephadm-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 302361
+    checksum: sha256:765691fda886e869132d957d2cb28183aad18f41948caf44133ddc920818f596
+    name: ceph-mgr-cephadm
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-dashboard-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 19124693
+    checksum: sha256:ecd032eca671c0f49f87869e73a05e262343eefc9509dfe3ce450e9c2d10cea0
+    name: ceph-mgr-dashboard
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-diskprediction-local-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 7852385
+    checksum: sha256:639077385cf8934494e175962aebdd86597dc8fbf5ee219fccbb3e7ef8ccf53e
+    name: ceph-mgr-diskprediction-local
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-k8sevents-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 125985
+    checksum: sha256:5d9d79f8207a645f08e34abc4a9dfda057e3bc7a9c8a86cb9e606d9618f1828c
+    name: ceph-mgr-k8sevents
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-modules-core-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 415333
+    checksum: sha256:f1e7345306ae0c3868d7ac7afb58aebcce8b6cdb204087f6ebc6f29dae223e1a
+    name: ceph-mgr-modules-core
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mgr-rook-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 154689
+    checksum: sha256:9d98634ff470ed133d907489a96d1b179a5e16aedecfe3510b4bb2e9ca228c41
+    name: ceph-mgr-rook
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-mon-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 4641289
+    checksum: sha256:42ddc689f8e1cb05545879016ade2fff66fb36a15a38f608327a6c23be354edc
+    name: ceph-mon
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-node-proxy-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 146817
+    checksum: sha256:f578aee4aaae1373758e0221d0db965dc4453a17c1efa54b8d27becaf17a1836
+    name: ceph-node-proxy
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-osd-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 16315073
+    checksum: sha256:ce09b08f73fa21e92d7de4a111fe3b1878ff46c183ac2b834891d539e92298ad
+    name: ceph-osd
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-prometheus-alerts-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 121093
+    checksum: sha256:770e296ce64bd6349857f25930e0ff6831a04662894682674d74b5c88a4c7b1d
+    name: ceph-prometheus-alerts
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-radosgw-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 21922149
+    checksum: sha256:b086e08e1134eaef88f53cf03e057606d7fc36e4ba74e38d1a21513c45d90847
+    name: ceph-radosgw
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-selinux-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 128985
+    checksum: sha256:84d07747f38c5c0ba89f435b5e5db8685834725cf2331298af6d2ebe70891425
+    name: ceph-selinux
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-volume-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 407257
+    checksum: sha256:7551d3aebaf2206378151f50e73589116be5071440415102c187024144f435e0
+    name: ceph-volume
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/cephadm-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 1186709
+    checksum: sha256:543c3e2d0ed2712719e1577f0a25c0158c2a6765a5b7a8db371d5ed61e56c06d
+    name: cephadm
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/cephfs-mirror-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 324613
+    checksum: sha256:c671da8ed47259e54078460e723c8c8a83d6fefb851e9d3961fc24164bc322c5
+    name: cephfs-mirror
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/cephfs-top-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 122125
+    checksum: sha256:bdc8fb72cafe604257ed99c3095b105dc5e70c3afb05df08d4eb5cdd375989b1
+    name: cephfs-top
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/libcephfs-daemon-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 142037
+    checksum: sha256:fcacf7c5b8bd10cef43e6ba6066cf8edda7ed4263ea06d32881e2b4868da4078
+    name: libcephfs-daemon
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/libcephfs-proxy2-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 129709
+    checksum: sha256:a53fe2e1109436630a4db1c88a26b3586e7ab8429073d437af48253a06de03d2
+    name: libcephfs-proxy2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/libcephfs2-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 961821
+    checksum: sha256:2ba93f58f6ab136af57f8f477029642f0db84f45d2e7fbef0f48515018d0b6a6
+    name: libcephfs2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/libcephsqlite-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 257965
+    checksum: sha256:e6cb5bd272aef971c03f0cd1baff985b39ea450b9a47dee74e96094c9dbdf007
+    name: libcephsqlite
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/librados2-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 3430125
+    checksum: sha256:d629f3eb3d98a7f37c981aa0785d7ddb370cd0abac10d9af5a2b4c7c0dd74e60
+    name: librados2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/libradosstriper1-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 341277
+    checksum: sha256:a4714d9092f1a5be001e0f83b2cb31bcbcf748358b6adbdd989a6474adc011e6
+    name: libradosstriper1
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/librbd1-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 2812201
+    checksum: sha256:74c2aabf7a43ea76699dfad791fd48f9c7e83d602ded08372d4294c0b2489dbf
+    name: librbd1
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/librgw2-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 5996333
+    checksum: sha256:c41a9de9dee15f50d8d6f1a20a048090f6cbbf687d30625e1e1229af099e2d85
+    name: librgw2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/python3-ceph-argparse-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 149513
+    checksum: sha256:45fde1b5c0f0e46670f56786d55da32f81a0416a24315bd6402e25515537d80c
+    name: python3-ceph-argparse
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/python3-ceph-common-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 296173
+    checksum: sha256:d2ad1c5e6c8d001b944e8ad876bf838bc5c1d7143d0c15edaa6d55f26b426478
+    name: python3-ceph-common
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/python3-cephfs-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 266717
+    checksum: sha256:4bb664fa4508f0e8fb2ffa80370573b9087ce24b9560053e51da596072474fa2
+    name: python3-cephfs
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/python3-rados-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 405869
+    checksum: sha256:9c8f631d11f07a1eb2e7c2e6b1df6adce89c1d1306fb9ed61bf73692ab1c69a3
+    name: python3-rados
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/python3-rbd-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 413317
+    checksum: sha256:7e97428919401eba04e2869c9e7d8b9042fcad10a9ca7398faf51cf8ab7a79c1
+    name: python3-rbd
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/python3-rgw-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 204061
+    checksum: sha256:b57804bd22e5b7d8714140d779b756d6d88ce1c59d8ee8052d987403c4308ff9
+    name: python3-rgw
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/rbd-mirror-20.1.0-149.el9cp.ppc64le.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 2984305
+    checksum: sha256:5dcd810f99f9bc6f18545eba2dce2b9a333c99a37cba3a0e50892910e1d8bb02
+    name: rbd-mirror
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/a/aardvark-dns-1.16.0-1.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 1041344
@@ -3022,6 +3036,12 @@ arches:
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
   source:
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/ppc64le/ceph-20.1.0-149.el9cp.src.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 330667325
+    checksum: sha256:794db7d22b38ff31fbff088e1095e07679a3cc2cb06d4eed1161e057c9dc20e3
+    name: ceph
+    evr: 2:20.1.0-149.el9cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-1.el9.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
     size: 10098049
@@ -4478,167 +4498,6 @@ arches:
     name: abseil-cpp
     evr: 20211102.0-4.el9cp
     sourcerpm: abseil-cpp-20211102.0-4.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-base-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 6293445
-    checksum: sha256:754d0ba077a42dd63f1892d5befe6ae5bcab7e60bdd89a527e2051ee8358804a
-    name: ceph-base
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-common-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 25309917
-    checksum: sha256:4e99278583c263f88f88e63a88bad95d7ac9b33ad92471159321150cdc40d903
-    name: ceph-common
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-exporter-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 591037
-    checksum: sha256:2129785d38673ae569c86de448b8aeb0f4c28ae6594bdb7d635ade6daa050757
-    name: ceph-exporter
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-grafana-dashboards-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 148125
-    checksum: sha256:31e99aec937c4201a083e410b0a3acadeaa5759ffb7092af7bd4205c1c3baf00
-    name: ceph-grafana-dashboards
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-immutable-object-cache-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 261481
-    checksum: sha256:2bcb972f0f2e0b0682a03e6991dde19ccfbaa39fe05f694ccabc8041177c698c
-    name: ceph-immutable-object-cache
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mds-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 2575941
-    checksum: sha256:7adfe9f3d29da346c5ca5a8967adaa5fcc4d1de2ed3e0757701060e82ad62c1b
-    name: ceph-mds
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 1089693
-    checksum: sha256:cdd843b7880d913be0bc20ade69e063b211f8473f4dd3a5d252dcbe42c82941c
-    name: ceph-mgr
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-cephadm-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 302913
-    checksum: sha256:06fb7f4533f9df197786b3cf8bcfb7dbbba9c0464892951c1d97dfdcbbfe7698
-    name: ceph-mgr-cephadm
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-dashboard-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 19124493
-    checksum: sha256:c7ae9e1cd30ebf781741ecb26006b15a1b9bb72118296db55bcae2799fdee789
-    name: ceph-mgr-dashboard
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-diskprediction-local-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 7872341
-    checksum: sha256:4c3939240fc0d127710b1a9f110c157c9366514ed293638a770476cceae8ef9e
-    name: ceph-mgr-diskprediction-local
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-k8sevents-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 126549
-    checksum: sha256:503eb106337c4681ac6621e559bb88b2d9df1a33b134e0e0982a78bcd7bca46f
-    name: ceph-mgr-k8sevents
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-modules-core-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 415833
-    checksum: sha256:d4f689c1ca3997a584521440d915ed4741c8416bd90abbe187d66aa41ac42ec7
-    name: ceph-mgr-modules-core
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mgr-rook-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 155261
-    checksum: sha256:7abdab1db188b3b413fb5cc2869fe2843862575a1c218ed1a81e89a06e3e196a
-    name: ceph-mgr-rook
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-mon-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 5372953
-    checksum: sha256:645c4c13b187393128a6c5d150bf2c90e1c82b7977af506166779fa9d1f03309
-    name: ceph-mon
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-node-proxy-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 147377
-    checksum: sha256:a15dc748214fdb335342ea16e3d31ab406b820d15e8fab9803a856e7a8f0a791
-    name: ceph-node-proxy
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-osd-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 17905765
-    checksum: sha256:32ad6d8bb4789808c533d31ea13d6724db544bb301679514e86773d4f6929d71
-    name: ceph-osd
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-prometheus-alerts-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 121653
-    checksum: sha256:111134f5b91d5d455e5441c4b12bf4180be6bbacc07d5e5dc1048e66d4e61d67
-    name: ceph-prometheus-alerts
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-radosgw-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 25148477
-    checksum: sha256:7f29c28bb097b25ccc922108b3a7a29da5e97d5dfe2be14c3712f03e723b20dd
-    name: ceph-radosgw
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-selinux-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 129577
-    checksum: sha256:2fc061ca33ebd05d4a74386d08973900107cc815ed39dd1a0b5b2a90815cf617
-    name: ceph-selinux
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/ceph-volume-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 407873
-    checksum: sha256:4b513a1ee242aa3313fe7b1e558643d164d380c9929655e38e1ae2ea1a2e01b2
-    name: ceph-volume
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/cephadm-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 1187177
-    checksum: sha256:e0f71ee9f0f3a3411d3f5995c9feb247f9278a189c6f1c83b52cb73dd2012f7c
-    name: cephadm
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/cephfs-mirror-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 359645
-    checksum: sha256:1320d2a9a497ef8a83448772e97093bcfb1130727a0c7374ac63db2df21dc0b4
-    name: cephfs-mirror
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/c/cephfs-top-20.1.0-151.el9cp.noarch.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 122677
-    checksum: sha256:9701462ffc82f80e348949f78b1946b4c082579e19bb82e502df16399611ffa0
-    name: cephfs-top
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/g/ganesha_monitoring-7.0-0.6.15.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 63928
@@ -4688,20 +4547,6 @@ arches:
     name: libarrow-doc
     evr: 9.0.0-10.el9cp
     sourcerpm: libarrow-9.0.0-10.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/libcephfs2-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 1043125
-    checksum: sha256:cf234482d7edcb0d728f0fd55a7d9e98005551d4e5c8f1bd535ff59833e2891c
-    name: libcephfs2
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/libcephsqlite-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 271957
-    checksum: sha256:e18c1a19c1b92e9dae87316cf044974a209f34337a6cbf346a84ded4e1936ead
-    name: libcephsqlite
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/libntirpc-7.0-4.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 166033
@@ -4716,34 +4561,6 @@ arches:
     name: liboath
     evr: 2.6.12-1.el9cp
     sourcerpm: oath-toolkit-2.6.12-1.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/librados2-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 3806793
-    checksum: sha256:e37d807e61925d1bb58bd45eb2929c0de22a4354c5487d736cbd27f2a584e036
-    name: librados2
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/libradosstriper1-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 360069
-    checksum: sha256:02e2570e125cb2ef4803a2a46f6f5527183e0f8fee39eb5661c032322f985183
-    name: libradosstriper1
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/librbd1-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 3250537
-    checksum: sha256:4d8293eff4e0f5f40e585200f4aa4721ad1f3b08db96c0bf19b43f9c287a9f10
-    name: librbd1
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/librgw2-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 6842293
-    checksum: sha256:ed8c25c5fb6067c971403c8e963c27b853e546ae357c081da6017fb4f3784c13
-    name: librgw2
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/l/libunwind-1.6.2-2.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 68081
@@ -4842,27 +4659,6 @@ arches:
     name: python3-cachetools
     evr: 4.2.4-1.el9cp
     sourcerpm: python-cachetools-4.2.4-1.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-ceph-argparse-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 150077
-    checksum: sha256:61f94dc7b5e429c79fadab71acf3bd0f7288ec0e57af851d4fdd2eaf84d0b344
-    name: python3-ceph-argparse
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-ceph-common-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 296705
-    checksum: sha256:fb427c9358f3f34455108114195e83a2aea6ad8f4c61f91cb71811bfbf40fb3f
-    name: python3-ceph-common
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-cephfs-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 272149
-    checksum: sha256:6f5fffc3f5fd5871f803100abf5011eae6a35e1c90c3bc98bb23a4cb84155649
-    name: python3-cephfs
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-certifi-2023.05.07-4.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 14435
@@ -4996,20 +4792,6 @@ arches:
     name: python3-pyOpenSSL
     evr: 21.0.0-5.el9cp
     sourcerpm: pyOpenSSL-21.0.0-5.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-rados-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 428329
-    checksum: sha256:b354cd25f83c2a2f1c55f254322654c12ed15a8cb96dbdc4ec127a2e5de9a3a5
-    name: python3-rados
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-rbd-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 430257
-    checksum: sha256:174873a20c1b86a37380befabf1cd5ce7245496ff49d56a9c19e589a15afde78
-    name: python3-rbd
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-repoze-lru-0.7-12.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 31722
@@ -5017,13 +4799,6 @@ arches:
     name: python3-repoze-lru
     evr: 0.7-12.el9cp
     sourcerpm: python-repoze-lru-0.7-12.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-rgw-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 205293
-    checksum: sha256:c539c8542c4d0ad30f05c7231341b1ad72a63d615ec6de902c3e435c507c5235
-    name: python3-rgw
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/p/python3-routes-2.5.1-1.el9cp.noarch.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 192510
@@ -5087,13 +4862,6 @@ arches:
     name: python3-zc-lockfile
     evr: 2.0-8.el9cp
     sourcerpm: python-zc-lockfile-2.0-8.el9cp.src.rpm
-  - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/r/rbd-mirror-20.1.0-151.el9cp.x86_64.rpm
-    repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    size: 3466021
-    checksum: sha256:b87571d0e25201d602443657128f44288d9cbaaed9e877c90ce272924ed539a0
-    name: rbd-mirror
-    evr: 2:20.1.0-151.el9cp
-    sourcerpm: ceph-20.1.0-151.el9cp.src.rpm
   - url: http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4581862/compose/Temporary/x86_64/os/Packages/r/re2-20211101-4.el9cp.x86_64.rpm
     repoid: rhceph-9-tools-for-rhel-9-x86_64-rpms
     size: 195356
@@ -5108,6 +4876,272 @@ arches:
     name: thrift
     evr: 0.15.0-3.el9cp
     sourcerpm: thrift-0.15.0-3.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-base-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 6292265
+    checksum: sha256:2c21cc0be5ba616fba66f40cf2f90112ca896444cb3dc9aaad74ba0527c4540d
+    name: ceph-base
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-common-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 25305493
+    checksum: sha256:bfc6b5f9fb18485f19c6fe931bbbb87082c6dbd11626a3626c65bb309b5de460
+    name: ceph-common
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-exporter-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 591425
+    checksum: sha256:c0eff3f6936af20dc36c347683b1e62c2261a4a79a15028f1e540a47366e2042
+    name: ceph-exporter
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-grafana-dashboards-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 147569
+    checksum: sha256:47815802ce2271b82e3ae6aa6e912853716fd9df7d97526c14f5dc5f44f84b4d
+    name: ceph-grafana-dashboards
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-immutable-object-cache-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 260913
+    checksum: sha256:861405d9eed1803c7bee125ae6480a662b4237464d2a9cc94c472a5dd99afaf6
+    name: ceph-immutable-object-cache
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mds-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 2576633
+    checksum: sha256:b84809dc2f7a894e69366d5b4c1279bce1a741601dd448243a8deec03ff74bdf
+    name: ceph-mds
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 1089301
+    checksum: sha256:ba787924c283acc810a3b3f540dd12cff807d2ae9ccc2cda66f9f2c7c104de3e
+    name: ceph-mgr
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-cephadm-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 302361
+    checksum: sha256:765691fda886e869132d957d2cb28183aad18f41948caf44133ddc920818f596
+    name: ceph-mgr-cephadm
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-dashboard-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 19124693
+    checksum: sha256:ecd032eca671c0f49f87869e73a05e262343eefc9509dfe3ce450e9c2d10cea0
+    name: ceph-mgr-dashboard
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-diskprediction-local-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 7852385
+    checksum: sha256:639077385cf8934494e175962aebdd86597dc8fbf5ee219fccbb3e7ef8ccf53e
+    name: ceph-mgr-diskprediction-local
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-k8sevents-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 125985
+    checksum: sha256:5d9d79f8207a645f08e34abc4a9dfda057e3bc7a9c8a86cb9e606d9618f1828c
+    name: ceph-mgr-k8sevents
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-modules-core-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 415333
+    checksum: sha256:f1e7345306ae0c3868d7ac7afb58aebcce8b6cdb204087f6ebc6f29dae223e1a
+    name: ceph-mgr-modules-core
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mgr-rook-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 154689
+    checksum: sha256:9d98634ff470ed133d907489a96d1b179a5e16aedecfe3510b4bb2e9ca228c41
+    name: ceph-mgr-rook
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-mon-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 5372849
+    checksum: sha256:9f918ab2e386d36079ec42538d8d3b55d31fb9a41489bcc742461ad907d50d16
+    name: ceph-mon
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-node-proxy-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 146817
+    checksum: sha256:f578aee4aaae1373758e0221d0db965dc4453a17c1efa54b8d27becaf17a1836
+    name: ceph-node-proxy
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-osd-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 17909805
+    checksum: sha256:ea04cbbe34ea448dce75ac3042bf376b38a9a9c9cb8c9d90d5d85ae7e59cdf8e
+    name: ceph-osd
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-prometheus-alerts-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 121093
+    checksum: sha256:770e296ce64bd6349857f25930e0ff6831a04662894682674d74b5c88a4c7b1d
+    name: ceph-prometheus-alerts
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-radosgw-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 25150977
+    checksum: sha256:78d10abee54fbbfd25b3ea177a1615b4ef717220074bb8c757c042b117a2e048
+    name: ceph-radosgw
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-selinux-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 129021
+    checksum: sha256:7016e5f8617156ae6fda1337c9110992dcda8fa731ca5217f0c314a1718b99ca
+    name: ceph-selinux
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-volume-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 407257
+    checksum: sha256:7551d3aebaf2206378151f50e73589116be5071440415102c187024144f435e0
+    name: ceph-volume
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/cephadm-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 1186709
+    checksum: sha256:543c3e2d0ed2712719e1577f0a25c0158c2a6765a5b7a8db371d5ed61e56c06d
+    name: cephadm
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/cephfs-mirror-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 358601
+    checksum: sha256:778ffd8a5bdaf87dc7af92974fb682794405f0100808d727404bf7457d7676f5
+    name: cephfs-mirror
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/cephfs-top-20.1.0-149.el9cp.noarch.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 122125
+    checksum: sha256:bdc8fb72cafe604257ed99c3095b105dc5e70c3afb05df08d4eb5cdd375989b1
+    name: cephfs-top
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/libcephfs-daemon-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 140697
+    checksum: sha256:9276e920d9e3b90df7d93b573fad0678d202db7b5f53739b27a68f444e0f1275
+    name: libcephfs-daemon
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/libcephfs-proxy2-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 128469
+    checksum: sha256:e7a49a0700bbf92d9cb9f1759956791f43026256c98614eaa527b6341149c686
+    name: libcephfs-proxy2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/libcephfs2-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 1041809
+    checksum: sha256:328a5f54adc5ef6f21d2b7e0e7713d287d9f769bd5f3a82b5293bd70c92e226b
+    name: libcephfs2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/libcephsqlite-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 271373
+    checksum: sha256:815c6a4fc4ab23a0b7d9ecce83303f991935a11b022b8c729014f0fc3f6ad314
+    name: libcephsqlite
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/librados2-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 3806101
+    checksum: sha256:86ef6c487068814d20d8cd83acca514c9390a8cb80b6cf44ffb86f517dc22b3c
+    name: librados2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/libradosstriper1-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 359697
+    checksum: sha256:2ef4bca9487e1ff9ba860a9f34599f04fa0c7183ab7fee9289b14b0534c9a8e5
+    name: libradosstriper1
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/librbd1-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 3250101
+    checksum: sha256:b2c26620c03229d12d54786d5b061539e42495cac2fc6d912c5c877412006abe
+    name: librbd1
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/librgw2-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 6839309
+    checksum: sha256:952eeeac05e11d4c9a19dddd56b590f5a820553d91147e076e7e116ab7cc6d1b
+    name: librgw2
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/python3-ceph-argparse-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 149533
+    checksum: sha256:4137a2c14960bde53f629c2fb2bbb224a11d49f7bd9cc0a108e8c5cabde4e493
+    name: python3-ceph-argparse
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/python3-ceph-common-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 296165
+    checksum: sha256:c360118e5dc75b99a02f84fa4a27c497e8b0a8b3558d0f4125d66bd37dceb391
+    name: python3-ceph-common
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/python3-cephfs-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 271729
+    checksum: sha256:3dbcb86678bd3ae29515032d88a8403ba7e0e666db3f6de0675ef635949eff92
+    name: python3-cephfs
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/python3-rados-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 427861
+    checksum: sha256:a4efc08e5eb975c5abe1314334c7c3bd3670eb6cfe9f6f5982add65e148ff8b6
+    name: python3-rados
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/python3-rbd-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 429741
+    checksum: sha256:05703a20e6ae93703f03aba11e72eb089c45e2aa3f390dce4adf94483c8f874e
+    name: python3-rbd
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/python3-rgw-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 204961
+    checksum: sha256:ddaf8f541833301ee35f3ed295e1d49d766f83f3c4e797726922128a58e2d6aa
+    name: python3-rgw
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/rbd-mirror-20.1.0-149.el9cp.x86_64.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 3459357
+    checksum: sha256:d16d1c31288f3699afd76cd39662037a7eb3da01075e0e54f008f43148811b7b
+    name: rbd-mirror
+    evr: 2:20.1.0-149.el9cp
+    sourcerpm: ceph-20.1.0-149.el9cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/a/aardvark-dns-1.16.0-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 894557
@@ -7552,6 +7586,12 @@ arches:
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
   source:
+  - url: https://brew-task-repos.engineering.redhat.com/repos/scratch/jcaratza/ceph/20.1.0/149.el9cp/x86_64/ceph-20.1.0-149.el9cp.src.rpm
+    repoid: brew-task-repo-ceph-20.1.0-149.el9cp-scratch
+    size: 330667325
+    checksum: sha256:794db7d22b38ff31fbff088e1095e07679a3cc2cb06d4eed1161e057c9dc20e3
+    name: ceph
+    evr: 2:20.1.0-149.el9cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-1.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 10098049
