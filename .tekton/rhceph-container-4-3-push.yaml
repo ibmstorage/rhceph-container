@@ -7,13 +7,13 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "release-7.1"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "release-4.3"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: ceph-7-1
-    appstudio.openshift.io/component: rhceph-container-7-1
+    appstudio.openshift.io/application: ceph-4-3
+    appstudio.openshift.io/component: rhceph-container-4-3
     pipelines.appstudio.openshift.io/type: build
-  name: rhceph-container-7-1-on-push
+  name: rhceph-container-4-3-on-push
   namespace: ceph-tenant
 spec:
   timeouts:
@@ -25,7 +25,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/rhceph:v7.1-{{revision}}
+    value: quay.io/rhceph-ci/rhceph:v4.3-{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
@@ -580,7 +580,7 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ADDITIONAL_TAGS
         value:
-        - "v7.1"
+        - "v4.3"
         - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
@@ -644,7 +644,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-rhceph-container-7-1
+    serviceAccountName: build-pipeline-rhceph-container-4-3
   workspaces:
   - name: git-auth
     secret:
