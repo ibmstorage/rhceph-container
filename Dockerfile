@@ -28,6 +28,9 @@ LABEL GIT_CLEAN="True"
 # What CEPH_POINT_RELEASE has been used ?
 LABEL CEPH_POINT_RELEASE=""
 
+# The CPE (Common Platform Enumeration) identifier for Ceph.
+LABEL cpe=cpe:/a:redhat:ceph_storage:5.3::el8
+
 ENV CEPH_VERSION pacific
 ENV CEPH_POINT_RELEASE ""
 ENV CEPH_DEVEL false
@@ -50,7 +53,7 @@ LABEL version="5"
 
 # Build specific labels
 LABEL com.redhat.component="rhceph-container"
-LABEL name="rhceph"
+LABEL name=rhceph/rhceph-5-rhel8
 LABEL description="Red Hat Ceph Storage 5"
 LABEL summary="Provides the latest Red Hat Ceph Storage 5 on RHEL 8 in a fully featured and supported base image."
 LABEL io.k8s.display-name="Red Hat Ceph Storage 5 on RHEL 8"
