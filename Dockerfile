@@ -3,7 +3,7 @@
 FROM registry.redhat.io/ubi9/ubi-minimal:latest
 
 ENV I_AM_IN_A_CONTAINER 1
-ENV DOWNSTREAM_VERSION="9.0.0"
+ENV DOWNSTREAM_VERSION="9.1.0"
 
 # Who is the maintainer ?
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
@@ -12,7 +12,7 @@ LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL ceph="True"
 
 # What is the actual release ? If not defined, this equals the git branch name
-LABEL RELEASE="release-9.0"
+LABEL RELEASE="release-9.1"
 
 # What was the url of the git repository
 LABEL GIT_REPO="https://github.com/ibmstorage/rhceph-container.git"
