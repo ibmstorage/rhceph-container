@@ -59,8 +59,6 @@ LABEL summary="Provides the latest Red Hat Ceph Storage 5 on RHEL 8 in a fully f
 LABEL io.k8s.display-name="Red Hat Ceph Storage 5 on RHEL 8"
 LABEL io.openshift.tags="rhceph ceph"
 
-COPY packages.txt .
-
 # Escape char after immediately after RUN allows comment in first line
 RUN \
     # Install all components for the image, whether from packages or web downloads.
@@ -69,7 +67,38 @@ RUN \
     # Installs should support install of ganesha for luminous
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
 microdnf install -y --setopt=install_weak_deps=0 --nodocs wget unzip util-linux python3-saml python3-setuptools udev device-mapper \
-         $(cat packages.txt) \
+        ca-certificates \
+        e2fsprogs \
+        ceph-common  \
+        ceph-mon  \
+        ceph-osd \
+        ceph-mds \
+cephfs-mirror \
+        rbd-mirror  \
+        ceph-mgr \
+ceph-mgr-cephadm \
+ceph-mgr-dashboard \
+ceph-mgr-diskprediction-local \
+ceph-mgr-k8sevents \
+ceph-mgr-rook\
+        ceph-grafana-dashboards \
+        kmod \
+        lvm2 \
+        gdisk \
+        smartmontools \
+        nvme-cli \
+        libstoragemgmt \
+        systemd-udev \
+        sg3_utils \
+         \
+        ceph-radosgw libradosstriper1 \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client \
+        tcmu-runner ceph-iscsi \
+         \
+         \
+        ceph-immutable-object-cache \
+         \
+         \
          && \
 ln -s /usr/share/ceph/mgr/dashboard/frontend/dist-redhat /usr/share/ceph/mgr/dashboard/frontend/dist && \
     # Clean container, starting with record of current size (strip / from end)
@@ -80,7 +109,38 @@ ln -s /usr/share/ceph/mgr/dashboard/frontend/dist-redhat /usr/share/ceph/mgr/das
     echo 'Postinstall cleanup' && \
  ( microdnf clean all && \
    rpm -q \
-         $(cat packages.txt) \
+        ca-certificates \
+        e2fsprogs \
+        ceph-common  \
+        ceph-mon  \
+        ceph-osd \
+        ceph-mds \
+cephfs-mirror \
+        rbd-mirror  \
+        ceph-mgr \
+ceph-mgr-cephadm \
+ceph-mgr-dashboard \
+ceph-mgr-diskprediction-local \
+ceph-mgr-k8sevents \
+ceph-mgr-rook\
+        ceph-grafana-dashboards \
+        kmod \
+        lvm2 \
+        gdisk \
+        smartmontools \
+        nvme-cli \
+        libstoragemgmt \
+        systemd-udev \
+        sg3_utils \
+         \
+        ceph-radosgw libradosstriper1 \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client \
+        tcmu-runner ceph-iscsi \
+         \
+         \
+        ceph-immutable-object-cache \
+         \
+         \
          && \
    rm -f /etc/profile.d/lang.sh ) && \
     # Tweak some configuration files on the container system
@@ -104,7 +164,38 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     #
     # Verify that the packages installed haven't been accidentally cleaned
     rpm -q \
-         $(cat packages.txt) \
+        ca-certificates \
+        e2fsprogs \
+        ceph-common  \
+        ceph-mon  \
+        ceph-osd \
+        ceph-mds \
+cephfs-mirror \
+        rbd-mirror  \
+        ceph-mgr \
+ceph-mgr-cephadm \
+ceph-mgr-dashboard \
+ceph-mgr-diskprediction-local \
+ceph-mgr-k8sevents \
+ceph-mgr-rook\
+        ceph-grafana-dashboards \
+        kmod \
+        lvm2 \
+        gdisk \
+        smartmontools \
+        nvme-cli \
+        libstoragemgmt \
+        systemd-udev \
+        sg3_utils \
+         \
+        ceph-radosgw libradosstriper1 \
+        nfs-ganesha nfs-ganesha-ceph nfs-ganesha-rgw nfs-ganesha-rados-grace nfs-ganesha-rados-urls sssd-client \
+        tcmu-runner ceph-iscsi \
+         \
+         \
+        ceph-immutable-object-cache \
+         \
+         \
          && echo 'Packages verified successfully'
 #======================================================
 # Add ceph-container files
