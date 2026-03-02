@@ -7,6 +7,9 @@ context:
 
 arches:
   - x86_64
+  - ppc64le
+  - s390x
+  - aarch64
 
 # taken from install package list in Dockerfile
 packages:
