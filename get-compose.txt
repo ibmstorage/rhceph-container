@@ -3,6 +3,6 @@ podman run -it quay.io/redhat-appstudio/tools@sha256:89258fa69543312e80180a2308b
     --redhat \
     --quiet \
     create-tag \
-    --sigkey "none" \
+    --sigkey "fd431d51" \
     --arch "x86_64 s390x ppc64le" \
-    ceph-6.1-rhel-9-pending
+    ceph-6.1-rhel-9
