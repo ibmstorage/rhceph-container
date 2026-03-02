@@ -2748,20 +2748,20 @@ arches:
     name: sed
     evr: 4.5-5.el8
     sourcerpm: sed-4.5-5.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/s/selinux-policy-3.14.3-139.el8_10.1.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/s/selinux-policy-3.14.3-139.el8_10.2.noarch.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
-    size: 685712
-    checksum: sha256:9fa9ef9f606ef3a0d62bdf0fe98d9847fe511333f23bd791f1a6ad22ff62b2a1
+    size: 684816
+    checksum: sha256:0e23b593f31a8cfd1e8ce0dbaecf537bea0c258a2500e27e56a93fecc2e34e9e
     name: selinux-policy
-    evr: 3.14.3-139.el8_10.1
-    sourcerpm: selinux-policy-3.14.3-139.el8_10.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/s/selinux-policy-targeted-3.14.3-139.el8_10.1.noarch.rpm
+    evr: 3.14.3-139.el8_10.2
+    sourcerpm: selinux-policy-3.14.3-139.el8_10.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/s/selinux-policy-targeted-3.14.3-139.el8_10.2.noarch.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
-    size: 16155856
-    checksum: sha256:7289ba82da048c506f2e22053bda0229d4f8d85f7657ba20cdc0043cc8d8f372
+    size: 16154936
+    checksum: sha256:960706ca05d08cf21272dc7b2bf6e6f3c75f60fc34e34a6f876d1a858b33c7db
     name: selinux-policy-targeted
-    evr: 3.14.3-139.el8_10.1
-    sourcerpm: selinux-policy-3.14.3-139.el8_10.1.src.rpm
+    evr: 3.14.3-139.el8_10.2
+    sourcerpm: selinux-policy-3.14.3-139.el8_10.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/s/setup-2.12.2-9.el8.noarch.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
     size: 185300
@@ -2967,10 +2967,10 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/appstream/os/repodata/e604a87cb0b922fbdc6b2ce67ce67baf57edcfef5d160bcc301b8a0362a429b5-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/appstream/os/repodata/ea965cc779491864e56eab232e4674b9be130ae85ef9fb4ecd1600da3f679766-modules.yaml.gz
     repoid: rhel-8-for-ppc64le-appstream-rpms
     size: 763998
-    checksum: sha256:e604a87cb0b922fbdc6b2ce67ce67baf57edcfef5d160bcc301b8a0362a429b5
+    checksum: sha256:ea965cc779491864e56eab232e4674b9be130ae85ef9fb4ecd1600da3f679766
 - arch: s390x
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/layered/rhel8/s390x/rhceph-mon/5/os/Packages/c/ceph-mgr-16.2.10-275.el8cp.s390x.rpm
@@ -5913,20 +5913,20 @@ arches:
     name: sed
     evr: 4.5-5.el8
     sourcerpm: sed-4.5-5.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/s/selinux-policy-3.14.3-139.el8_10.1.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/s/selinux-policy-3.14.3-139.el8_10.2.noarch.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
-    size: 685712
-    checksum: sha256:9fa9ef9f606ef3a0d62bdf0fe98d9847fe511333f23bd791f1a6ad22ff62b2a1
+    size: 684816
+    checksum: sha256:0e23b593f31a8cfd1e8ce0dbaecf537bea0c258a2500e27e56a93fecc2e34e9e
     name: selinux-policy
-    evr: 3.14.3-139.el8_10.1
-    sourcerpm: selinux-policy-3.14.3-139.el8_10.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/s/selinux-policy-targeted-3.14.3-139.el8_10.1.noarch.rpm
+    evr: 3.14.3-139.el8_10.2
+    sourcerpm: selinux-policy-3.14.3-139.el8_10.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/s/selinux-policy-targeted-3.14.3-139.el8_10.2.noarch.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
-    size: 16155856
-    checksum: sha256:7289ba82da048c506f2e22053bda0229d4f8d85f7657ba20cdc0043cc8d8f372
+    size: 16154936
+    checksum: sha256:960706ca05d08cf21272dc7b2bf6e6f3c75f60fc34e34a6f876d1a858b33c7db
     name: selinux-policy-targeted
-    evr: 3.14.3-139.el8_10.1
-    sourcerpm: selinux-policy-3.14.3-139.el8_10.1.src.rpm
+    evr: 3.14.3-139.el8_10.2
+    sourcerpm: selinux-policy-3.14.3-139.el8_10.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/s/setup-2.12.2-9.el8.noarch.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
     size: 185300
@@ -6125,10 +6125,10 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/6cf606b34775347817ff4ee5b089119dc7b54dd23f78bc71dd8380a52bbbcfec-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/a574c8b91886c7935043403a833ca99fb3f1ecd77fa3b9931cef19174cdffeec-modules.yaml.gz
     repoid: rhel-8-for-s390x-appstream-rpms
     size: 765384
-    checksum: sha256:6cf606b34775347817ff4ee5b089119dc7b54dd23f78bc71dd8380a52bbbcfec
+    checksum: sha256:a574c8b91886c7935043403a833ca99fb3f1ecd77fa3b9931cef19174cdffeec
 - arch: x86_64
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/layered/rhel8/x86_64/rhceph-mon/5/os/Packages/c/ceph-mgr-16.2.10-275.el8cp.x86_64.rpm
@@ -8875,20 +8875,20 @@ arches:
     name: sed
     evr: 4.5-5.el8
     sourcerpm: sed-4.5-5.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/selinux-policy-3.14.3-139.el8_10.1.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/selinux-policy-3.14.3-139.el8_10.2.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 685712
-    checksum: sha256:9fa9ef9f606ef3a0d62bdf0fe98d9847fe511333f23bd791f1a6ad22ff62b2a1
+    size: 684816
+    checksum: sha256:0e23b593f31a8cfd1e8ce0dbaecf537bea0c258a2500e27e56a93fecc2e34e9e
     name: selinux-policy
-    evr: 3.14.3-139.el8_10.1
-    sourcerpm: selinux-policy-3.14.3-139.el8_10.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/selinux-policy-targeted-3.14.3-139.el8_10.1.noarch.rpm
+    evr: 3.14.3-139.el8_10.2
+    sourcerpm: selinux-policy-3.14.3-139.el8_10.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/selinux-policy-targeted-3.14.3-139.el8_10.2.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 16155856
-    checksum: sha256:7289ba82da048c506f2e22053bda0229d4f8d85f7657ba20cdc0043cc8d8f372
+    size: 16154936
+    checksum: sha256:960706ca05d08cf21272dc7b2bf6e6f3c75f60fc34e34a6f876d1a858b33c7db
     name: selinux-policy-targeted
-    evr: 3.14.3-139.el8_10.1
-    sourcerpm: selinux-policy-3.14.3-139.el8_10.1.src.rpm
+    evr: 3.14.3-139.el8_10.2
+    sourcerpm: selinux-policy-3.14.3-139.el8_10.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/setup-2.12.2-9.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 185300
@@ -9094,7 +9094,7 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/a408b5c6836f71fc37260c25808c0e740fe752f47925689d6734a7dc6c0e1989-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/47bb5a109d19de6739ecb7557c9c09b5480ef47076d389643ce21066ebecd599-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 791175
-    checksum: sha256:a408b5c6836f71fc37260c25808c0e740fe752f47925689d6734a7dc6c0e1989
+    checksum: sha256:47bb5a109d19de6739ecb7557c9c09b5480ef47076d389643ce21066ebecd599
