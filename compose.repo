@@ -1,6 +1,6 @@
 [rhceph-7-tools-for-rhel-9-$basearch-rpms]
 name=rhceph-7-tools-for-rhel-9-rpms
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4585674/compose/Temporary/$basearch/os
+baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-7.1-rhel-9-candidate/9053337/$basearch/
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -8,10 +8,11 @@ repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
 priority=2
+sslverify=0
 
 [rhceph-7-tools-for-rhel-9-$basearch-debug-rpms]
 name=rhceph-7-tools-for-rhel-9-debug-rpms
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4585674/compose/Temporary/$basearch/debug/tree
+baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-7.1-rhel-9-candidate/9053337/$basearch/debug/
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -19,10 +20,11 @@ repo_gpgcheck=0
 enabled=0
 enabled_metadata=1
 priority=2
+sslverify=0
 
 [rhceph-7-tools-for-rhel-9-$basearch-source-rpms]
 name=rhceph-7-tools-for-rhel-9-srpms
-baseurl=http://download-01.beak-001.prod.iad2.dc.redhat.com/odcs/prod/odcs-4585674/compose/Temporary/source/tree
+baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-7.1-rhel-9-candidate/9053337/src/
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -30,3 +32,4 @@ repo_gpgcheck=0
 enabled=0
 enabled_metadata=1
 priority=2
+sslverify=0
