@@ -3,7 +3,7 @@
 FROM registry.redhat.io/ubi9/ubi-minimal:latest
 
 ENV I_AM_IN_A_CONTAINER 1
-ENV DOWNSTREAM_VERSION="9.0.0"
+ENV DOWNSTREAM_VERSION="9.1.0"
 
 # Who is the maintainer ?
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
@@ -12,7 +12,7 @@ LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL ceph="True"
 
 # What is the actual release ? If not defined, this equals the git branch name
-LABEL RELEASE="release-9.0"
+LABEL RELEASE="release-9.1"
 
 # What was the url of the git repository
 LABEL GIT_REPO="https://github.com/ibmstorage/rhceph-container.git"
@@ -60,11 +60,11 @@ LABEL version="9"
 # Build specific labels
 LABEL com.redhat.component="rhceph-container"
 LABEL name=rhceph/rhceph-9-rhel9
-LABEL description="Red Hat Ceph Storage 9"
-LABEL summary="Provides the latest Red Hat Ceph Storage 9 on RHEL 9 in a fully featured and supported base image."
-LABEL io.k8s.display-name="Red Hat Ceph Storage 9 on RHEL 9"
+LABEL description="Red Hat Ceph Storage 9.1"
+LABEL summary="Provides the latest Red Hat Ceph Storage 9.1 on RHEL 9 in a fully featured and supported base image."
+LABEL io.k8s.display-name="Red Hat Ceph Storage 9.1 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
-LABEL io.k8s.description="Red Hat Ceph Storage 9"
+LABEL io.k8s.description="Red Hat Ceph Storage 9.1"
 
 COPY packages-*.txt .
 
@@ -118,4 +118,3 @@ find /var/log/ -type f -exec truncate -s 0 {} \; && \
     rpm -q \
         $(cat packages-ceph.txt) \
          && echo 'Packages verified successfully'
-
