@@ -78,7 +78,7 @@ RUN \
 microdnf install -y --setopt=install_weak_deps=0 --nodocs \
         $(cat packages-*.txt) \
          && \
-    echo '$DOWNSTREAM_VERSION' > /etc/ceph_version && \
+    echo "$DOWNSTREAM_VERSION" > /etc/ceph_version && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
     echo '@root - memlock 204800' >> /etc/security/limits.conf && \
     # Clean container, starting with record of current size (strip / from end)
