@@ -648,7 +648,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-rhceph-container-9-1
+    serviceAccountName: build-pipeline-rhceph-container-9-1-ubi10
   workspaces:
   - name: git-auth
     secret:
