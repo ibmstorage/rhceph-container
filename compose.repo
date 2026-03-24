@@ -1,6 +1,6 @@
-[rhceph-9.1-tools-for-rhel-10-x86_64-rpms]
-name=rhceph-9.1-tools-for-rhel-10-rpms
-baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/
+[rhceph-9-tools-for-rhel--$basearch-rpms]
+name=rhceph-9-tools-for-rhel--rpms
+baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9062933/$basearch/
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -10,9 +10,9 @@ enabled_metadata=1
 priority=2
 sslverify=0
 
-[rhceph-9.1-tools-for-rhel-10-x86_64-debug-rpms]
-name=rhceph-9.1-tools-for-rhel-10-debug-rpms
-baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/debug/
+[rhceph-9-tools-for-rhel--$basearch-debug-rpms]
+name=rhceph-9-tools-for-rhel--debug-rpms
+baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9062933/$basearch/debug/
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -22,9 +22,9 @@ enabled_metadata=1
 priority=2
 sslverify=0
 
-[rhceph-9.1-tools-for-rhel-10-x86_64-source-rpms]
-name=rhceph-9.1-tools-for-rhel-10-srpms
-baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/src/
+[rhceph-9-tools-for-rhel--$basearch-source-rpms]
+name=rhceph-9-tools-for-rhel--srpms
+baseurl=https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9062933/src/
 type=rpm-md
 skip_if_unavailable=False
 gpgcheck=0
@@ -34,5 +34,13 @@ enabled_metadata=1
 priority=2
 sslverify=0
 
-
-
+[rhceph-test-build-rpms]
+name=rhceph-test-build-rpms
+baseurl=https://brew-task-repos.engineering.redhat.com/repos/scratch/ceph-build/ceph/20.2.1/102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260324_01.el10cp/x86_64/
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+priority=1
