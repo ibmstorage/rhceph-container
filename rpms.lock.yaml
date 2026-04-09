@@ -4,678 +4,699 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/a/abseil-cpp-20240722.1-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/a/abseil-cpp-20240722.1-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 717892
     checksum: sha256:bdfec068f728412aaa56f503826f4515d1bc73862ed3d0a6bc4173817c3e6fa5
     name: abseil-cpp
     evr: 20240722.1-1.el10cp
     sourcerpm: abseil-cpp-20240722.1-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-base-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 6366669
-    checksum: sha256:a13d98a41b4c53d1f1bb9654ff3b646e47910b9c57a1f717883585619981833e
-    name: ceph-base
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-common-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 25462749
-    checksum: sha256:659fdf2f32cd61346f91ab614eae762b650272b647187a44a5df15496299f83e
-    name: ceph-common
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-exporter-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 589789
-    checksum: sha256:cd3437417494fdc9dd0dd82c10531270f6943b0100cde027e8dbb0849b2d2158
-    name: ceph-exporter
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-grafana-dashboards-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 127801
-    checksum: sha256:5c7da9ba0a2ac7f1e04112edff9239febc5ee9b332a7d543be2611820aa0af37
-    name: ceph-grafana-dashboards
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-immutable-object-cache-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 242925
-    checksum: sha256:1f379549f1c40c81867f8fb4decd9c008ded7ad2acdcd48cb5c1169ff9567aee
-    name: ceph-immutable-object-cache
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mds-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 2577553
-    checksum: sha256:c068ed682c0da6e90bb950551e74201f1e46921fde01dd17870e18bf86e492d6
-    name: ceph-mds
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 1094401
-    checksum: sha256:341d64dc140b8dc0f50a88265940f158ee5e7549a529ff58143443d9cf2cda3d
-    name: ceph-mgr
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-cephadm-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 260801
-    checksum: sha256:7fecdfc1bd83c8027ece485a621173db5daae115fae7aa08512e944a047b4bcf
-    name: ceph-mgr-cephadm
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-dashboard-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 11186609
-    checksum: sha256:603eea9ff9deded53c08409f3090fb274b9d61d5711aae8485623b8034933fe3
-    name: ceph-mgr-dashboard
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-diskprediction-local-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 7857465
-    checksum: sha256:341522d273780c688c5b5c702ca6ac25dbbac4ea66c25ce690650eace850f9bb
-    name: ceph-mgr-diskprediction-local
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-k8sevents-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 106261
-    checksum: sha256:607442a04545f29df900cdcd54bf00815865314efc98ecfc80e83f6e83871b03
-    name: ceph-mgr-k8sevents
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-modules-core-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 380313
-    checksum: sha256:5cb48b80741157a1f197464babae60e5b3974812d4f36c7f85a9479bfefe9c25
-    name: ceph-mgr-modules-core
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mgr-rook-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 134933
-    checksum: sha256:88a023b7db963338991e79c69fa1bf0a4cffefca547d9f44f06e1fcabe681f4e
-    name: ceph-mgr-rook
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-mon-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 5475725
-    checksum: sha256:31f1edc879a5c5ae2841866b62cce83c95849616b8c1269805059aa86fd252b2
-    name: ceph-mon
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-node-proxy-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 138521
-    checksum: sha256:82a93e63fba4e042c3cd1169748a89a8d9c7e0d639fbab6b509752201cc96b1c
-    name: ceph-node-proxy
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-osd-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 18279717
-    checksum: sha256:83ccc03aad3f013951a6c2151d97c0859810d5e07a57aeea27761b8a75701893
-    name: ceph-osd
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-prometheus-alerts-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 101409
-    checksum: sha256:d16633e87326e452d337d97cfc406cc2f796a96561d172194e0dfccd9a72f8b7
-    name: ceph-prometheus-alerts
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-radosgw-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 25520461
-    checksum: sha256:af34cf9182a0404747337a3f7020ef21e1b673c681937ce90cbfa0c505ddd0b7
-    name: ceph-radosgw
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-selinux-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 109233
-    checksum: sha256:257966bfb054c8c13cf6b8464bec54632d02b8bf70f4df0838b3165b9b5a1403
-    name: ceph-selinux
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/ceph-volume-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 463809
-    checksum: sha256:e6fe9af817497f59dacaeebcd0e9169a844d87abff841ecac0b783e6fd1f329e
-    name: ceph-volume
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/cephadm-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 1450313
-    checksum: sha256:d7e14aac7f490f533a2f471b94731e0b1c75bb9385696af4bfdcdf9056bc7449
-    name: cephadm
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/cephfs-mirror-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 344433
-    checksum: sha256:46cbc1cc46d63a5023b91bbfb64fd6ec547783b44774be4c1ccbfa0f3aff13f3
-    name: cephfs-mirror
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/c/cephfs-top-20.2.1-55.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 102361
-    checksum: sha256:4d4d267caafee9578012138d61acfcb4fef21da3b3592dfe96115ce4aad7ac5d
-    name: cephfs-top
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/g/ganesha_monitoring-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/g/ganesha_monitoring-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 67570
     checksum: sha256:8b9495b67a35df2046bac6def2b1f04363483abb2ca0f4d0adaf9eb76d89149b
     name: ganesha_monitoring
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/g/gdisk-1.0.9-10.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/g/gdisk-1.0.9-10.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 265645
     checksum: sha256:75e561e8c9090468a271a81e59bbb7e1f943462ca5069154a52f7e047d792c50
     name: gdisk
     evr: 1.0.9-10.el10cp
     sourcerpm: gdisk-1.0.9-10.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/g/gperftools-libs-2.9.1-5.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/g/gperftools-libs-2.9.1-5.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 319313
     checksum: sha256:ed2f0197d03352ce985d67870bb0d9111bdeca679f82b648d515729fdb657c93
     name: gperftools-libs
     evr: 2.9.1-5.el10cp
     sourcerpm: gperftools-2.9.1-5.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/g/grpc-1.48.4-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/g/grpc-1.48.4-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 2727108
     checksum: sha256:f2aacf3e47f65cbf0194afe66da9d7609d44576f91d766d8e78890727b216889
     name: grpc
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/g/grpc-cpp-1.48.4-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/g/grpc-cpp-1.48.4-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 748248
     checksum: sha256:45bd5937407972d832a18142291efd714e931c5fe41dce2213e13492f4d87cca
     name: grpc-cpp
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/g/grpc-data-1.48.4-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/g/grpc-data-1.48.4-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 16348
     checksum: sha256:607f20e8501da6a2f60cd849bb05820d48da222ddce7b35e6c45b51f5ddf4761
     name: grpc-data
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libarrow-15.0.2-3.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 5773202
-    checksum: sha256:13cf4aacfb9ad6d2981bf33be7141aa1e3aed653ce49a22519bc4289211ef844
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/libarrow-17.0.0-9.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 5952402
+    checksum: sha256:46b1ec3bda78b6cf331ed3d3963e0f34faacbb033d8a3d3b655983a9d89676ae
     name: libarrow
-    evr: 15.0.2-3.el10cp
-    sourcerpm: libarrow-15.0.2-3.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libarrow-doc-15.0.2-3.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 29166
-    checksum: sha256:ca63026d479d3518ac4c382c2131d18b3a2f0bc86875f455345fbfaf6f9665b7
+    evr: 17.0.0-9.el10cp
+    sourcerpm: libarrow-17.0.0-9.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/libarrow-doc-17.0.0-9.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 27181
+    checksum: sha256:3a7dd8f152e6f73c5cb19eef88efdb4136dbc563b27499cb24e5bcaaac72f9e1
     name: libarrow-doc
-    evr: 15.0.2-3.el10cp
-    sourcerpm: libarrow-15.0.2-3.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libcephfs-daemon-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 120377
-    checksum: sha256:18867795e243fc9e8cbdd14d4af90dfc284fe69d58338c99459dc992214e4617
-    name: libcephfs-daemon
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libcephfs-proxy2-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 108729
-    checksum: sha256:5acb9a15b34288bda79b4f73ea2f977062d4027961eed24e876d5c8b9269b81d
-    name: libcephfs-proxy2
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libcephfs2-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 999953
-    checksum: sha256:b6961b7495927d5d777150953b82b4b944435281c9a67388bf5b18c8c6b178b7
-    name: libcephfs2
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libcephsqlite-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 260541
-    checksum: sha256:b0f1e314a94e865a4e7c00b868d57d541bb5ca90203dfe2f716aad5700735dac
-    name: libcephsqlite
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libntirpc-7.0-5.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+    evr: 17.0.0-9.el10cp
+    sourcerpm: libarrow-17.0.0-9.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/libntirpc-7.0-5.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 171080
     checksum: sha256:3c8c3aa300e33d7612a862582f7a5b8094999ba4673061ed05ed3eb01095410e
     name: libntirpc
     evr: 7.0-5.el10cp
     sourcerpm: libntirpc-7.0-5.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/liboath-2.6.12-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/liboath-2.6.12-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 49512
     checksum: sha256:42d6d6605e1c5f0a1a744be338e462004b3218efdfc5b1407fad849db2c6f987
     name: liboath
     evr: 2.6.12-1.el10cp
     sourcerpm: oath-toolkit-2.6.12-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/liborc2-2.0.3-2.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/liborc2-2.0.3-2.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 528131
     checksum: sha256:9b9f05e54b52f06443423a9dae045d69ddb95f3ae786f5eeb13a732ffacb4580
     name: liborc2
     evr: 2.0.3-2.el10cp
     sourcerpm: liborc-2.0.3-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libpmem-2.1.0-3.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/libpmem-2.1.0-3.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 113733
     checksum: sha256:5a3bcde81b7c4045165aa492f67786350b0cbcaf94ccd238209a1cfdf8ddc827
     name: libpmem
     evr: 2.1.0-3.el10cp
     sourcerpm: nvml-2.1.0-3.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libpmemobj-2.1.0-3.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/libpmemobj-2.1.0-3.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 163873
     checksum: sha256:67537d71b3c28e503261001e15343984c5893af938de8e2049724a6976cf92c2
     name: libpmemobj
     evr: 2.1.0-3.el10cp
     sourcerpm: nvml-2.1.0-3.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/librados2-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 3850329
-    checksum: sha256:f4cafb45d68cf92a18b958ad015f4d50e0d94aef292b2ea582467121f25805a2
-    name: librados2
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libradosstriper1-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 344513
-    checksum: sha256:bc24cbdfca2fb435fc0faab974d16d18f49d712c716e39bdc5565d327167ae4b
-    name: libradosstriper1
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/librbd1-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 3097461
-    checksum: sha256:85448f89a3ddef082808563339d49b2fda01e1261ce829508e30d95d6eec5843
-    name: librbd1
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/librgw2-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 6931005
-    checksum: sha256:0477dcd0e3e7b932a7cded0c2fd083485f14ae4243657855c3e3a7201db1b397
-    name: librgw2
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/libunwind-1.8.0-4.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/libunwind-1.8.0-4.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 74482
     checksum: sha256:e8f9d769454465536cf145f6819835cc4c44bdaaf19efce91d4ee5becb5141c8
     name: libunwind
     evr: 1.8.0-4.el10cp
     sourcerpm: libunwind-1.8.0-4.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/l/lttng-ust-2.13.7-5.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/l/lttng-ust-2.13.7-5.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 330420
     checksum: sha256:88604f3b55db1a07c9d16b853135a73def3fdd398aa9456bf1344715b96ddbb0
     name: lttng-ust
     evr: 2.13.7-5.el10cp
     sourcerpm: lttng-ust-2.13.7-5.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 945729
     checksum: sha256:e977e1acd999fdef2773231ded3759fa0362f6143d38cc7b870078478041d06a
     name: nfs-ganesha
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-ceph-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-ceph-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 58468
     checksum: sha256:cf29185f8d27148426bcb688e3a6ba88367edb846f73eeada7066262c6a38520
     name: nfs-ganesha-ceph
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-rados-grace-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-rados-grace-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 50808
     checksum: sha256:999f4470972b4107cba81439f495716c60a18397932f27e3c030d393ab8bd87d
     name: nfs-ganesha-rados-grace
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-rados-urls-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-rados-urls-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 26556
     checksum: sha256:3a7a98145e46e5f0a027fd56a635c90f9f59d2052ebd24ecbbd48f8d39048ef4
     name: nfs-ganesha-rados-urls
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-rgw-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-rgw-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 39132
     checksum: sha256:2338e8766b4041d7b456eb6348594a57096c2c12630f0e35b716d324d91441c1
     name: nfs-ganesha-rgw
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-selinux-7.0-0.6.16.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-selinux-7.0-0.6.16.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 35279
     checksum: sha256:9e8e5c77061d54f3107b3f452ebea6c0554d584ba05d71ffce6504322435b98d
     name: nfs-ganesha-selinux
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/n/nfs-ganesha-utils-7.0-0.6.16.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/n/nfs-ganesha-utils-7.0-0.6.16.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 34579
     checksum: sha256:be080c9dc12ac4fe79f9a7d89e7036cdd73e0342bfd66b1ad6bbf50f669e43bb
     name: nfs-ganesha-utils
     evr: 7.0-0.6.16.el10cp
     sourcerpm: nfs-ganesha-7.0-0.6.16.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/parquet-libs-15.0.2-3.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 1046976
-    checksum: sha256:a0a4868bdb846ce508dbaefa7e8465f2cef6e4228f30f55693d29186e9d82587
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/parquet-libs-17.0.0-9.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 1042877
+    checksum: sha256:265fb9fa72044f63ca678cdd7ed3b616008fbad5184216e7fa4cf2105aee1014
     name: parquet-libs
-    evr: 15.0.2-3.el10cp
-    sourcerpm: libarrow-15.0.2-3.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-asyncssh-2.17.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+    evr: 17.0.0-9.el10cp
+    sourcerpm: libarrow-17.0.0-9.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/protobuf-3.19.6-12.el10.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 1062553
+    checksum: sha256:b5cf8d49e60ca44c7501ef698a042b9d7e3242e8743e1a34e00891c453dde431
+    name: protobuf
+    evr: 3.19.6-12.el10
+    sourcerpm: protobuf-3.19.6-12.el10.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/protobuf-compiler-3.19.6-12.el10.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 800461
+    checksum: sha256:dc0a6c1267de24e900b5421fa7cd28e5e89d10d6229b72b381e9a6fc1d373ed6
+    name: protobuf-compiler
+    evr: 3.19.6-12.el10
+    sourcerpm: protobuf-3.19.6-12.el10.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-asyncssh-2.17.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 774230
     checksum: sha256:e69f169d68da9f86f55314e3e6d6a413c70e2cd467bc20758ca8f2974eaa5f53
     name: python3-asyncssh
     evr: 2.17.0-1.el10cp
     sourcerpm: python-asyncssh-2.17.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-autocommand-2.2.2-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-autocommand-2.2.2-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 31503
     checksum: sha256:282ddd4dffba65c2d1d6a67f965027af8be7d98b154fedff195016b4d3357134
     name: python3-autocommand
     evr: 2.2.2-1.el10cp
     sourcerpm: python-autocommand-2.2.2-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-bcrypt-4.3.0-2.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-bcrypt-4.3.0-2.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 241870
     checksum: sha256:a778e211cf670efc9af83ff35180c21561b27ca108120470ba7b01cb8f580ca5
     name: python3-bcrypt
     evr: 4.3.0-2.el10cp
     sourcerpm: python-bcrypt-4.3.0-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-cachetools-5.4.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-cachetools-5.4.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 37655
     checksum: sha256:bcf06f38373ee42986ab149a200330f873b1fb045fa51ac207e1ac67f069543d
     name: python3-cachetools
     evr: 5.4.0-1.el10cp
     sourcerpm: python-cachetools-5.4.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-ceph-argparse-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 141825
-    checksum: sha256:4b2d8a6da940d80647b53a73d48216e122183e48cdacd4feb3a436a0f82514ad
-    name: python3-ceph-argparse
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-ceph-common-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 312889
-    checksum: sha256:1b6ecb4a8758bf8e739415c83575cbd71d7570ac7bae88d295d1a03eeec54a32
-    name: python3-ceph-common
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-cephfs-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 294257
-    checksum: sha256:de231c1292978f5100f70c94b4384063594c1e189966e0996d4901060fa63e20
-    name: python3-cephfs
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-certifi-2023.05.07-2.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-certifi-2023.05.07-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 14689
     checksum: sha256:6e8e711f31bfcef2452bc1498b23b3718b6600ab65fc32c698ecbcfa1fdc1a8c
     name: python3-certifi
     evr: 2023.05.07-2.el10cp
     sourcerpm: python-certifi-2023.05.07-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-cheroot-10.0.1-4.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-cheroot-10.0.1-4.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 220311
     checksum: sha256:0b338d6535da0c7a184056c5f19a70eb9f427df3a2adcb36378c071023e5762f
     name: python3-cheroot
     evr: 10.0.1-4.el10cp
     sourcerpm: python-cheroot-10.0.1-4.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-cherrypy-18.10.0-4.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-cherrypy-18.10.0-4.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 367392
     checksum: sha256:f966bfca3debec3f924c1d994f6987f2458139c8b9b7b7a9a08a7424493f8438
     name: python3-cherrypy
     evr: 18.10.0-4.el10cp
     sourcerpm: python-cherrypy-18.10.0-4.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-durationpy-0.9-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-durationpy-0.9-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 14950
     checksum: sha256:689eb0fd9a1dc6679eea991eb0d484be2b94cf110df7c248c05feaa865bbe3ec
     name: python3-durationpy
     evr: 0.9-1.el10cp
     sourcerpm: python-durationpy-0.9-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-google-auth-2.40.3-2.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-google-auth-2.40.3-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 291756
     checksum: sha256:485f44323450be0663350ac0365f6430cc56fc38cd154479483eb241e9a3501b
     name: python3-google-auth
     evr: 1:2.40.3-2.el10cp
     sourcerpm: python-google-auth-2.40.3-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-grpcio-1.48.4-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-grpcio-1.48.4-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 2412728
     checksum: sha256:23b62e809b5d993a239ba0f2d0813134fe2ff6cf10d7d9cc7313e46f864d0ee5
     name: python3-grpcio
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-grpcio-tools-1.48.4-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-grpcio-tools-1.48.4-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 155306
     checksum: sha256:1197bee1cccf69eda6bdd603a2e5d8dfffb4aee5c0b69af6b0deb9f416278a83
     name: python3-grpcio-tools
     evr: 1.48.4-1.el10cp
     sourcerpm: grpc-1.48.4-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-isodate-0.6.1-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-isodate-0.6.1-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 67040
     checksum: sha256:43669272d79946a2e31ef08ab3b45cf942c47af45a15e3a18650ab2a82d401f4
     name: python3-isodate
     evr: 0.6.1-1.el10cp
     sourcerpm: python-isodate-0.6.1-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-jaraco-collections-5.1.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-jaraco-collections-5.1.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 29640
     checksum: sha256:c386e46b0b212bbbec3febd4e9d2f21b93fec80239d8c0787188791784509b00
     name: python3-jaraco-collections
     evr: 5.1.0-1.el10cp
     sourcerpm: python-jaraco-collections-5.1.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-jaraco-context-6.0.1-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-jaraco-context-6.0.1-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 20811
     checksum: sha256:63833195e2ca3c27fe0b106db0089f8ebcc31104b962af190d0a003335e20601
     name: python3-jaraco-context
     evr: 6.0.1-1.el10cp
     sourcerpm: python-jaraco-context-6.0.1-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-jaraco-functools-4.0.2-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-jaraco-functools-4.0.2-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 23092
     checksum: sha256:907b635e9f4ef4ffcce8beeddd7ba196926e40cec5cc627e6f718274d19f3fd6
     name: python3-jaraco-functools
     evr: 4.0.2-1.el10cp
     sourcerpm: python-jaraco-functools-4.0.2-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-jaraco-text-4.0.0-3.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-jaraco-text-4.0.0-3.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 29640
     checksum: sha256:5e11879ea033339e0e4663827d22eafdc2dd27a35952d04bb094e9003696acb9
     name: python3-jaraco-text
     evr: 4.0.0-3.el10cp
     sourcerpm: python-jaraco-text-4.0.0-3.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-jwt+crypto-2.8.0-2.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-jwt+crypto-2.8.0-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 8997
     checksum: sha256:b060d0915422947c9a616f3b58a5854ed60d8a2fa7f08c90072214d624ddb046
     name: python3-jwt+crypto
     evr: 2.8.0-2.el10cp
     sourcerpm: python-jwt-2.8.0-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-jwt-2.8.0-2.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-jwt-2.8.0-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 60236
     checksum: sha256:cf2ec7c204eed3223ee67e00469a93601f8cee991baf2c73c66c7a7832987b82
     name: python3-jwt
     evr: 2.8.0-2.el10cp
     sourcerpm: python-jwt-2.8.0-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-kubernetes-32.0.1-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-kubernetes-32.0.1-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 1399949
     checksum: sha256:124d3814c4b4a0ab7d16d4bef32705e3d63d2869a2d0fd9bce89a584b714e449
     name: python3-kubernetes
     evr: 1:32.0.1-1.el10cp
     sourcerpm: python-kubernetes-32.0.1-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-more-itertools-10.1.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-more-itertools-10.1.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 102597
     checksum: sha256:4a1e662128c68934a1218297c5002799eeb6d6e59beb4fbd8f091b0d613e676e
     name: python3-more-itertools
     evr: 10.1.0-1.el10cp
     sourcerpm: python-more-itertools-10.1.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-natsort-8.4.0-2.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-natsort-8.4.0-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 73457
     checksum: sha256:56cca1e11c42839e0a64427374db15ce190186cd7bd84f3e05a311074590bbee
     name: python3-natsort
     evr: 8.4.0-2.el10cp
     sourcerpm: python-natsort-8.4.0-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-portend-3.2.0-6.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-portend-3.2.0-6.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 18128
     checksum: sha256:b1dcb07025c0f5c5b6c4180b083b843ebf1ad2c73d70a3f68f8f925e5ba858d5
     name: python3-portend
     evr: 3.2.0-6.el10cp
     sourcerpm: python-portend-3.2.0-6.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-pyOpenSSL-25.1.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-protobuf-3.19.6-12.el10.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 394952
+    checksum: sha256:824ee12880b289185afd1100a3a1be5a87d66a256cf29a2110ad43d77fd9937b
+    name: python3-protobuf
+    evr: 3.19.6-12.el10
+    sourcerpm: protobuf-3.19.6-12.el10.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-pyOpenSSL-25.1.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 115366
     checksum: sha256:09cd14342c1215f3b05bb0b8b7f5c673e5fa766ba3d8e0e7a2005cc7fac0991b
     name: python3-pyOpenSSL
     evr: 25.1.0-1.el10cp
     sourcerpm: pyOpenSSL-25.1.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-rados-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 441429
-    checksum: sha256:36d58b4e616540424b52d69c7611c453181e579825cc4861bcf3b899d6cc7cca
-    name: python3-rados
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-rbd-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 458889
-    checksum: sha256:6c0b1a92b194e3d981d6262ad86e6e669a3dc2266c6f67901b1fe4270c48a5e7
-    name: python3-rbd
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-repoze-lru-0.7-23.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-repoze-lru-0.7-23.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 36728
     checksum: sha256:748a228e1950ee554b89ebd2d24280d09ab59872c2639a8fdd64cc50460a7c8c
     name: python3-repoze-lru
     evr: 0.7-23.el10cp
     sourcerpm: python-repoze-lru-0.7-23.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-rgw-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 216157
-    checksum: sha256:df8088e1f275ea57bf27a1c4602a1f202025b465029370e11277f52b32e02a34
-    name: python3-rgw
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-routes-2.5.1-11.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-routes-2.5.1-11.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 206132
     checksum: sha256:4c621404ae75d7b1a286c28bdbd4bcb001a0dca301c2e25a95e5ca0e219720da
     name: python3-routes
     evr: 2.5.1-11.el10cp
     sourcerpm: python-routes-2.5.1-11.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-rsa-4.9-5.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-rsa-4.9-5.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 71258
     checksum: sha256:86c6dea98d7bc000070119f552bf0a7728f34c1941c5e364d4a3f3ca575dc2ce
     name: python3-rsa
     evr: 4.9-5.el10cp
     sourcerpm: python-rsa-4.9-5.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-saml-1.16.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-saml-1.16.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 153432
     checksum: sha256:7d9e2a017f5177994dd65ee8bd86221442215ebc173280c59b4df89b0c784679
     name: python3-saml
     evr: 1.16.0-1.el10cp
     sourcerpm: python3-saml-1.16.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-tempora-5.7.0-1.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-tempora-5.7.0-1.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 37037
     checksum: sha256:b6c4e499baf54cfc7ec3b5505f72d9c7219b6e89f3bc29f2db62cab3ce95f942
     name: python3-tempora
     evr: 5.7.0-1.el10cp
     sourcerpm: python-tempora-5.7.0-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-websocket-client-1.8.0-2.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-websocket-client-1.8.0-2.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 127423
     checksum: sha256:37919438e857eef16abd7d1cb854c2f9c4be305be45c3a09dbc7ff312924c751
     name: python3-websocket-client
     evr: 1.8.0-2.el10cp
     sourcerpm: python-websocket-client-1.8.0-2.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-xmlsec-1.3.16-1.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-xmlsec-1.3.16-1.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 49126
     checksum: sha256:6cc5e06dd60d7be5cd8e7472631bb1f13d2f70373855625986268896e8e652b4
     name: python3-xmlsec
     evr: 1.3.16-1.el10cp
     sourcerpm: python-xmlsec-1.3.16-1.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-xmltodict-0.13.0-5.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-xmltodict-0.13.0-5.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 26504
     checksum: sha256:8faaf17ed8e36077f4569e15f6fa6ffd37489ef33c8e32d025d977eaf19b588e
     name: python3-xmltodict
     evr: 0.13.0-5.el10cp
     sourcerpm: python-xmltodict-0.13.0-5.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/p/python3-zc-lockfile-3.0.post1-11.el10cp.noarch.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/p/python3-zc-lockfile-3.0.post1-11.el10cp.noarch.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 23270
     checksum: sha256:19c05f6e22f7ebae62eb72124d76900e5d4415ece5296e3d1e06d53bec18bc1e
     name: python3-zc-lockfile
     evr: 3.0.post1-11.el10cp
     sourcerpm: python-zc-lockfile-3.0.post1-11.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/r/rbd-mirror-20.2.1-55.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 3169893
-    checksum: sha256:813191ecdf69e2ebd72dd3aaf6741984e673fc69d2ee7a9fdbca716e46ef1add
-    name: rbd-mirror
-    evr: 2:20.2.1-55.el10cp
-    sourcerpm: ceph-20.2.1-55.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/r/re2-20211101-4.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/r/re2-20211101-4.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
     size: 206441
     checksum: sha256:97949dc1cf897243d6c426f36c266d5fb04daaec5fc0a9d23e6fa261cc20763c
     name: re2
     evr: 1:20211101-4.el10cp
     sourcerpm: re2-20211101-4.el10cp.src.rpm
-  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9053387/x86_64/Packages/t/thrift-0.20.0-4.el10cp.x86_64.rpm
-    repoid: rhceph-9.1-tools-for-rhel-10-x86_64-rpms
-    size: 1756224
-    checksum: sha256:779b0d7fd8f75a724cf3ed80b3284566dbfe1d3949dd5f10ce17d93c392678d1
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/repos-dist/ceph-9.1-rhel-10-candidate/9070211/x86_64/Packages/t/thrift-0.22.0-2.el10cp.x86_64.rpm
+    repoid: rhceph-9-tools-for-rhel-10-x86_64-rpms
+    size: 1703961
+    checksum: sha256:469e8262313324b0fb106a9a0c65e94908433136a81fa24e10d6728e46eeb9a2
     name: thrift
-    evr: 0.20.0-4.el10cp
-    sourcerpm: thrift-0.20.0-4.el10cp.src.rpm
+    evr: 0.22.0-2.el10cp
+    sourcerpm: thrift-0.22.0-2.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-base-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 6425217
+    checksum: sha256:39d3fa1af296a88e98462f860bb84fed94fcaac71559b23deb3014396c03c502
+    name: ceph-base
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-common-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 26040101
+    checksum: sha256:5422e972d6c43ea7c09bdf56e18b59d4586b1421b446031168ecb95f7ffc8d05
+    name: ceph-common
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-exporter-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 618677
+    checksum: sha256:62b58514a9cc3bbd8dab27be66440b810cf9fde03f42c2273064294c2d8f8395
+    name: ceph-exporter
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-grafana-dashboards-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 158109
+    checksum: sha256:a27ab494e99a1013df9aa2f22262f60280c08232dccb90fdd99b9622b5a894cc
+    name: ceph-grafana-dashboards
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-immutable-object-cache-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 272433
+    checksum: sha256:deee7095c7da5f532900a370504166d823046b2280f48c43b6434eae7e7dba71
+    name: ceph-immutable-object-cache
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mds-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 2630041
+    checksum: sha256:82235a7b0bd66339c923c6579516de2443ccdd1f3ef0b72866c0610076136d9a
+    name: ceph-mds
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 1146217
+    checksum: sha256:c248f90ae6147b9d336bb3030dffc77bf19a595138f5a0dfca379268984f59fa
+    name: ceph-mgr
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-cephadm-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 327909
+    checksum: sha256:4cc6b556adb8ad163a84ee289796ba512c549f67d86829b44e525902a6895f51
+    name: ceph-mgr-cephadm
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-dashboard-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 400133
+    checksum: sha256:3359a07e92cd10a679462252d7a668f4e89d09cd143f52ac84733059f1456efa
+    name: ceph-mgr-dashboard
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-diskprediction-local-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 7872181
+    checksum: sha256:452b1d6835bb83c535c093033e2ef7bb9462ac4d2d6358ea327dd28758717281
+    name: ceph-mgr-diskprediction-local
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-k8sevents-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 135357
+    checksum: sha256:a2f3e35baecc1fbd18a5350b90d35848c0a31f72f4b4fd1e169715ac7e27dd89
+    name: ceph-mgr-k8sevents
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-modules-core-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 435985
+    checksum: sha256:bffd18f699ef9090404e1fb0d5a8b12a5106d5fc5d2319cfc9a536a14fab117d
+    name: ceph-mgr-modules-core
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mgr-rook-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 164017
+    checksum: sha256:d2d4b8859b51615a636814a29f64c7eb79eae3a2bb1bd9f22bf488a73baf9bb1
+    name: ceph-mgr-rook
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-mon-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 5548565
+    checksum: sha256:69c1ac73b085c19acbd0614b8856eec94cff7b2013f461f29b99cc75ac0812e6
+    name: ceph-mon
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-node-proxy-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 184121
+    checksum: sha256:27052e6d3663f58eca95a323a258bcb751a142cc44c3a9952580077811879cad
+    name: ceph-node-proxy
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-osd-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 18340833
+    checksum: sha256:18d4f14c8d02c3c2ffc59173f7d320df322a755d1427d56d1bd3085df1656744
+    name: ceph-osd
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-prometheus-alerts-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 130445
+    checksum: sha256:2510b5cda75289c256b27f666af660a1b601a7bc0fd30ddfae6c7d0956ffda43
+    name: ceph-prometheus-alerts
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-radosgw-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 32619285
+    checksum: sha256:1959da4ecf2053a8236173763c9215a432af60977c233def7c9782d900ec3a9a
+    name: ceph-radosgw
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-selinux-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 138229
+    checksum: sha256:d1adfd1b64bcbd23c9b64b4036988a63d8a7981a19aff8355163ac0c2d01ab15
+    name: ceph-selinux
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-volume-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 497641
+    checksum: sha256:614ed85f8b23f2e3aba7911783a2c23d152135c7ffe0333e6d972e9fa98f09f3
+    name: ceph-volume
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/cephadm-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 1646945
+    checksum: sha256:27c21ffb62de499d4c22edf1ee41a6b5ba0171c072c62e37156945be95013b4f
+    name: cephadm
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/cephfs-mirror-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 389289
+    checksum: sha256:b50b5399c92c5d40da9716d3c595ae4533bde6dd75ccbf5aa5101aaf10204c7c
+    name: cephfs-mirror
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/cephfs-top-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.noarch.rpm
+    repoid: rhceph-test-build-rpms
+    size: 131193
+    checksum: sha256:35f97de35bfcc4499af7f661f7e65a20fc87ef4a24a469703af9db33e22128d6
+    name: cephfs-top
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/libcephfs-daemon-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 153005
+    checksum: sha256:692f5efe7393f866a0f6796982c950d1bd54cf3261af2c4d266e0ea290ba4fb9
+    name: libcephfs-daemon
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/libcephfs-proxy2-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 140037
+    checksum: sha256:8b16eab0f897c0bf10aea194a70b2a764235a7592f956939bbaa3c0e62363b37
+    name: libcephfs-proxy2
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/libcephfs2-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 1084113
+    checksum: sha256:18c3a88d91373f523d989a70a6e9b042bf4fa286217cf1010e55abe8e0b8c887
+    name: libcephfs2
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/libcephsqlite-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 289113
+    checksum: sha256:bd6fb4e6ed7264fa92c7ad824322923e0d3f23b2ca3e0fd6cb62192a4b0b199a
+    name: libcephsqlite
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/librados2-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 3895701
+    checksum: sha256:8a8476c238f47c38fe222f40c99696a94aff16a1ac5c24289f7618f12659f592
+    name: librados2
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/libradosstriper1-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 373381
+    checksum: sha256:77cbb4394bb2d8cf3afd06d40caa81ce84ca4968665368bc540dbd2f22e37d8f
+    name: libradosstriper1
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/librbd1-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 3350861
+    checksum: sha256:754675c8b962fce4c1283e31e4db0477a476f207334cfd5c4a8451bac20c75a0
+    name: librbd1
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/librgw2-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 7148461
+    checksum: sha256:2a288d302249dbfdf6cab19ed7c497ce26f9a70a8698bcb2c7e6a4664d9e7316
+    name: librgw2
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/python3-ceph-argparse-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 171041
+    checksum: sha256:5814128f6d1fa0a7a07f8fad1091b6e66868d6ab8cefbb80b44beb3e8bc85113
+    name: python3-ceph-argparse
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/python3-ceph-common-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 375957
+    checksum: sha256:f3364891738738b76a9ad67bb249dff1bc1974724ddd3647635ed17fb5b5b76b
+    name: python3-ceph-common
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/python3-cephfs-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 286101
+    checksum: sha256:f9085600c65e726739f2122104627a61848cfe8612c2d44ca26f21f2fd93e1ab
+    name: python3-cephfs
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/python3-rados-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 452325
+    checksum: sha256:cd870a01147e71d3453b356504237f00c99556ac6d6c15a83dd4b382122de317
+    name: python3-rados
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/python3-rbd-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 456757
+    checksum: sha256:18c0d7ae5621ce6f682ab8424fe0a2077941172ae38d21e8d475d0bd1a715d96
+    name: python3-rbd
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/python3-rgw-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 226065
+    checksum: sha256:7a8f0c231f12452579d9762725076a3d4b4be10b35b3036a8189c6c813a75fd2
+    name: python3-rgw
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/rbd-mirror-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.x86_64.rpm
+    repoid: rhceph-test-build-rpms
+    size: 3565369
+    checksum: sha256:bd2663ad035c02dcf04753e4f0e3756fbee07dbfcbd8c7dfc29848f458cca668
+    name: rbd-mirror
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
+    sourcerpm: ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/a/aardvark-dns-1.16.0-2.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 919630
@@ -725,13 +746,13 @@ arches:
     name: conmon
     evr: 3:2.1.13-1.el10
     sourcerpm: conmon-2.1.13-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/c/container-selinux-2.240.0-1.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/c/container-selinux-2.240.0-10.el10_1.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 59582
-    checksum: sha256:67980c92849725f6c59535026a2aae43dfc82422c164cf949e0b4de75bbd7f2a
+    size: 66804
+    checksum: sha256:f9fa19c2a931e7c590115dbb92af667435364fff31adea29e22fce964fd0be0d
     name: container-selinux
-    evr: 4:2.240.0-1.el10
-    sourcerpm: container-selinux-2.240.0-1.el10.src.rpm
+    evr: 4:2.240.0-10.el10_1
+    sourcerpm: container-selinux-2.240.0-10.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/c/containers-common-0.64.0-5.el10_1.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 161185
@@ -760,13 +781,13 @@ arches:
     name: criu-libs
     evr: 4.1-1.el10
     sourcerpm: criu-4.1-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/c/crun-1.23.1-1.el10_0.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/c/crun-1.27-1.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 266120
-    checksum: sha256:aaff41748b8283687c6abeb53bd90aee6547342c804dad4aea68d3cac6120ffd
+    size: 284552
+    checksum: sha256:8fd5fcc16e3200419a32d5f37348fecebeaa323a3580e475e8877977d4304ffd
     name: crun
-    evr: 1.23.1-1.el10_0
-    sourcerpm: crun-1.23.1-1.el10_0.src.rpm
+    evr: 1.27-1.el10_1
+    sourcerpm: crun-1.27-1.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/d/dbus-daemon-1.14.10-5.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 225486
@@ -977,20 +998,13 @@ arches:
     name: policycoreutils-python-utils
     evr: 3.9-1.el10
     sourcerpm: policycoreutils-3.9-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/protobuf-3.19.6-15.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python-unversioned-command-3.12.12-3.el10_1.2.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 1067867
-    checksum: sha256:767e6afe6dc5ee72ab46a0bca423e6a091111f8c4f2cbb0705952c6794cff454
-    name: protobuf
-    evr: 3.19.6-15.el10_1
-    sourcerpm: protobuf-3.19.6-15.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python-unversioned-command-3.12.12-3.el10_1.noarch.rpm
-    repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 17620
-    checksum: sha256:8c62a1b1e8edcb609e078ef214a236fe14fa1e38ecd200c60026852a6946f5ab
+    size: 17197
+    checksum: sha256:682149e093738b86a0aa4dd795d01adccd4f68eb13d526d5a2aeac64e45cdb44
     name: python-unversioned-command
-    evr: 3.12.12-3.el10_1
-    sourcerpm: python3.12-3.12.12-3.el10_1.src.rpm
+    evr: 3.12.12-3.el10_1.2
+    sourcerpm: python3.12-3.12.12-3.el10_1.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python3-audit-4.0.3-4.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 72521
@@ -1005,13 +1019,13 @@ arches:
     name: python3-cairo
     evr: 1.25.1-5.el10
     sourcerpm: pycairo-1.25.1-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python3-devel-3.12.12-3.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python3-devel-3.12.12-3.el10_1.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 344039
-    checksum: sha256:23ccad2551b3306b3a2f79e9267171d697c9c5fcfdfa12765fbcc12f5b594288
+    size: 343749
+    checksum: sha256:5a3fa6dbe96a24d8ed3a78689cca8c19228b8424564a0e97b098a1860b03dfd4
     name: python3-devel
-    evr: 3.12.12-3.el10_1
-    sourcerpm: python3.12-3.12.12-3.el10_1.src.rpm
+    evr: 3.12.12-3.el10_1.2
+    sourcerpm: python3.12-3.12.12-3.el10_1.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python3-distro-1.9.0-5.el10.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 53039
@@ -1131,13 +1145,6 @@ arches:
     name: python3-prettytable
     evr: 3.6.0-10.el10
     sourcerpm: python-prettytable-3.6.0-10.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python3-protobuf-3.19.6-15.el10_1.x86_64.rpm
-    repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 435511
-    checksum: sha256:bc4f8e3d7fcc56cf6c77c6c6c031f3281e4509f58aecf2e0422968ae4b1fbf2f
-    name: python3-protobuf
-    evr: 3.19.6-15.el10_1
-    sourcerpm: protobuf-3.19.6-15.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/p/python3-pyasn1-0.6.2-1.el10_1.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 209241
@@ -1810,13 +1817,13 @@ arches:
     name: libaio
     evr: 0.3.111-22.el10
     sourcerpm: libaio-0.3.111-22.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libarchive-3.7.7-4.el10_0.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libarchive-3.7.7-5.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 424336
-    checksum: sha256:b88b4f6568f39a987d8f9d58be953bea2fc03f674f9d25351d4def50f5e65852
+    size: 429743
+    checksum: sha256:b964e337639201714a79b9bd92270ac94c0d7844620ddce6df1a58c5c11b86a6
     name: libarchive
-    evr: 3.7.7-4.el10_0
-    sourcerpm: libarchive-3.7.7-4.el10_0.src.rpm
+    evr: 3.7.7-5.el10_1
+    sourcerpm: libarchive-3.7.7-5.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libassuan-2.5.6-6.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 73193
@@ -2027,13 +2034,13 @@ arches:
     name: libksba
     evr: 1.6.7-2.el10
     sourcerpm: libksba-1.6.7-2.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libldb-4.22.4-113.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libldb-4.22.4-119.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 196845
-    checksum: sha256:7d3104aeb15b3539f90a6ebd7ee78fcd9fce7bc8b7e436e5d612a6c5710e3e06
+    size: 196877
+    checksum: sha256:d2da171ba1a6e9f6fe81a5f09a85657f6dea685572f064d0360c2fb4cb0048eb
     name: libldb
-    evr: 4.22.4-113.el10_1
-    sourcerpm: samba-4.22.4-113.el10_1.src.rpm
+    evr: 4.22.4-119.el10_1
+    sourcerpm: samba-4.22.4-119.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libmnl-1.0.5-7.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 31980
@@ -2307,13 +2314,13 @@ arches:
     name: libverto-libev
     evr: 0.3.2-10.el10
     sourcerpm: libverto-0.3.2-10.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libwbclient-4.22.4-113.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libwbclient-4.22.4-119.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 50679
-    checksum: sha256:13a164a740eb89b80e135d036defb1a51330fffa1f4c7d26a961daad2dff3a34
+    size: 50998
+    checksum: sha256:da5f768c397435921b7a3f63c9f885f3221d552de494ae8c5dacfa2cd66af573
     name: libwbclient
-    evr: 4.22.4-113.el10_1
-    sourcerpm: samba-4.22.4-113.el10_1.src.rpm
+    evr: 4.22.4-119.el10_1
+    sourcerpm: samba-4.22.4-119.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/l/libxcrypt-4.4.36-10.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 127002
@@ -2405,20 +2412,20 @@ arches:
     name: mpfr
     evr: 4.2.1-5.el10
     sourcerpm: mpfr-4.2.1-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-base-6.4-14.20240127.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-base-6.4-15.20240127.el10_1.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 106442
-    checksum: sha256:24e540fa938e42ca719fd4546490d950a402c14c09c7ada465a123c4f5fc13b4
+    size: 107361
+    checksum: sha256:bfd174abe13d38f5515ef5d960d2cf57ef5c09b21a8a7ff589f6c6c6fd6d6fe6
     name: ncurses-base
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-libs-6.4-14.20240127.el10.x86_64.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ncurses-libs-6.4-15.20240127.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 350616
-    checksum: sha256:30537897b9b75bf39efee7f7f1a4a36304b5aed6ac70549f42558974df653286
+    size: 352152
+    checksum: sha256:a028e489c8b94812269f950affa4cca905658e31eca16f37d32f60cc26783762
     name: ncurses-libs
-    evr: 6.4-14.20240127.el10
-    sourcerpm: ncurses-6.4-14.20240127.el10.src.rpm
+    evr: 6.4-15.20240127.el10_1
+    sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/n/ndctl-libs-80-4.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 91678
@@ -2475,34 +2482,27 @@ arches:
     name: openldap
     evr: 2.6.9-1.el10
     sourcerpm: openldap-2.6.9-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssh-9.9p1-12.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssh-9.9p1-13.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 359221
-    checksum: sha256:b216643e62a1c55d33e8beb94a9db7a40377121b76f45ef7deb91930dc5ffd0f
+    size: 366211
+    checksum: sha256:8f45d26386e0476f6b58a9cdd2adceb7e8f2fb04b6c157fc378f39d5d8bd6fc2
     name: openssh
-    evr: 9.9p1-12.el10_1
-    sourcerpm: openssh-9.9p1-12.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssh-clients-9.9p1-12.el10_1.x86_64.rpm
+    evr: 9.9p1-13.el10_1
+    sourcerpm: openssh-9.9p1-13.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssh-clients-9.9p1-13.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 779690
-    checksum: sha256:693bce2d3cc006c704a5795eec86a826e794647a48ad079338dbcb96ac2bcb9d
+    size: 786466
+    checksum: sha256:4ff276d910b8ce01f15ecf58ccb28e82feb6759dda10afb1d2a195c9b019d08e
     name: openssh-clients
-    evr: 9.9p1-12.el10_1
-    sourcerpm: openssh-9.9p1-12.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssh-server-9.9p1-12.el10_1.x86_64.rpm
+    evr: 9.9p1-13.el10_1
+    sourcerpm: openssh-9.9p1-13.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssh-server-9.9p1-13.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 551661
-    checksum: sha256:2ebfb7468fbe252ada487e27da0f09468f8a6a39ad27d13df4096da24c33c434
+    size: 558278
+    checksum: sha256:3d799963410f92aa27498fae855334c2c426d408afc4110ab30042ae5b203796
     name: openssh-server
-    evr: 9.9p1-12.el10_1
-    sourcerpm: openssh-9.9p1-12.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssl-3.5.1-7.el10_1.x86_64.rpm
-    repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 1332067
-    checksum: sha256:50284410b98fd8dce23e20ab3ebb485295570f5bf0b7a969bca9beca1b92c360
-    name: openssl
-    evr: 1:3.5.1-7.el10_1
-    sourcerpm: openssl-3.5.1-7.el10_1.src.rpm
+    evr: 9.9p1-13.el10_1
+    sourcerpm: openssh-9.9p1-13.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssl-fips-provider-3.0.7-8.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 9389
@@ -2650,13 +2650,13 @@ arches:
     name: publicsuffix-list-dafsa
     evr: 20240107-5.el10
     sourcerpm: publicsuffix-list-20240107-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/python3-3.12.12-3.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/python3-3.12.12-3.el10_1.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 35210
-    checksum: sha256:17e020c6a0c0b8786adf50593f0d5688c29085c66d1ae9f548b7e3704cadbbf6
+    size: 34771
+    checksum: sha256:f4fec243c0e9843f8316fd1606947d1f5fd570df678bd2c52fee3c78586a3f06
     name: python3
-    evr: 3.12.12-3.el10_1
-    sourcerpm: python3.12-3.12.12-3.el10_1.src.rpm
+    evr: 3.12.12-3.el10_1.2
+    sourcerpm: python3.12-3.12.12-3.el10_1.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/python3-cffi-1.16.0-7.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 319107
@@ -2713,13 +2713,13 @@ arches:
     name: python3-idna
     evr: 3.7-4.el10
     sourcerpm: python-idna-3.7-4.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/python3-libs-3.12.12-3.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/python3-libs-3.12.12-3.el10_1.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 9912753
-    checksum: sha256:ed9fffff9cec1a22bb7221a129683aee18bed589bceecc4a31bdef7a944cf307
+    size: 9912391
+    checksum: sha256:6e61e271e96a34e41a3efd1e2f496271b367427f3f774f2179b4b82299128a4f
     name: python3-libs
-    evr: 3.12.12-3.el10_1
-    sourcerpm: python3.12-3.12.12-3.el10_1.src.rpm
+    evr: 3.12.12-3.el10_1.2
+    sourcerpm: python3.12-3.12.12-3.el10_1.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/python3-packaging-24.2-2.el10.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 160479
@@ -2895,27 +2895,27 @@ arches:
     name: rpm-sequoia
     evr: 1.9.0.3-1.el10_1
     sourcerpm: rust-rpm-sequoia-1.9.0.3-1.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/samba-client-libs-4.22.4-113.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/samba-client-libs-4.22.4-119.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 5595542
-    checksum: sha256:f05c2c76ee2fbb187ef4a7257a26d04b8971392090c082bce87d3d2ebc7b4dfb
+    size: 5595347
+    checksum: sha256:a7a15622583ce85818e5dd0fe36145e8b5da3662fe3cf10bd96e6dc412599159
     name: samba-client-libs
-    evr: 4.22.4-113.el10_1
-    sourcerpm: samba-4.22.4-113.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/samba-common-4.22.4-113.el10_1.noarch.rpm
+    evr: 4.22.4-119.el10_1
+    sourcerpm: samba-4.22.4-119.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/samba-common-4.22.4-119.el10_1.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 187404
-    checksum: sha256:f1598c9621160e0f7c447b6726a8a49fd1e0083b22df49d0c798e82619f9614f
+    size: 187802
+    checksum: sha256:582213bbb1005d4f44a7bdcbd94b39e6f2ee8af920643532b5c2acaf26b35edc
     name: samba-common
-    evr: 4.22.4-113.el10_1
-    sourcerpm: samba-4.22.4-113.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/samba-common-libs-4.22.4-113.el10_1.x86_64.rpm
+    evr: 4.22.4-119.el10_1
+    sourcerpm: samba-4.22.4-119.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/samba-common-libs-4.22.4-119.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 113576
-    checksum: sha256:a8a9d33e51c625b6afbddd864c31b7b914964b480bf80918022b7838ae0173fc
+    size: 114199
+    checksum: sha256:9aaf18ee18acb398b6f41991d678163f3a62b20034c3c6c7984f3b2dc3c08509
     name: samba-common-libs
-    evr: 4.22.4-113.el10_1
-    sourcerpm: samba-4.22.4-113.el10_1.src.rpm
+    evr: 4.22.4-119.el10_1
+    sourcerpm: samba-4.22.4-119.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/sed-4.9-3.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 329802
@@ -2923,20 +2923,20 @@ arches:
     name: sed
     evr: 4.9-3.el10
     sourcerpm: sed-4.9-3.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/selinux-policy-42.1.7-1.el10_1.1.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/selinux-policy-42.1.7-1.el10_1.2.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 57360
-    checksum: sha256:dc76f4fc633b0781ca81224031446a16ff272a0b226f32be9f8fca29d340ee82
+    size: 59185
+    checksum: sha256:2b2b5402fd5aadca2fab39374486f98529456a7d85747963cdf7ff0774760741
     name: selinux-policy
-    evr: 42.1.7-1.el10_1.1
-    sourcerpm: selinux-policy-42.1.7-1.el10_1.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/selinux-policy-targeted-42.1.7-1.el10_1.1.noarch.rpm
+    evr: 42.1.7-1.el10_1.2
+    sourcerpm: selinux-policy-42.1.7-1.el10_1.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/selinux-policy-targeted-42.1.7-1.el10_1.2.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 6522071
-    checksum: sha256:13051e3cd49c5afd4dd18098c8f3c3b603171f696a4f13a815c5bafef0347476
+    size: 6522414
+    checksum: sha256:e5cf334bc7a8fa61b1d1071a1611b1b79d8be0b53ec1798cf9d3d09336eb5b8a
     name: selinux-policy-targeted
-    evr: 42.1.7-1.el10_1.1
-    sourcerpm: selinux-policy-42.1.7-1.el10_1.1.src.rpm
+    evr: 42.1.7-1.el10_1.2
+    sourcerpm: selinux-policy-42.1.7-1.el10_1.2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/setup-2.14.5-7.el10.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 156772
@@ -2958,20 +2958,20 @@ arches:
     name: sg3_utils-libs
     evr: 1.48-7.el10
     sourcerpm: sg3_utils-1.48-7.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/shadow-utils-4.15.0-8.el10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/shadow-utils-4.15.0-10.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 1411048
-    checksum: sha256:8d7e3846a08b620dbde011b15b8e058f579fccf3a1989c4321beaaf68631cc87
+    size: 1417015
+    checksum: sha256:668c893ef1ec32a1ae685aa6fff720433c0e49cea0f7575241f4a70337c2c03e
     name: shadow-utils
-    evr: 2:4.15.0-8.el10
-    sourcerpm: shadow-utils-4.15.0-8.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/shadow-utils-subid-4.15.0-8.el10.x86_64.rpm
+    evr: 2:4.15.0-10.el10_1
+    sourcerpm: shadow-utils-4.15.0-10.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/shadow-utils-subid-4.15.0-10.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 27349
-    checksum: sha256:62be0b741a7af394047a88cc4d30c6fce1275c77b97d5f8d28b6683e4c1308bb
+    size: 33122
+    checksum: sha256:f31d266a9ed29eefcce069d83f4ff524bba0f8ccfe913d567f5be499d1b7683f
     name: shadow-utils-subid
-    evr: 2:4.15.0-8.el10
-    sourcerpm: shadow-utils-4.15.0-8.el10.src.rpm
+    evr: 2:4.15.0-10.el10_1
+    sourcerpm: shadow-utils-4.15.0-10.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/smartmontools-7.4-8.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 673793
@@ -3056,13 +3056,13 @@ arches:
     name: tpm2-tss
     evr: 4.1.3-5.el10
     sourcerpm: tpm2-tss-4.1.3-5.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/t/tzdata-2025c-1.el10.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/t/tzdata-2026a-1.el10.noarch.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 925672
-    checksum: sha256:8e550d18b34a76c5378320a9229cef97146e8391ae5d0e943164934755bd6c3d
+    size: 933325
+    checksum: sha256:3a8adcfb37aebfd89ea89fb95a67a4d0f24a226fcacd09eddb7bdb529de2435c
     name: tzdata
-    evr: 2025c-1.el10
-    sourcerpm: tzdata-2025c-1.el10.src.rpm
+    evr: 2026a-1.el10
+    sourcerpm: tzdata-2026a-1.el10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/u/userspace-rcu-0.14.0-7.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 122297
@@ -3112,14 +3112,13 @@ arches:
     name: zlib-ng-compat
     evr: 2.2.3-3.el10_1
     sourcerpm: zlib-ng-2.2.3-3.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/codeready-builder/os/Packages/p/protobuf-compiler-3.19.6-15.el10_1.x86_64.rpm
-    repoid: codeready-builder-for-rhel-10-x86_64-rpms
-    size: 807982
-    checksum: sha256:04cd26ece56d0d6509f0b9b50346ba72867306455c3f2ca663d444d633e4968b
-    name: protobuf-compiler
-    evr: 3.19.6-15.el10_1
-    sourcerpm: protobuf-3.19.6-15.el10_1.src.rpm
   source:
+  - url: https://download-01.beak-001.prod.iad2.dc.redhat.com/brewroot/work/tasks/9708/70519708/ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp.src.rpm
+    repoid: rhceph-test-build-rpms
+    size: 299746690
+    checksum: sha256:dd9e91c95ac5f8e83e1ea5341566765822536a486bcd33aa962551d799a78ff3
+    name: ceph
+    evr: 2:20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/a/aardvark-dns-1.16.0-2.el10.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
     size: 10103353
@@ -3156,12 +3155,12 @@ arches:
     checksum: sha256:e4acbadf9129801dae1fbdf80f0e1fdb5e951727b6bc6e2f6c131a6dd9c87d10
     name: conmon
     evr: 3:2.1.13-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/c/container-selinux-2.240.0-1.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/c/container-selinux-2.240.0-10.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
-    size: 47301
-    checksum: sha256:7dc2c319efa41a953dc69301805759998016e00f3e9868b8100330f92ab241d7
+    size: 56603
+    checksum: sha256:bc0ce96e456215c7bb9ce95a4a9da05c723db9a6d8a27e45570b3fce810dd3e4
     name: container-selinux
-    evr: 4:2.240.0-1.el10
+    evr: 4:2.240.0-10.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/c/containers-common-0.64.0-5.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
     size: 178843
@@ -3174,12 +3173,12 @@ arches:
     checksum: sha256:1ecf20183128ae8f38f15289824e7d24063e6c1455eae7563d1c1e53120850a7
     name: criu
     evr: 4.1-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/c/crun-1.23.1-1.el10_0.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/c/crun-1.27-1.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
-    size: 842298
-    checksum: sha256:748bb3d81f638a6e0e3cd58f01a7c76e0170acf0bdea9f7827a772bb9250f743
+    size: 912112
+    checksum: sha256:a255b07f81faad0ff5bb5e83842e77c19268f7f5e4e1c0f23ed457caf931fc72
     name: crun
-    evr: 1.23.1-1.el10_0
+    evr: 1.27-1.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/f/flexiblas-3.4.2-3.el10.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
     size: 70436575
@@ -3306,12 +3305,6 @@ arches:
     checksum: sha256:fff69b3590d2ac6d9d3621f314b5108a4857ce11019db9243f4606177adf9754
     name: podman
     evr: 7:5.6.0-12.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/p/protobuf-3.19.6-15.el10_1.src.rpm
-    repoid: rhel-10-for-x86_64-appstream-source-rpms
-    size: 6300929
-    checksum: sha256:3d807717254fce83b9a0a83b8789e5b36268031aa3eb86c9722b96b5134fde51
-    name: protobuf
-    evr: 3.19.6-15.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/source/SRPMS/Packages/p/pycairo-1.25.1-5.el10.src.rpm
     repoid: rhel-10-for-x86_64-appstream-source-rpms
     size: 373034
@@ -3822,12 +3815,12 @@ arches:
     checksum: sha256:bb080bc3ad3083159730f63b3c9297cb2626b13b4f0092bcd81a3dd546a5608c
     name: libaio
     evr: 0.3.111-22.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/l/libarchive-3.7.7-4.el10_0.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/l/libarchive-3.7.7-5.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 7779082
-    checksum: sha256:f0173638288af97a7d842a93ae1a6c07193011dd10be25d8dab61a173d1aa4a2
+    size: 7787858
+    checksum: sha256:6bffebb168c1005872c7840d3ead2713a7a48712f8a9424462dbed17d37cfbb5
     name: libarchive
-    evr: 3.7.7-4.el10_0
+    evr: 3.7.7-5.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/l/libassuan-2.5.6-6.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 609571
@@ -4122,12 +4115,12 @@ arches:
     checksum: sha256:08f41db54253c25dbafdd2c8109629ee36197ea50f25424d44e42ab1e2208dc7
     name: mpfr
     evr: 4.2.1-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.4-14.20240127.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.4-15.20240127.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 3754389
-    checksum: sha256:bcdb7e3f20dd71395f11564f495fce3ee29d4cfdf0de7d33c374d5899359ccb8
+    size: 3757467
+    checksum: sha256:f31cd79c6f005f85f0fdbdac5025c1ccc2b2b9c88103fd8ca94fc523c8c4c6ec
     name: ncurses
-    evr: 6.4-14.20240127.el10
+    evr: 6.4-15.20240127.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/n/ndctl-80-4.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 463397
@@ -4182,12 +4175,12 @@ arches:
     checksum: sha256:c51a5a6eefb4b94a5bd377e140710df620a6ffd7373e96e32f0afae9bec8d8ea
     name: openldap
     evr: 2.6.9-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssh-9.9p1-12.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssh-9.9p1-13.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 2352864
-    checksum: sha256:f79d5f073d8be108a59152f4d2327d0880abfae685482aeceff136b5be55de51
+    size: 2359937
+    checksum: sha256:5f3f0295c946398886b966281a49bb16088a1a5dd52a6b6deff4a35d693c154d
     name: openssh
-    evr: 9.9p1-12.el10_1
+    evr: 9.9p1-13.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-7.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 53462164
@@ -4380,12 +4373,12 @@ arches:
     checksum: sha256:64852aa8b94cbaaa2b468a308b03d7a7bb73211cdd51418026402ffb564eea65
     name: python-wcwidth
     evr: 0.2.6-6.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/p/python3.12-3.12.12-3.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/p/python3.12-3.12.12-3.el10_1.2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 20945388
-    checksum: sha256:36fe2d46b7d9126090a63fa4f9815ba17d6b01d8de8141cc5ad1546d72201934
+    size: 20952755
+    checksum: sha256:85301570d3e030f603a0e17c3c4021440bcc840326314ab84bd46762e9c3f855
     name: python3.12
-    evr: 3.12.12-3.el10_1
+    evr: 3.12.12-3.el10_1.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/q/quota-4.09-9.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 601625
@@ -4434,24 +4427,24 @@ arches:
     checksum: sha256:8985f5ea0228ac36dc736b145321e60e9d4efb9ccc5e7846494732c53c7e1fec
     name: rust-rpm-sequoia
     evr: 1.9.0.3-1.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/samba-4.22.4-113.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/samba-4.22.4-119.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 27685505
-    checksum: sha256:a63d3186837cbd81522c3cfd1539d50f0fbdd64972849dd702ba32f2d70e8853
+    size: 27700545
+    checksum: sha256:d29421a63dfc309aa05db3bc44575f2799b41ab48a3f97e23e2f2737484e400b
     name: samba
-    evr: 4.22.4-113.el10_1
+    evr: 4.22.4-119.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/sed-4.9-3.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 1495212
     checksum: sha256:6363571d56acf2698703085456baf909188609ceb0cedeb36231fe4bb980ba5f
     name: sed
     evr: 4.9-3.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/selinux-policy-42.1.7-1.el10_1.1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/selinux-policy-42.1.7-1.el10_1.2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 1276119
-    checksum: sha256:a81e8cec003f637ce1fdc2575d84727e54d7725e9c343e3e4b4f303ae8e6c41d
+    size: 1278533
+    checksum: sha256:55fb40e82ff4ba2aa06e6b1820edd701930214c405d2138eb8fea858b4d04b3a
     name: selinux-policy
-    evr: 42.1.7-1.el10_1.1
+    evr: 42.1.7-1.el10_1.2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/setools-4.5.1-5.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 379689
@@ -4470,12 +4463,12 @@ arches:
     checksum: sha256:c3b9d79d58e7006a0f95e80c61dacda778c573bc5d95f33ae7658df1da277fc9
     name: sg3_utils
     evr: 1.48-7.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/shadow-utils-4.15.0-8.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/shadow-utils-4.15.0-10.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 1913456
-    checksum: sha256:de2c630290f3ebd481d04ad7b00d908a09a851025d617329efddb53b081a4fc9
+    size: 1923396
+    checksum: sha256:7f32d431c33a0feb27d513fcebd96bbe809de7e73cfa55fd47b972d4854f24cd
     name: shadow-utils
-    evr: 2:4.15.0-8.el10
+    evr: 2:4.15.0-10.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/smartmontools-7.4-8.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 1207754
@@ -4524,12 +4517,12 @@ arches:
     checksum: sha256:81c396177c2ca245d2475302ff5583ba554b92daef27c1e278118944d81c39c2
     name: tpm2-tss
     evr: 4.1.3-5.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2026a-1.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 914230
-    checksum: sha256:9dedddd9a31454e198b250ec1fb2f8a77c8470a48ec45b3cac44630fd25a3ea8
+    size: 924735
+    checksum: sha256:ddff016a8a15c4347bd22b5ff52b561d45545326588769813bef29f7a0a66152
     name: tzdata
-    evr: 2025c-1.el10
+    evr: 2026a-1.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/u/userspace-rcu-0.14.0-7.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 690743
