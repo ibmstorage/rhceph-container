@@ -1,0 +1,97 @@
+---
+apiVersion: tekton.dev/v1
+kind: Task
+metadata:
+  name: comment-github-pr
+spec:
+  params:
+    - name: IMAGE_URL
+      type: string
+      description: The URL of the built container image
+    - name: IMAGE_EXPIRES_AFTER
+      type: string
+      description: Image expiration time (e.g., 5d, 2w, 1h)
+      default: ""
+    - name: GITHUB_TOKEN_SECRET_NAME
+      type: string
+      description: Name of the secret containing GitHub token
+      default: pipelines-as-code-secret
+    - name: GITHUB_TOKEN_SECRET_KEY
+      type: string
+      description: Key in the secret containing the GitHub token
+      default: github-token
+    - name: REPO_FULL_NAME
+      type: string
+      description: GitHub repository in format owner/repo
+    - name: PR_NUMBER
+      type: string
+      description: Pull request number
+  steps:
+    - name: comment-pr
+      image: registry.access.redhat.com/ubi9/ubi-minimal:9.5@sha256:d85040b6e3ed3628a89683f51a38c709185efc3fb552db2ad1b9180f2a6c38be
+      env:
+        - name: GITHUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: $(params.GITHUB_TOKEN_SECRET_NAME)
+              key: $(params.GITHUB_TOKEN_SECRET_KEY)
+        - name: IMAGE_URL
+          value: $(params.IMAGE_URL)
+        - name: IMAGE_EXPIRES_AFTER
+          value: $(params.IMAGE_EXPIRES_AFTER)
+        - name: REPO_FULL_NAME
+          value: $(params.REPO_FULL_NAME)
+        - name: PR_NUMBER
+          value: $(params.PR_NUMBER)
+      script: |
+        #!/bin/bash
+        set -euo pipefail
+
+        # Install curl and jq for API calls
+        microdnf -y install curl jq
+
+        # Prepare the comment body with optional expiration info
+        EXPIRATION_MSG=""
+        if [ -n "${IMAGE_EXPIRES_AFTER}" ]; then
+          EXPIRATION_MSG="
+
+        ⏰ **Note:** This image will expire after ${IMAGE_EXPIRES_AFTER}."
+        fi
+
+        COMMENT_BODY="🎉 **Container Image Built Successfully**
+
+        **Image URL:** \`${IMAGE_URL}\`
+
+        You can pull this image using:
+        \`\`\`bash
+        podman pull ${IMAGE_URL}
+        \`\`\`
+        or
+        \`\`\`bash
+        docker pull ${IMAGE_URL}
+        \`\`\`${EXPIRATION_MSG}"
+
+        # Create JSON payload
+        PAYLOAD=$(jq -n \
+          --arg body "$COMMENT_BODY" \
+          '{body: $body}')
+
+        # Post comment to GitHub PR
+        HTTP_CODE=$(curl -s -o /tmp/response.json -w "%{http_code}" \
+          -X POST \
+          -H "Authorization: token ${GITHUB_TOKEN}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Content-Type: application/json" \
+          -d "$PAYLOAD" \
+          "https://api.github.com/repos/${REPO_FULL_NAME}/issues/${PR_NUMBER}/comments")
+
+        if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+          echo "✅ Successfully posted comment to PR #${PR_NUMBER}"
+          cat /tmp/response.json | jq -r '.html_url'
+        else
+          echo "❌ Failed to post comment. HTTP status: $HTTP_CODE"
+          cat /tmp/response.json
+          exit 1
+        fi
+
+# Made with Bob

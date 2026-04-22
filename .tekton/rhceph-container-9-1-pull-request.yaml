@@ -32,9 +32,6 @@ spec:
   - name: build-platforms
     value:
     - linux/x86_64
-    - linux/arm64
-    - linux/s390x
-    - linux/ppc64le
   - name: dockerfile
     value: Dockerfile
   - name: hermetic
@@ -100,6 +97,19 @@ spec:
         - name: kind
           value: task
         resolver: bundles
+    - name: comment-github-pr
+      params:
+      - name: IMAGE_URL
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: IMAGE_EXPIRES_AFTER
+        value: $(params.image-expires-after)
+      - name: REPO_FULL_NAME
+        value: ibmstorage/rhceph-container
+      - name: PR_NUMBER
+        value: '{{pull_request_number}}'
+      taskRef:
+        kind: Task
+        name: comment-github-pr
     params:
     - description: Source Repository URL
       name: git-url
