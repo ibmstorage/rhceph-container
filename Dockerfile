@@ -81,6 +81,8 @@ microdnf install -y --setopt=install_weak_deps=0 --nodocs \
     echo "$DOWNSTREAM_VERSION" > /etc/ceph_version && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
     echo '@root - memlock 204800' >> /etc/security/limits.conf && \
+    # Enable Post Quantum crypto policy
+    update-crypto-policies --set DEFAULT:PQ && \
     # Clean container, starting with record of current size (strip / from end)
     INITIAL_SIZE="$(bash -c 'sz="$(du -sm --exclude=/proc /)" ; echo "${sz%*/}"')" && \
     #
