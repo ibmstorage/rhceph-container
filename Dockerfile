@@ -66,6 +66,9 @@ LABEL io.k8s.display-name="Red Hat Ceph Storage 9.1 on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph"
 LABEL io.k8s.description="Red Hat Ceph Storage 9.1"
 
+# updates system-wide cryptographic policies to favor PQC for TLS and SSH
+RUN update-crypto-policies --set DEFAULT:PQ
+
 COPY packages-*.txt .
 
 # Escape char after immediately after RUN allows comment in first line
