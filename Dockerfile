@@ -32,6 +32,9 @@ LABEL CEPH_POINT_RELEASE=""
 # The CPE (Common Platform Enumeration) identifier for Ceph.
 LABEL cpe=cpe:/a:redhat:ceph_storage:8.1::el9
 
+# Z-stream indicator
+LABEL Z-VERSION="8.1z6"
+
 ENV CEPH_VERSION squid
 ENV CEPH_POINT_RELEASE ""
 ENV CEPH_DEVEL false
