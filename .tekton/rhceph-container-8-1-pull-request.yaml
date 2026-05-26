@@ -28,7 +28,7 @@ spec:
   - name: output-image
     value: quay.io/rhceph-ci/rhceph:on-pr-v8.1-{{revision}}
   - name: image-expires-after
-    value: 15d
+    value: 25d
   - name: build-platforms
     value:
     - linux/x86_64
