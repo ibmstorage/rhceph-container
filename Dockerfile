@@ -1,9 +1,9 @@
 # CEPH DAEMON BASE IMAGE
 
-FROM registry.redhat.io/ubi9/ubi-minimal:latest
+FROM registry.redhat.io/ubi10/ubi-minimal:latest
 
 ENV I_AM_IN_A_CONTAINER 1
-ENV DOWNSTREAM_VERSION="9.1.0"
+ENV DOWNSTREAM_VERSION="9.2.0"
 
 # Who is the maintainer ?
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
@@ -12,7 +12,7 @@ LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL ceph="True"
 
 # What is the actual release ? If not defined, this equals the git branch name
-LABEL RELEASE="release-9.1"
+LABEL RELEASE="release-9.2"
 
 # What was the url of the git repository
 LABEL GIT_REPO="https://github.com/ibmstorage/rhceph-container.git"
@@ -30,7 +30,7 @@ LABEL GIT_CLEAN="True"
 LABEL CEPH_POINT_RELEASE=""
 
 # The CPE (Common Platform Enumeration) identifier for Ceph.
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el9
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.2::el10
 
 ENV CEPH_VERSION tentacle
 ENV CEPH_POINT_RELEASE ""
@@ -59,12 +59,12 @@ LABEL version="9"
 
 # Build specific labels
 LABEL com.redhat.component="rhceph-container"
-LABEL name=rhceph/rhceph-9-rhel9
-LABEL description="Red Hat Ceph Storage 9.1"
-LABEL summary="Provides the latest Red Hat Ceph Storage 9.1 on RHEL 9 in a fully featured and supported base image."
-LABEL io.k8s.display-name="Red Hat Ceph Storage 9.1 on RHEL 9"
+LABEL name=rhceph/rhceph-9-rhel10
+LABEL description="Red Hat Ceph Storage 9.2"
+LABEL summary="Provides the latest Red Hat Ceph Storage 9.2 on RHEL 10 in a fully featured and supported base image."
+LABEL io.k8s.display-name="Red Hat Ceph Storage 9.2 on RHEL 10"
 LABEL io.openshift.tags="rhceph ceph"
-LABEL io.k8s.description="Red Hat Ceph Storage 9.1"
+LABEL io.k8s.description="Red Hat Ceph Storage 9.2"
 
 COPY packages-*.txt .
 

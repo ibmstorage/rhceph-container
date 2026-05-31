@@ -7,13 +7,13 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "release-9.1"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "release-9.2"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: ceph-9-1
-    appstudio.openshift.io/component: rhceph-container-9-1
+    appstudio.openshift.io/application: ceph-9-2
+    appstudio.openshift.io/component: rhceph-container-9-2
     pipelines.appstudio.openshift.io/type: build
-  name: rhceph-container-9-1-on-push
+  name: rhceph-container-9-2-on-push
   namespace: ceph-tenant
 spec:
   timeouts:
@@ -25,13 +25,10 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/rhceph:v9.1-{{revision}}
+    value: quay.io/rhceph-ci/rhceph:v9.2-{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
-    - linux/arm64
-    - linux/s390x
-    - linux/ppc64le
   - name: dockerfile
     value: Dockerfile
   - name: hermetic
@@ -47,28 +44,10 @@ spec:
         "path": ".",
         "options": {
           "dnf": {
-            "rhceph-9-tools-for-rhel-9-x86_64-rpms": {
+            "rhceph-9-tools-for-rhel-10-x86_64-rpms": {
                "gpgcheck": "0"
             },
-            "rhceph-9-tools-for-rhel-9-x86_64-source-rpms": {
-               "gpgcheck": "0"
-            },
-            "rhceph-9-tools-for-rhel-9-s390x-rpms": {
-               "gpgcheck": "0"
-            },
-            "rhceph-9-tools-for-rhel-9-s390x-source-rpms": {
-               "gpgcheck": "0"
-            },
-            "rhceph-9-tools-for-rhel-9-ppc64le-rpms": {
-               "gpgcheck": "0"
-            },
-            "rhceph-9-tools-for-rhel-9-ppc64le-source-rpms": {
-               "gpgcheck": "0"
-            },
-            "rhceph-9-tools-for-rhel-9-aarch64-rpms": {
-               "gpgcheck": "0"
-            },
-            "rhceph-9-tools-for-rhel-9-aarch64-source-rpms": {
+            "rhceph-9-tools-for-rhel-10-x86_64-source-rpms": {
                "gpgcheck": "0"
             }
           }
@@ -587,7 +566,7 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ADDITIONAL_TAGS
         value:
-        - "v9.1"
+        - "v9.2"
         - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
@@ -651,7 +630,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-rhceph-container-9-1
+    serviceAccountName: build-pipeline-rhceph-container-9-2
   workspaces:
   - name: git-auth
     secret:
