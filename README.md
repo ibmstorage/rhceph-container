@@ -1,4 +1,4 @@
-# Generating a Compose for RHCEPH-9.0
+# Generating a Compose for RHCEPH-9.2
 
 - make sure ./get-compose is using the right brew tag and package list
 - run `bash get-compose`
