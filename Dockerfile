@@ -30,7 +30,7 @@ LABEL GIT_CLEAN="True"
 LABEL CEPH_POINT_RELEASE=""
 
 # The CPE (Common Platform Enumeration) identifier for Ceph.
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el9
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el10
 
 ENV CEPH_VERSION tentacle
 ENV CEPH_POINT_RELEASE ""
