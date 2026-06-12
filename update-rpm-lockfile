@@ -11,5 +11,5 @@ podman run --volume $(pwd):/tmp:Z \
 	-it --rm $CONTAINER_PULL sh -c \
 	"cd /tmp && \
 	 dnf -y install python3-pip git && \
-     pip3 install git+https://github.com/konflux-ci/rpm-lockfile-prototype && \
+     pip3 install "git+https://github.com/bigjust/rpm-lockfile-prototype@py3.9-compat" && \
 	 rpm-lockfile-prototype rpms.in.yaml"
