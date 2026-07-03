@@ -704,7 +704,7 @@ spec:
               #!/bin/bash
               set -e
 
-              microdnf install -y curl python3 --nodocs --setopt=install_weak_deps=0
+              microdnf install -y python3 --nodocs --setopt=install_weak_deps=0
 
               # Get the PR title to check if this is a self service test build
               PR_TITLE=$(curl -s \
