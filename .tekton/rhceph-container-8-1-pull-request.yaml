@@ -670,6 +670,58 @@ spec:
         operator: in
         values:
         - "false"
+    - name: image-url-comment
+      runAfter: 
+      - build-image-index
+      params:
+        - name: IMAGE_URL
+          value: $(tasks.build-image-index.results.IMAGE_URL)
+        - name: PULL_REQUEST_NUMBER
+          value: '{{pull_request_number}}'
+      taskSpec:
+        params:
+          - name: IMAGE_URL
+            type: string
+          - name: PULL_REQUEST_NUMBER
+            type: string
+        steps:
+          - name: post-comment
+            image: registry.access.redhat.com/ubi9/ubi-minimal:latest
+            env:
+              - name: GITHUB_TOKEN
+                valueFrom:
+                  secretKeyRef:
+                    name: github-ibmstorage-token
+                    key: token
+            script: |
+              #!/bin/bash
+              set -e
+
+              microdnf install -y python3 --nodocs --setopt=install_weak_deps=0
+
+              # Get the PR title to check if this is a self service test build
+              PR_TITLE=$(curl -s \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/ibmstorage/rhceph-container/pulls/$(params.PULL_REQUEST_NUMBER)" \
+                | python3 -c "import sys,json; print(json.load(sys.stdin)['title'])")
+
+              echo "PR title: $PR_TITLE"
+
+              # Only post comment if this is a self service test build
+              if [[ "$PR_TITLE" != *"TEST"* ]]; then
+                echo "Not a test build PR, skipping."
+                exit 0
+              fi
+
+              # Post the image URL as a comment
+              curl -s -o /dev/null -w "%{http_code}" \
+                -X POST \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github.v3+json" \
+                -H "Content-Type: application/json" \
+                "https://api.github.com/repos/ibmstorage/rhceph-container/issues/$(params.PULL_REQUEST_NUMBER)/comments" \
+                -d "{\"body\": \"### Konflux Build Complete\n\n**Image URL:**\n\`\`\`\n$(params.IMAGE_URL)\n\`\`\`\n\n**Pull command:**\n\`\`\`bash\npodman pull $(params.IMAGE_URL)\n\`\`\`\"}"
     workspaces:
     - name: git-auth
       optional: true
