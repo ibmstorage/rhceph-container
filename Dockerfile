@@ -3,7 +3,7 @@
 FROM registry.redhat.io/ubi10/ubi-minimal:latest
 
 ENV I_AM_IN_A_CONTAINER 1
-ENV DOWNSTREAM_VERSION="9.2.0"
+ENV DOWNSTREAM_VERSION=".0"
 
 # Who is the maintainer ?
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
