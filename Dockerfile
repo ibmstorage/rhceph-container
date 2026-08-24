@@ -76,8 +76,9 @@ RUN \
     # Typical workflow: add new repos; refresh repos; install packages; package-manager clean;
     #   download and install packages from web, cleaning any files as you go.
     # Installs should support install of ganesha for luminous
+    sed -i 's/^gpgcheck=1/gpgcheck=0/g' /etc/yum.repos.d/*.repo && \
     microdnf update -y --setopt=install_weak_deps=0 --nodocs && \
-microdnf install -y --nogpgcheck --setopt=install_weak_deps=0 --nodocs \
+microdnf install -y --setopt=install_weak_deps=0 --nodocs \
 	 $(cat packages-*.txt) \
          && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
