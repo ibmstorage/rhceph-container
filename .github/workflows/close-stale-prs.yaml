@@ -16,10 +16,10 @@ jobs:
       - uses: actions/stale@v9
         with:
           # ── Timing ────────────────────────────────────────────────────────
-          # Skip the stale-warning phase; close directly after 21 days.
-          # days-before-stale: -1 disables stale labelling entirely so the
-          # full operations budget is spent on close operations only.
-          days-before-stale: -1
+          # Mark a PR stale immediately (0 days), then close it 21 days after
+          # creation. Both thresholds use created_at (ignore-updates: true) so
+          # bot comments and CI status updates can't reset the clock.
+          days-before-stale: 0
           days-before-close: 21
 
           # Use created_at instead of updated_at so that bot comments, CI
