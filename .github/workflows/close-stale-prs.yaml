@@ -26,7 +26,5 @@ jobs:
           | while read -r pr; do
               echo "Closing PR #$pr (older than 21 days)"
               gh pr close "$pr" --repo "$REPO" \
-                --comment "Closing this PR due to 21 days of inactivity. The associated container image on quay.io has expired.
-
-Re-open or open a new PR to trigger a fresh build."
+                --comment $'Closing this PR due to 21 days of inactivity. The associated container image on quay.io has expired.\n\nRe-open or open a new PR to trigger a fresh build.'
             done
