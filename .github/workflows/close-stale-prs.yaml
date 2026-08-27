@@ -10,34 +10,23 @@ permissions:
   pull-requests: write
 
 jobs:
-  stale:
+  close-old-prs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
-        with:
-          # ── Timing ────────────────────────────────────────────────────────
-          # Mark a PR stale immediately (0 days), then close it 21 days after
-          # creation. Both thresholds use created_at (ignore-updates: true) so
-          # bot comments and CI status updates can't reset the clock.
-          days-before-stale: 0
-          days-before-close: 21
+      - name: Close PRs older than 21 days
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          cutoff=$(date -u -d '21 days ago' '+%Y-%m-%dT%H:%M:%SZ')
+          gh pr list --repo "$REPO" --state open --json number,createdAt,labels \
+            --jq ".[] | select(.createdAt < \"$cutoff\")
+                      | select((.labels | map(.name) | inside([\"keep-open\",\"do-not-close\"])) | not)
+                      | .number" \
+          | while read -r pr; do
+              echo "Closing PR #$pr (older than 21 days)"
+              gh pr close "$pr" --repo "$REPO" \
+                --comment "Closing this PR due to 21 days of inactivity. The associated container image on quay.io has expired.
 
-          # Use created_at instead of updated_at so that bot comments, CI
-          # status updates, or bulk label changes don't reset the clock and
-          # keep old PRs alive indefinitely.
-          ignore-updates: true
-
-          # ── Close comment ─────────────────────────────────────────────────
-          close-pr-message: |
-            Closing this PR due to 21 days of inactivity. The associated
-            container image on quay.io has expired.
-
-            Re-open or open a new PR to trigger a fresh build.
-
-          # ── Exemptions ────────────────────────────────────────────────────
-          # PRs labelled "keep-open" or "do-not-close" are never touched.
-          exempt-pr-labels: "keep-open,do-not-close"
-
-          # Raised well above the expected PR count so reads + closes never
-          # exhaust the budget in a single run.
-          operations-per-run: 500
+Re-open or open a new PR to trigger a fresh build."
+            done
