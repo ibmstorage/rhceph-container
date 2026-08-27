@@ -19,7 +19,7 @@ jobs:
           # Mark a PR stale after 14 days of no activity (matches image TTL).
           days-before-stale: 14
           # Close the PR 7 days after it was marked stale (21 days total).
-          days-before-close: 7
+          days-before-close: 0
 
           # ── Stale comment & label ─────────────────────────────────────────
           stale-pr-label: "stale"
