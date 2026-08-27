@@ -16,18 +16,16 @@ jobs:
       - uses: actions/stale@v9
         with:
           # ── Timing ────────────────────────────────────────────────────────
-          # Mark a PR stale after 14 days of no activity (matches image TTL).
-          days-before-stale: 14
-          # Close the PR 7 days after it was marked stale (21 days total).
-          days-before-close: 0
+          # Skip the stale-warning phase; close directly after 21 days.
+          # days-before-stale: -1 disables stale labelling entirely so the
+          # full operations budget is spent on close operations only.
+          days-before-stale: -1
+          days-before-close: 21
 
-          # ── Stale comment & label ─────────────────────────────────────────
-          stale-pr-label: "stale"
-          stale-pr-message: |
-            This PR has had no activity for 14 days and the Konflux-built image
-            has expired. It will be closed in 7 days unless there is new activity.
-
-            To keep this PR open, push a new commit or remove the `stale` label.
+          # Use created_at instead of updated_at so that bot comments, CI
+          # status updates, or bulk label changes don't reset the clock and
+          # keep old PRs alive indefinitely.
+          ignore-updates: true
 
           # ── Close comment ─────────────────────────────────────────────────
           close-pr-message: |
@@ -40,5 +38,6 @@ jobs:
           # PRs labelled "keep-open" or "do-not-close" are never touched.
           exempt-pr-labels: "keep-open,do-not-close"
 
-          # Only act on PRs, not issues.
-          operations-per-run: 100
+          # Raised well above the expected PR count so reads + closes never
+          # exhaust the budget in a single run.
+          operations-per-run: 500
