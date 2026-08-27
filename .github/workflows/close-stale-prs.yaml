@@ -19,7 +19,7 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           cutoff=$(date -u -d '21 days ago' '+%Y-%m-%dT%H:%M:%SZ')
-          gh pr list --repo "$REPO" --state open --json number,createdAt,labels \
+          gh pr list --repo "$REPO" --state open --limit 200 --json number,createdAt,labels \
             --jq ".[] | select(.createdAt < \"$cutoff\")
                       | select((.labels | map(.name) | inside([\"keep-open\",\"do-not-close\"])) | not)
                       | .number" \
