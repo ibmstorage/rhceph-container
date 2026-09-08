@@ -30,7 +30,7 @@ LABEL GIT_CLEAN="True"
 LABEL CEPH_POINT_RELEASE=""
 
 # The CPE (Common Platform Enumeration) identifier for Ceph.
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el10
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el9
 
 # Z-stream indicator
 LABEL Z-VERSION="9.1z2"
