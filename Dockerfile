@@ -33,7 +33,7 @@ LABEL CEPH_POINT_RELEASE=""
 LABEL cpe=cpe:/a:redhat:ceph_storage:9.1::el9
 
 # Z-stream indicator
-LABEL Z-VERSION="9.1z3"
+LABEL Z-VERSION="9.1z2"
 
 ENV CEPH_VERSION tentacle
 ENV CEPH_POINT_RELEASE ""
