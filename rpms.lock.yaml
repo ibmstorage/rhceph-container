@@ -1173,13 +1173,13 @@ arches:
     name: python3-scipy
     evr: 1.11.3-17.el10
     sourcerpm: scipy-1.11.3-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-4.p2.el10_2.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.aarch64.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
-    size: 62942
-    checksum: sha256:f3bd3f5ee693a37449385b844670d03cf1a2c60f6a9e8cd09318ada92dc33dda
+    size: 62395
+    checksum: sha256:50cf561cbd1808270a0cea7e27eac72b0ba9167a171ff7d95349175367153544
     name: sudo-python-plugin
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
     size: 1028145
@@ -2958,13 +2958,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/s/sudo-1.9.17-4.p2.el10_2.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 1379172
-    checksum: sha256:91a40a5a6824373ede13c310a1b76b5dd18b0a26ca1a32a6521dd164b309a87a
+    size: 1379955
+    checksum: sha256:7a0ce3aa0703e2328e9c22e2ed7823898d43c159496b2492fec816a30da27115
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/s/systemd-257-23.el10_2.2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 5782355
@@ -4408,12 +4408,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-4.p2.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 5536243
-    checksum: sha256:2da9d0a19bf99817b42629e2729af8f0d8a32c895d01d80ac070971a3b1b7869
+    size: 5545330
+    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
+    evr: 1.9.17-10.p2.el10_2.6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 19293848
@@ -5645,13 +5645,13 @@ arches:
     name: python3-scipy
     evr: 1.11.3-17.el10
     sourcerpm: scipy-1.11.3-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/s/sudo-python-plugin-1.9.17-4.p2.el10_2.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
-    size: 64479
-    checksum: sha256:d2c215d9e55338c6e67454ee813fd6a6490320ea55c64aa45d8bcffb7ed85c48
+    size: 63815
+    checksum: sha256:118912ed53711f715f3a162dd9ba420efa6eb1c40244f4f15a7040bd352c46e4
     name: sudo-python-plugin
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
     size: 1028145
@@ -7444,13 +7444,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/s/sudo-1.9.17-4.p2.el10_2.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 1410457
-    checksum: sha256:a34adcb0e8cb2e10e91763bf08fbdbd46fba7937cf2bdadcb5beb540bda1d89a
+    size: 1410815
+    checksum: sha256:8d470de497f9711a42bef0a9a27bc5bb60820a76581538b93e6355a32f185e90
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/s/systemd-257-23.el10_2.2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 6092604
@@ -8900,12 +8900,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/s/sudo-1.9.17-4.p2.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 5536243
-    checksum: sha256:2da9d0a19bf99817b42629e2729af8f0d8a32c895d01d80ac070971a3b1b7869
+    size: 5545330
+    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
+    evr: 1.9.17-10.p2.el10_2.6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 19293848
@@ -10179,13 +10179,13 @@ arches:
     name: python3-scipy
     evr: 1.11.3-17.el10
     sourcerpm: scipy-1.11.3-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/s/sudo-python-plugin-1.9.17-4.p2.el10_2.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.s390x.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
-    size: 62402
-    checksum: sha256:c63d810402c91fa0ce52f28fd678b43fb57db47826b1f34abf9558ccb9726f0d
+    size: 61739
+    checksum: sha256:b337988e37ae10a1514093213af456554766ba47f3f18ecceff3a7fa7863904b
     name: sudo-python-plugin
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
     size: 1028145
@@ -11929,13 +11929,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/s/sudo-1.9.17-4.p2.el10_2.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 1408413
-    checksum: sha256:9129033a57786ae16c8f8c75e0d3714e523f156e343e8fdb7acbfcaedcc5f83c
+    size: 1410529
+    checksum: sha256:9214c3ea4d65557c84879a4f450f61aa81fe5caf74af5eb01a92a0fbece17f86
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/s/systemd-257-23.el10_2.2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 5974895
@@ -13355,12 +13355,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/s/sudo-1.9.17-4.p2.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 5536243
-    checksum: sha256:2da9d0a19bf99817b42629e2729af8f0d8a32c895d01d80ac070971a3b1b7869
+    size: 5545330
+    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
+    evr: 1.9.17-10.p2.el10_2.6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 19293848
@@ -14634,13 +14634,13 @@ arches:
     name: qatzip-libs
     evr: 1.3.1-1.el10
     sourcerpm: qatzip-1.3.1-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-4.p2.el10_2.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 63916
-    checksum: sha256:b22520adbea8be975a0b9b075f73346671bdb59003cbfb0ae830f95aa1504769
+    size: 63253
+    checksum: sha256:34238bf864590cc9b148106b9dedbd97eeb4f825bd805b55d0b92b75aecf190f
     name: sudo-python-plugin
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 1028145
@@ -16447,13 +16447,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/sudo-1.9.17-4.p2.el10_2.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 1422159
-    checksum: sha256:c94e931bd718e6e68d2a8df3f5dc392af8e09eaa6330aa2f87e9a64267b81f16
+    size: 1422691
+    checksum: sha256:0c4237fd4a419c041aa4b141103164e09769d587e850190f4e5940a0e98b47df
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
-    sourcerpm: sudo-1.9.17-4.p2.el10_2.src.rpm
+    evr: 1.9.17-10.p2.el10_2.6
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/systemd-257-23.el10_2.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 6051287
@@ -17921,12 +17921,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-4.p2.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 5536243
-    checksum: sha256:2da9d0a19bf99817b42629e2729af8f0d8a32c895d01d80ac070971a3b1b7869
+    size: 5545330
+    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
     name: sudo
-    evr: 1.9.17-4.p2.el10_2
+    evr: 1.9.17-10.p2.el10_2.6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 19293848
