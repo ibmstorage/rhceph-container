@@ -795,13 +795,13 @@ arches:
     name: fuse3-libs
     evr: 3.10.2-9.el9
     sourcerpm: fuse3-3.10.2-9.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9_8.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 216292
-    checksum: sha256:3fd73bd271e9c04dc297eb08c3829d276faee372f77666aad29f4b676ea220f4
+    size: 218086
+    checksum: sha256:d38712f7aa4e5b3821ba899d6b4f62821407f6f239e17bf240ca488fb1d35376
     name: gawk-all-langpacks
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/gdisk-1.0.7-5.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 250160
@@ -1481,13 +1481,13 @@ arches:
     name: elfutils-libs
     evr: 0.194-1.el9
     sourcerpm: elfutils-0.194-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/e/expat-2.5.0-6.el9_8.3.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/e/expat-2.5.0-6.el9_8.5.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 122400
-    checksum: sha256:df004398da989f75bae9267cfb0ad402ada6e6db46ebef0932c869894c013c08
+    size: 122957
+    checksum: sha256:d13bd77f429835b303d388e24811fb935060be4788c8fe4cf87703640f2337e0
     name: expat
-    evr: 2.5.0-6.el9_8.3
-    sourcerpm: expat-2.5.0-6.el9_8.3.src.rpm
+    evr: 2.5.0-6.el9_8.5
+    sourcerpm: expat-2.5.0-6.el9_8.5.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/f/filesystem-3.16-5.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 5003914
@@ -1530,13 +1530,13 @@ arches:
     name: fuse-libs
     evr: 2.9.9-17.el9
     sourcerpm: fuse-2.9.9-17.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/gawk-5.1.0-6.el9.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/gawk-5.1.0-6.el9_8.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 1024204
-    checksum: sha256:a4b7202ac90653a7d3e072c2444bde6a9270d6a818eb6f2ffcfcaa50774f1fad
+    size: 1026105
+    checksum: sha256:54365d2a6150079c2dc5003eeb94ada32fc15801b5db05422361f02ed58e6772
     name: gawk
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/gdbm-libs-1.23-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 60311
@@ -3549,12 +3549,12 @@ arches:
     checksum: sha256:643279e796ded16c5be5cdc2a91839c787e62e59757008675eb0580a4a42af21
     name: elfutils
     evr: 0.194-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.3.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.5.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 8403095
-    checksum: sha256:0cff2a2213384dc43eb1874bf6e77b2b8230be848f50387d8057e0e6cde3d392
+    size: 8411609
+    checksum: sha256:38d7acfd1130c02c6a00010159a1350ca0f56cd7ed64f3d8394aa5b3d6512ddd
     name: expat
-    evr: 2.5.0-6.el9_8.3
+    evr: 2.5.0-6.el9_8.5
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 20486
@@ -3591,12 +3591,12 @@ arches:
     checksum: sha256:ddfcd07bcdcc07bdabe0f05b2c5c3bb1d6582af9c6b127632dd74f8ca78d56c9
     name: fuse3
     evr: 3.10.2-9.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9_8.1.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 3190934
-    checksum: sha256:37571947707e835d36ceb5641b187aba13ef8f5f605a6762ce72aeea3e745b8d
+    size: 3197459
+    checksum: sha256:8f156f11c96b1720ba2e9e287f2ddf5e0588a9c9ad17753f779ebbdf0c4e99df
     name: gawk
-    evr: 5.1.0-6.el9
+    evr: 5.1.0-6.el9_8.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gcc-11.5.0-14.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 81978017
@@ -5284,13 +5284,13 @@ arches:
     name: fuse3-libs
     evr: 3.10.2-9.el9
     sourcerpm: fuse3-3.10.2-9.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9_8.1.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 216324
-    checksum: sha256:f44a17730803f53266874678031b8121541b5b1a8047a3205c2576630216f468
+    size: 218118
+    checksum: sha256:c12a101cc4a7fd08f4fa1a430629fe45fa7fd56e59d5f4094aaa159c9a0aabea
     name: gawk-all-langpacks
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/gdisk-1.0.7-5.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 259758
@@ -5970,13 +5970,13 @@ arches:
     name: elfutils-libs
     evr: 0.194-1.el9
     sourcerpm: elfutils-0.194-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/e/expat-2.5.0-6.el9_8.3.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/e/expat-2.5.0-6.el9_8.5.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 133470
-    checksum: sha256:731fb187d6550a4a5fc6227d43370464d67a68e9fb41481c2e86b95e4560345b
+    size: 133703
+    checksum: sha256:f379b66b57d67569fabaa4cecc75d7ed26b1c46733b626f3550fc31e740761af
     name: expat
-    evr: 2.5.0-6.el9_8.3
-    sourcerpm: expat-2.5.0-6.el9_8.3.src.rpm
+    evr: 2.5.0-6.el9_8.5
+    sourcerpm: expat-2.5.0-6.el9_8.5.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/f/filesystem-3.16-5.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 5003944
@@ -6019,13 +6019,13 @@ arches:
     name: fuse-libs
     evr: 2.9.9-17.el9
     sourcerpm: fuse-2.9.9-17.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/gawk-5.1.0-6.el9.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/gawk-5.1.0-6.el9_8.1.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 1064251
-    checksum: sha256:b0cc389ad0855900c79f2cfa525df8cbc663093056b0b5d29ec3e36a189b325e
+    size: 1062624
+    checksum: sha256:4c2d81c6874201646d5c5eee719ecdb95f610b277b3782bb1956a19f71d17d59
     name: gawk
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/gdbm-libs-1.23-1.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 65838
@@ -8052,12 +8052,12 @@ arches:
     checksum: sha256:643279e796ded16c5be5cdc2a91839c787e62e59757008675eb0580a4a42af21
     name: elfutils
     evr: 0.194-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.3.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.5.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 8403095
-    checksum: sha256:0cff2a2213384dc43eb1874bf6e77b2b8230be848f50387d8057e0e6cde3d392
+    size: 8411609
+    checksum: sha256:38d7acfd1130c02c6a00010159a1350ca0f56cd7ed64f3d8394aa5b3d6512ddd
     name: expat
-    evr: 2.5.0-6.el9_8.3
+    evr: 2.5.0-6.el9_8.5
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 20486
@@ -8094,12 +8094,12 @@ arches:
     checksum: sha256:ddfcd07bcdcc07bdabe0f05b2c5c3bb1d6582af9c6b127632dd74f8ca78d56c9
     name: fuse3
     evr: 3.10.2-9.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9_8.1.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 3190934
-    checksum: sha256:37571947707e835d36ceb5641b187aba13ef8f5f605a6762ce72aeea3e745b8d
+    size: 3197459
+    checksum: sha256:8f156f11c96b1720ba2e9e287f2ddf5e0588a9c9ad17753f779ebbdf0c4e99df
     name: gawk
-    evr: 5.1.0-6.el9
+    evr: 5.1.0-6.el9_8.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gcc-11.5.0-14.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 81978017
@@ -9807,13 +9807,13 @@ arches:
     name: fuse3-libs
     evr: 3.10.2-9.el9
     sourcerpm: fuse3-3.10.2-9.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9_8.1.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
-    size: 216312
-    checksum: sha256:fc71db041e9b749a3f8bcbc9f812509625cfaf5d4fa83d37324c4dbdeb00a36e
+    size: 218106
+    checksum: sha256:4828be3b34d4f1e54ec4b0ff53c1291f18b01be78165e10ec4967b6b061e13d4
     name: gawk-all-langpacks
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/gdisk-1.0.7-5.el9.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 243690
@@ -10521,13 +10521,13 @@ arches:
     name: elfutils-libs
     evr: 0.194-1.el9
     sourcerpm: elfutils-0.194-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/e/expat-2.5.0-6.el9_8.3.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/e/expat-2.5.0-6.el9_8.5.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 124579
-    checksum: sha256:e6bd000496dc070c1e4cfd17162d512111341820f12c10442b8752c0767c68a0
+    size: 125167
+    checksum: sha256:f7480b168cba79b9f30bc54faf1c43b9eab1cd3d9701c31f601b40e472659981
     name: expat
-    evr: 2.5.0-6.el9_8.3
-    sourcerpm: expat-2.5.0-6.el9_8.3.src.rpm
+    evr: 2.5.0-6.el9_8.5
+    sourcerpm: expat-2.5.0-6.el9_8.5.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/f/filesystem-3.16-5.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 5003897
@@ -10563,13 +10563,13 @@ arches:
     name: fuse-libs
     evr: 2.9.9-17.el9
     sourcerpm: fuse-2.9.9-17.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/gawk-5.1.0-6.el9.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/gawk-5.1.0-6.el9_8.1.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 1029188
-    checksum: sha256:d34fd3f586240f43f71bc74824ae513cba2e4a6812f0ebbd101122e7e99bafe8
+    size: 1029963
+    checksum: sha256:7382392d06b5e21161966cec0c187bba6afb9710047ab17d79e7b55ce43def40
     name: gawk
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/gdbm-libs-1.23-1.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 60437
@@ -12554,12 +12554,12 @@ arches:
     checksum: sha256:643279e796ded16c5be5cdc2a91839c787e62e59757008675eb0580a4a42af21
     name: elfutils
     evr: 0.194-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.3.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.5.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 8403095
-    checksum: sha256:0cff2a2213384dc43eb1874bf6e77b2b8230be848f50387d8057e0e6cde3d392
+    size: 8411609
+    checksum: sha256:38d7acfd1130c02c6a00010159a1350ca0f56cd7ed64f3d8394aa5b3d6512ddd
     name: expat
-    evr: 2.5.0-6.el9_8.3
+    evr: 2.5.0-6.el9_8.5
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 20486
@@ -12590,12 +12590,12 @@ arches:
     checksum: sha256:ddfcd07bcdcc07bdabe0f05b2c5c3bb1d6582af9c6b127632dd74f8ca78d56c9
     name: fuse3
     evr: 3.10.2-9.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9_8.1.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 3190934
-    checksum: sha256:37571947707e835d36ceb5641b187aba13ef8f5f605a6762ce72aeea3e745b8d
+    size: 3197459
+    checksum: sha256:8f156f11c96b1720ba2e9e287f2ddf5e0588a9c9ad17753f779ebbdf0c4e99df
     name: gawk
-    evr: 5.1.0-6.el9
+    evr: 5.1.0-6.el9_8.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gcc-11.5.0-14.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 81978017
@@ -14272,13 +14272,13 @@ arches:
     name: fuse3-libs
     evr: 3.10.2-9.el9
     sourcerpm: fuse3-3.10.2-9.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gawk-all-langpacks-5.1.0-6.el9_8.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 216340
-    checksum: sha256:c1fcc71c1cc1160d58ace4b60cc6733b68d6f6d406e5ec5ce24327787f452cd1
+    size: 218134
+    checksum: sha256:bedaac1d71ca9f41e3398dc413dea2008bfd20799de1b4db14e37ebb7a7ce74d
     name: gawk-all-langpacks
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gdisk-1.0.7-5.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 253973
@@ -15007,13 +15007,13 @@ arches:
     name: elfutils-libs
     evr: 0.194-1.el9
     sourcerpm: elfutils-0.194-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/e/expat-2.5.0-6.el9_8.3.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/e/expat-2.5.0-6.el9_8.5.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 128577
-    checksum: sha256:3c9c96529f94f84fc19c8039d8852269e1085d16b5af2933f44ff286dec66a35
+    size: 129088
+    checksum: sha256:e6e7edd632fdd1dc4ad94b19b7ab88646f3ef8c1c7956bac58985c3e7118a362
     name: expat
-    evr: 2.5.0-6.el9_8.3
-    sourcerpm: expat-2.5.0-6.el9_8.3.src.rpm
+    evr: 2.5.0-6.el9_8.5
+    sourcerpm: expat-2.5.0-6.el9_8.5.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/f/filesystem-3.16-5.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 5003807
@@ -15056,13 +15056,13 @@ arches:
     name: fuse-libs
     evr: 2.9.9-17.el9
     sourcerpm: fuse-2.9.9-17.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gawk-5.1.0-6.el9.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gawk-5.1.0-6.el9_8.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 1045534
-    checksum: sha256:99fda6725a2c668bae29fbab74d1b347e074f4e8c8ed18d656cb928fb6fc92b7
+    size: 1046649
+    checksum: sha256:fcc5e724c32597cf781626728f0faff2f0e5ed6455ab95af4883eefca30a074e
     name: gawk
-    evr: 5.1.0-6.el9
-    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+    evr: 5.1.0-6.el9_8.1
+    sourcerpm: gawk-5.1.0-6.el9_8.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gdbm-libs-1.23-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 60152
@@ -17114,12 +17114,12 @@ arches:
     checksum: sha256:643279e796ded16c5be5cdc2a91839c787e62e59757008675eb0580a4a42af21
     name: elfutils
     evr: 0.194-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.3.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.5.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 8403095
-    checksum: sha256:0cff2a2213384dc43eb1874bf6e77b2b8230be848f50387d8057e0e6cde3d392
+    size: 8411609
+    checksum: sha256:38d7acfd1130c02c6a00010159a1350ca0f56cd7ed64f3d8394aa5b3d6512ddd
     name: expat
-    evr: 2.5.0-6.el9_8.3
+    evr: 2.5.0-6.el9_8.5
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 20486
@@ -17156,12 +17156,12 @@ arches:
     checksum: sha256:ddfcd07bcdcc07bdabe0f05b2c5c3bb1d6582af9c6b127632dd74f8ca78d56c9
     name: fuse3
     evr: 3.10.2-9.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gawk-5.1.0-6.el9_8.1.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 3190934
-    checksum: sha256:37571947707e835d36ceb5641b187aba13ef8f5f605a6762ce72aeea3e745b8d
+    size: 3197459
+    checksum: sha256:8f156f11c96b1720ba2e9e287f2ddf5e0588a9c9ad17753f779ebbdf0c4e99df
     name: gawk
-    evr: 5.1.0-6.el9
+    evr: 5.1.0-6.el9_8.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gcc-11.5.0-14.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 81978017
