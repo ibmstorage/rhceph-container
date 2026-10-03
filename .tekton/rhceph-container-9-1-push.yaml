@@ -80,20 +80,6 @@ spec:
 
       _Uses `buildah` to create a multi-platform container image leveraging [trusted artifacts](https://konflux-ci.dev/architecture/ADR/0036-trusted-artifacts.html). It also optionally creates a source image and runs some build-time tests. This pipeline requires that the [multi platform controller](https://github.com/konflux-ci/multi-platform-controller) is deployed and configured on your Konflux instance. Information is shared between tasks using OCI artifacts instead of PVCs. EC will pass the [`trusted_task.trusted`](https://conforma.dev/docs/policy/packages/release_trusted_task.html#trusted_task__trusted) policy as long as all data used to build the artifact is generated from trusted tasks.
       This pipeline is pushed as a Tekton bundle to [quay.io](https://quay.io/repository/konflux-ci/tekton-catalog/pipeline-docker-build-multi-platform-oci-ta?tab=tags)_
-    finally:
-    - name: show-sbom
-      params:
-      - name: IMAGE_URL
-        value: $(tasks.build-image-index.results.IMAGE_URL)
-      taskRef:
-        params:
-        - name: name
-          value: show-sbom
-        - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-show-sbom:0.1@sha256:8fe70a95c28b1ac92abd67a7477ad960218f3f570a9f8a12ad082dff7e9c9579
-        - name: kind
-          value: task
-        resolver: bundles
     params:
     - description: Source Repository URL
       name: git-url
@@ -380,7 +366,7 @@ spec:
         - name: name
           value: clair-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-clair-scan:0.4.1@sha256:c2c9fc4910699930da02a63bb85e0ae5833de39da55b706b6f1b8eb21c9deb03
+          value: quay.io/konflux-ci/tekton-catalog/task-clair-scan:0.4.1@sha256:59fcf1d31a4e72ac421cd4c292d62423a8ff7a5acb347844ef62adcca1be457a
         - name: kind
           value: task
         resolver: bundles
@@ -400,7 +386,7 @@ spec:
         - name: name
           value: ecosystem-cert-preflight-checks
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-ecosystem-cert-preflight-checks:0.2@sha256:fa53ef450ba538addafee1211ff6ac15b55865ce652fec15ac99b554680cb642
+          value: quay.io/konflux-ci/tekton-catalog/task-ecosystem-cert-preflight-checks:0.2@sha256:439014132f4521ea3221ea29b1fd83e48f9728c071db6edaf6b870550e5d89a6
         - name: kind
           value: task
         resolver: bundles
@@ -455,7 +441,7 @@ spec:
         - name: name
           value: clamav-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-clamav-scan:0.3.4@sha256:3203cd3bde82d9e4d1beb5f1366942346800cff89e392c920733eb0ea78d731b
+          value: quay.io/konflux-ci/tekton-catalog/task-clamav-scan:0.3.4@sha256:22fb08a2d08000aadf22a9cbaaa8265ba70e25fe4e24d81a3f3e64440d9e6b5e
         - name: kind
           value: task
         resolver: bundles
@@ -650,7 +636,7 @@ spec:
         - name: name
           value: rpms-signature-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.2.2@sha256:4b1856e41d087e53af26562fb16a490579777d9ff05af33011ce212d477c7cd5
+          value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.2.2@sha256:12239e624c5bca759fc594bdefd3d4411a62c69bb4c29c5ad733b1e0d88fb8e9
         - name: kind
           value: task
         resolver: bundles
