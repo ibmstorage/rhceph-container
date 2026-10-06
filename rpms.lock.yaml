@@ -1173,13 +1173,13 @@ arches:
     name: python3-scipy
     evr: 1.11.3-17.el10
     sourcerpm: scipy-1.11.3-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.7.aarch64.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
-    size: 62395
-    checksum: sha256:50cf561cbd1808270a0cea7e27eac72b0ba9167a171ff7d95349175367153544
+    size: 62582
+    checksum: sha256:0a030aa31bcc571f36aba7e3620281866ff0ef0df2312708d5d29e84b1344e8f
     name: sudo-python-plugin
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-aarch64-appstream-rpms
     size: 1028145
@@ -1600,13 +1600,13 @@ arches:
     name: gnupg2
     evr: 2.4.5-4.el10_1
     sourcerpm: gnupg2-2.4.5-4.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/g/gnutls-3.8.10-4.el10_2.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/g/gnutls-3.8.10-5.el10_2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 1501557
-    checksum: sha256:55c567e169a7ead8d8ee329cbf69b59d11c3c9e9aea66d0db589d383bb8043b6
+    size: 1499142
+    checksum: sha256:b4619741e64d91261ade770d8bb5b959047d5b9bf8e29594108f57379bd6a907
     name: gnutls
-    evr: 3.8.10-4.el10_2
-    sourcerpm: gnutls-3.8.10-4.el10_2.src.rpm
+    evr: 3.8.10-5.el10_2
+    sourcerpm: gnutls-3.8.10-5.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/g/gobject-introspection-1.79.1-6.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 115043
@@ -2958,13 +2958,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.7.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 1379955
-    checksum: sha256:7a0ce3aa0703e2328e9c22e2ed7823898d43c159496b2492fec816a30da27115
+    size: 1380099
+    checksum: sha256:47162036cb8b1977069a45dcbaae6c90772a34241e0a368a6eef46d2d156689e
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/s/systemd-257-23.el10_2.2.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 5782355
@@ -3598,12 +3598,12 @@ arches:
     checksum: sha256:ae56b8da2a7236c07eb23a85c60d53a3170b7b38032ebdc8d68602b09e78e81a
     name: gnupg2
     evr: 2.4.5-4.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-4.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-5.el10_2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 57775586
-    checksum: sha256:2db86e4879b52c63e8fceb9abcfa1a3d97606dc67db2067e833c6575332bc323
+    size: 57776827
+    checksum: sha256:f08cb5bbd28951e592cb372b88c9d3225a95775bf2061d835f1652c59faeaef0
     name: gnutls
-    evr: 3.8.10-4.el10_2
+    evr: 3.8.10-5.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/g/gobject-introspection-1.79.1-6.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 1080827
@@ -4300,6 +4300,12 @@ arches:
     checksum: sha256:0bd2e982d656d9d74c075739e342bab7ceb576f9ab211b09bc1a4b4609c47ab1
     name: quota
     evr: 1:4.09-10.el10
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/r/rdma-core-61.0-1.el10.src.rpm
+    repoid: rhel-10-for-aarch64-baseos-source-rpms
+    size: 2144942
+    checksum: sha256:363b36798b92fd9afefb6125a784456427e6208299cbfe03044a53db4841d4ec
+    name: rdma-core
+    evr: 61.0-1.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/r/readline-8.2-11.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 3094627
@@ -4402,12 +4408,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.7.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 5545330
-    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
+    size: 5547119
+    checksum: sha256:eeb2a1bfecfe49ab9c37eda072e41f80b791aa4f72be2f211a89bb5e1e6e2101
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
+    evr: 1.9.17-10.p2.el10_2.7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 19293848
@@ -5639,13 +5645,13 @@ arches:
     name: python3-scipy
     evr: 1.11.3-17.el10
     sourcerpm: scipy-1.11.3-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.7.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
-    size: 63815
-    checksum: sha256:118912ed53711f715f3a162dd9ba420efa6eb1c40244f4f15a7040bd352c46e4
+    size: 64012
+    checksum: sha256:ae1efa0b7d9047002f9bb5108da1461ba647b8ba205311bf61a68399190ae6b7
     name: sudo-python-plugin
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-ppc64le-appstream-rpms
     size: 1028145
@@ -6066,13 +6072,13 @@ arches:
     name: gnupg2
     evr: 2.4.5-4.el10_1
     sourcerpm: gnupg2-2.4.5-4.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/g/gnutls-3.8.10-4.el10_2.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/g/gnutls-3.8.10-5.el10_2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 1569308
-    checksum: sha256:53ba9bb3ad4d31ab00044fa4a700f500a31ac88359cd58e54686737b5b0f52d3
+    size: 1567904
+    checksum: sha256:30e311a935235c3ca6b1de5c9e7a98b909ab42816b4a0e9519e0f99481e5a9fd
     name: gnutls
-    evr: 3.8.10-4.el10_2
-    sourcerpm: gnutls-3.8.10-4.el10_2.src.rpm
+    evr: 3.8.10-5.el10_2
+    sourcerpm: gnutls-3.8.10-5.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/g/gobject-introspection-1.79.1-6.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 122204
@@ -7438,13 +7444,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.7.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 1410815
-    checksum: sha256:8d470de497f9711a42bef0a9a27bc5bb60820a76581538b93e6355a32f185e90
+    size: 1411239
+    checksum: sha256:57fbb3ec3518233b93d17aad4b16d79dc5301bfb438196832ffc1b66da0d32fc
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/s/systemd-257-23.el10_2.2.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 6092604
@@ -8078,12 +8084,12 @@ arches:
     checksum: sha256:ae56b8da2a7236c07eb23a85c60d53a3170b7b38032ebdc8d68602b09e78e81a
     name: gnupg2
     evr: 2.4.5-4.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-4.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-5.el10_2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 57775586
-    checksum: sha256:2db86e4879b52c63e8fceb9abcfa1a3d97606dc67db2067e833c6575332bc323
+    size: 57776827
+    checksum: sha256:f08cb5bbd28951e592cb372b88c9d3225a95775bf2061d835f1652c59faeaef0
     name: gnutls
-    evr: 3.8.10-4.el10_2
+    evr: 3.8.10-5.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/g/gobject-introspection-1.79.1-6.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 1080827
@@ -8894,12 +8900,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.7.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 5545330
-    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
+    size: 5547119
+    checksum: sha256:eeb2a1bfecfe49ab9c37eda072e41f80b791aa4f72be2f211a89bb5e1e6e2101
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
+    evr: 1.9.17-10.p2.el10_2.7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 19293848
@@ -10173,13 +10179,13 @@ arches:
     name: python3-scipy
     evr: 1.11.3-17.el10
     sourcerpm: scipy-1.11.3-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.7.s390x.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
-    size: 61739
-    checksum: sha256:b337988e37ae10a1514093213af456554766ba47f3f18ecceff3a7fa7863904b
+    size: 61940
+    checksum: sha256:cb53e436721731d015e55d272d4657f95f99b8eb241978f3bd10f1737cd36fcf
     name: sudo-python-plugin
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-s390x-appstream-rpms
     size: 1028145
@@ -10593,13 +10599,13 @@ arches:
     name: gnupg2
     evr: 2.4.5-4.el10_1
     sourcerpm: gnupg2-2.4.5-4.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/g/gnutls-3.8.10-4.el10_2.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/g/gnutls-3.8.10-5.el10_2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 1554768
-    checksum: sha256:205fffaf334b29a9951191ab717a93ba88ecbc7b19bdbe80d37725f294d7e8c5
+    size: 1552876
+    checksum: sha256:e41f80ddbf78eaac8ad65ab9ffd83c56ace8f23220c55907aa7a25a3b326d658
     name: gnutls
-    evr: 3.8.10-4.el10_2
-    sourcerpm: gnutls-3.8.10-4.el10_2.src.rpm
+    evr: 3.8.10-5.el10_2
+    sourcerpm: gnutls-3.8.10-5.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/g/gobject-introspection-1.79.1-6.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 117237
@@ -11923,13 +11929,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.7.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 1410529
-    checksum: sha256:9214c3ea4d65557c84879a4f450f61aa81fe5caf74af5eb01a92a0fbece17f86
+    size: 1410893
+    checksum: sha256:2da3855c25e090bef30cf4fc6c13bbd5e85c211e5f67349e7eca9ddc46d279fe
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/s/systemd-257-23.el10_2.2.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 5974895
@@ -12557,12 +12563,12 @@ arches:
     checksum: sha256:ae56b8da2a7236c07eb23a85c60d53a3170b7b38032ebdc8d68602b09e78e81a
     name: gnupg2
     evr: 2.4.5-4.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-4.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-5.el10_2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 57775586
-    checksum: sha256:2db86e4879b52c63e8fceb9abcfa1a3d97606dc67db2067e833c6575332bc323
+    size: 57776827
+    checksum: sha256:f08cb5bbd28951e592cb372b88c9d3225a95775bf2061d835f1652c59faeaef0
     name: gnutls
-    evr: 3.8.10-4.el10_2
+    evr: 3.8.10-5.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/g/gobject-introspection-1.79.1-6.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 1080827
@@ -13349,12 +13355,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.7.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 5545330
-    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
+    size: 5547119
+    checksum: sha256:eeb2a1bfecfe49ab9c37eda072e41f80b791aa4f72be2f211a89bb5e1e6e2101
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
+    evr: 1.9.17-10.p2.el10_2.7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 19293848
@@ -14628,13 +14634,13 @@ arches:
     name: qatzip-libs
     evr: 1.3.1-1.el10
     sourcerpm: qatzip-1.3.1-1.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.6.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/s/sudo-python-plugin-1.9.17-10.p2.el10_2.7.x86_64.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
-    size: 63253
-    checksum: sha256:34238bf864590cc9b148106b9dedbd97eeb4f825bd805b55d0b92b75aecf190f
+    size: 63452
+    checksum: sha256:e985725fd50a4caf09da3373f081080dc35d9e2d3bea58b229450a3323f8987f
     name: sudo-python-plugin
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/appstream/os/Packages/x/xkeyboard-config-2.41-3.el10.noarch.rpm
     repoid: rhel-10-for-x86_64-appstream-rpms
     size: 1028145
@@ -15062,13 +15068,13 @@ arches:
     name: gnupg2
     evr: 2.4.5-4.el10_1
     sourcerpm: gnupg2-2.4.5-4.el10_1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/g/gnutls-3.8.10-4.el10_2.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/g/gnutls-3.8.10-5.el10_2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 1630122
-    checksum: sha256:be60af6bbdbfb661e548c6758c8ab8ac4812ba733ad85e085ad67987e4dc3db6
+    size: 1628542
+    checksum: sha256:394734e369fee944cc07f58da4799e9c100eedf3d119dcb080ebb47c6522e112
     name: gnutls
-    evr: 3.8.10-4.el10_2
-    sourcerpm: gnutls-3.8.10-4.el10_2.src.rpm
+    evr: 3.8.10-5.el10_2
+    sourcerpm: gnutls-3.8.10-5.el10_2.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/g/gobject-introspection-1.79.1-6.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 116059
@@ -16441,13 +16447,13 @@ arches:
     name: sssd-client
     evr: 2.12.0-3.el10_2.1
     sourcerpm: sssd-2.12.0-3.el10_2.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.6.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/sudo-1.9.17-10.p2.el10_2.7.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 1422691
-    checksum: sha256:0c4237fd4a419c041aa4b141103164e09769d587e850190f4e5940a0e98b47df
+    size: 1422844
+    checksum: sha256:105f6d77cf825f5da07ac0212fb4d7e3a5bd3f40dc0272eb45e54f18a31e364a
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
-    sourcerpm: sudo-1.9.17-10.p2.el10_2.6.src.rpm
+    evr: 1.9.17-10.p2.el10_2.7
+    sourcerpm: sudo-1.9.17-10.p2.el10_2.7.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/s/systemd-257-23.el10_2.2.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 6051287
@@ -17093,12 +17099,12 @@ arches:
     checksum: sha256:ae56b8da2a7236c07eb23a85c60d53a3170b7b38032ebdc8d68602b09e78e81a
     name: gnupg2
     evr: 2.4.5-4.el10_1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-4.el10_2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/g/gnutls-3.8.10-5.el10_2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 57775586
-    checksum: sha256:2db86e4879b52c63e8fceb9abcfa1a3d97606dc67db2067e833c6575332bc323
+    size: 57776827
+    checksum: sha256:f08cb5bbd28951e592cb372b88c9d3225a95775bf2061d835f1652c59faeaef0
     name: gnutls
-    evr: 3.8.10-4.el10_2
+    evr: 3.8.10-5.el10_2
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/g/gobject-introspection-1.79.1-6.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 1080827
@@ -17807,6 +17813,12 @@ arches:
     checksum: sha256:0bd2e982d656d9d74c075739e342bab7ceb576f9ab211b09bc1a4b4609c47ab1
     name: quota
     evr: 1:4.09-10.el10
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/r/rdma-core-61.0-1.el10.src.rpm
+    repoid: rhel-10-for-x86_64-baseos-source-rpms
+    size: 2144942
+    checksum: sha256:363b36798b92fd9afefb6125a784456427e6208299cbfe03044a53db4841d4ec
+    name: rdma-core
+    evr: 61.0-1.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/r/readline-8.2-11.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 3094627
@@ -17909,12 +17921,12 @@ arches:
     checksum: sha256:6f658a4937b035e404bbc205a60117446999d5ea1cc85939da14414923bf70c5
     name: sssd
     evr: 2.12.0-3.el10_2.1
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/sudo-1.9.17-10.p2.el10_2.7.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 5545330
-    checksum: sha256:00e911453c2ea0f9bb17b187428f2e088ff09a70dea3d253e19ad1630248f1ce
+    size: 5547119
+    checksum: sha256:eeb2a1bfecfe49ab9c37eda072e41f80b791aa4f72be2f211a89bb5e1e6e2101
     name: sudo
-    evr: 1.9.17-10.p2.el10_2.6
+    evr: 1.9.17-10.p2.el10_2.7
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/s/systemd-257-23.el10_2.2.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 19293848
