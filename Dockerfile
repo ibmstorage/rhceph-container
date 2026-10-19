@@ -3,7 +3,7 @@
 FROM registry.redhat.io/ubi10/ubi-minimal:latest
 
 ENV I_AM_IN_A_CONTAINER 1
-ENV DOWNSTREAM_VERSION="9.2.0"
+ENV DOWNSTREAM_VERSION="9.2.1"
 
 # Who is the maintainer ?
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
@@ -33,7 +33,7 @@ LABEL CEPH_POINT_RELEASE=""
 LABEL cpe=cpe:/a:redhat:ceph_storage:9.2::el10
 
 # Z-stream indicator
-LABEL Z-VERSION="9.2"
+LABEL Z-VERSION="9.2z1"
 
 ENV CEPH_VERSION tentacle
 ENV CEPH_POINT_RELEASE ""
