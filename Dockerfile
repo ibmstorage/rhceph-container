@@ -1,6 +1,6 @@
 # CEPH DAEMON BASE IMAGE
 
-FROM registry.redhat.io/ubi9/ubi-minimal:latest
+FROM registry.redhat.io/ubi9/ubi-minimal-pqc:latest
 
 ENV I_AM_IN_A_CONTAINER 1
 ENV DOWNSTREAM_VERSION="7.1.11"
