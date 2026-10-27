@@ -367,7 +367,7 @@ spec:
         - name: image-platform
           value:
           - $(params.build-platforms)
-      name: clair-scan
+      name: roxctl-scan
       params:
       - name: image-digest
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
@@ -378,9 +378,9 @@ spec:
       taskRef:
         params:
         - name: name
-          value: clair-scan
+          value: roxctl-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-clair-scan:0.4.1@sha256:4d56d4fe296be137c91021b1d6225e78c277fc2e33946a6cb384059fcc97f092
+          value: quay.io/konflux-ci/tekton-catalog/task-roxctl-scan:0.1
         - name: kind
           value: task
         resolver: bundles
