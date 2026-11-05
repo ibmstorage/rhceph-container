@@ -1,6 +1,6 @@
 # CEPH DAEMON BASE IMAGE
 
-FROM registry.redhat.io/ubi9/ubi-minimal:latest
+FROM registry.redhat.io/ubi9/ubi-minimal-pqc:latest
 
 ENV I_AM_IN_A_CONTAINER 1
 ENV DOWNSTREAM_VERSION="9.1.2"
@@ -84,8 +84,6 @@ microdnf install -y --setopt=install_weak_deps=0 --nodocs \
     echo "$DOWNSTREAM_VERSION" > /etc/ceph_version && \
     echo '@ceph - memlock 204800' >> /etc/security/limits.conf && \
     echo '@root - memlock 204800' >> /etc/security/limits.conf && \
-    # Enable Post Quantum crypto policy
-    update-crypto-policies --set DEFAULT:PQ && \
     # Clean container, starting with record of current size (strip / from end)
     INITIAL_SIZE="$(bash -c 'sz="$(du -sm --exclude=/proc /)" ; echo "${sz%*/}"')" && \
     #
