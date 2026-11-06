@@ -26,9 +26,9 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/rhceph:on-pr-v9.2-{{revision}}
+    value: quay.io/rhceph-ci/rhceph:v9.2-ibmceph17912-testfix-{{revision}}
   - name: image-expires-after
-    value: 5d
+    value: 30d
   - name: build-platforms
     value:
     - linux/x86_64
